@@ -1,0 +1,31 @@
+alias:
+  name: Pin_Setup_Failure
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  aim:
+    alias: aim
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  client:
+    alias: client
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  failure_reason:
+    alias: failure_reason
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

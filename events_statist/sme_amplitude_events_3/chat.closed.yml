@@ -1,0 +1,181 @@
+alias:
+  name: chat.closed
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  P2PFiles:
+    alias: P2PFiles
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  P2PStickers:
+    alias: P2PStickers
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  P2PText:
+    alias: P2PText
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  botFiles:
+    alias: botFiles
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  botText:
+    alias: botText
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  connectionType:
+    alias: connectionType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  olegBotResponseFirstTime:
+    alias: olegBotResponseFirstTime
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  olegBotResponseInterruptedTime:
+    alias: olegBotResponseInterruptedTime
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  olegBotResponseTime25ThPercentile:
+    alias: olegBotResponseTime25ThPercentile
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  olegBotResponseTime50ThPercentile:
+    alias: olegBotResponseTime50ThPercentile
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  olegBotResponseTime75ThPercentile:
+    alias: olegBotResponseTime75ThPercentile
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  olegBotResponseTime95ThPercentile:
+    alias: olegBotResponseTime95ThPercentile
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  personalSupportFiles:
+    alias: personalSupportFiles
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  personalSupportText:
+    alias: personalSupportText
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  supportBotResponseFirstTime:
+    alias: supportBotResponseFirstTime
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  supportBotResponseInterruptedTime:
+    alias: supportBotResponseInterruptedTime
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  supportBotResponseTime25ThPercentile:
+    alias: supportBotResponseTime25ThPercentile
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  supportBotResponseTime50ThPercentile:
+    alias: supportBotResponseTime50ThPercentile
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  supportBotResponseTime75ThPercentile:
+    alias: supportBotResponseTime75ThPercentile
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  supportBotResponseTime95ThPercentile:
+    alias: supportBotResponseTime95ThPercentile
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  supportFiles:
+    alias: supportFiles
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  supportNewDialog:
+    alias: supportNewDialog
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  supportText:
+    alias: supportText
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  threadAppealFiles:
+    alias: threadAppealFiles
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  threadAppealText:
+    alias: threadAppealText
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  threadDeliveryFiles:
+    alias: threadDeliveryFiles
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  threadDeliveryText:
+    alias: threadDeliveryText
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  time:
+    alias: time
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

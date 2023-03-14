@@ -1,0 +1,19 @@
+alias:
+  name: Origination_Data_Processing_Done
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При показе экрана "Готово! Перейти к настройке доступа к счету.."
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  id:
+    alias: id
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

@@ -1,0 +1,13 @@
+alias:
+  name: New_Product_Shown_Account_Currency
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При показе экрана Валюта счета
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters: {}
+settings: {}

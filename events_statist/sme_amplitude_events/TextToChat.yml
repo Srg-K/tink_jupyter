@@ -1,0 +1,25 @@
+alias:
+  name: TextToChat
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  send:
+    alias: send
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  text:
+    alias: text
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

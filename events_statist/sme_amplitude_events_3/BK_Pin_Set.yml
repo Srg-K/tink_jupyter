@@ -1,0 +1,19 @@
+alias:
+  name: BK_Pin_Set
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  pinFlg:
+    alias: pinFlg
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

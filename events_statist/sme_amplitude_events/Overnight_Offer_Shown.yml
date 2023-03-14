@@ -1,0 +1,31 @@
+alias:
+  name: Overnight_Offer_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При показе оффера Овернайтов после выбора клиентом этого продукта
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  offerNo:
+    alias: offerNo
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  offerVar:
+    alias: offerVar
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  way:
+    alias: way
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

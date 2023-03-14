@@ -1,0 +1,37 @@
+alias:
+  name: Payment_Change_Field
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  field:
+    alias: field
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  paymentType:
+    alias: paymentType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  prefilledFlg:
+    alias: prefilledFlg
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  selectFieldFlg:
+    alias: selectFieldFlg
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

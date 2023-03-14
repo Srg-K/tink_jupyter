@@ -1,0 +1,14 @@
+alias:
+  name: Counterpartry_Account_Req
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При показе экрана реквизитов счета после нажатия на счет на экране
+    со сведениями о контрагенте
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters: {}
+settings: {}

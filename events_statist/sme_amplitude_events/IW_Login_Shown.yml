@@ -1,0 +1,31 @@
+alias:
+  name: IW_Login_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: показ экрана с логином
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  bank:
+    alias: bank
+    meta:
+      description: название банка
+    nullable: false
+    type: String
+  from:
+    alias: from
+    meta:
+      description: из какого продукта/сервиса перешли в IW
+    nullable: false
+    type: String
+  status:
+    alias: status
+    meta:
+      description: как попал на авторизацию
+    nullable: false
+    type: String
+settings: {}

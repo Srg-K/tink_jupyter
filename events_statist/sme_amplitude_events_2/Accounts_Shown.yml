@@ -1,0 +1,49 @@
+alias:
+  name: Accounts_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При показе экрана счёта, а также при свайпе между счетами
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  accountActiveTab:
+    alias: accountActiveTab
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  accountType:
+    alias: accountType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  currency:
+    alias: currency
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  mainAcc:
+    alias: mainAcc
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  redesigned:
+    alias: redesigned
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  tariff:
+    alias: tariff
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

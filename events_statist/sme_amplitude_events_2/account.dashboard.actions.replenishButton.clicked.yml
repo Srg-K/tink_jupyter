@@ -1,0 +1,25 @@
+alias:
+  name: account.dashboard.actions.replenishButton.clicked
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  flowType:
+    alias: flowType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  project:
+    alias: project
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

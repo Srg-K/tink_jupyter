@@ -1,0 +1,31 @@
+alias:
+  name: Aggregate_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Репутация. При открытии экрана конкретного агрегата
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  agrType:
+    alias: agrType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  problemFlf:
+    alias: problemFlf
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  problemFlg:
+    alias: problemFlg
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

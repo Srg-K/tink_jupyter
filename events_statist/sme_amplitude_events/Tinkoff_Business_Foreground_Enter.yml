@@ -1,0 +1,13 @@
+alias:
+  name: Tinkoff_Business_Foreground_Enter
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Слать каждый раз при разворачивании приложения
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters: {}
+settings: {}

@@ -1,0 +1,49 @@
+alias:
+  name: REP_documents
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  action:
+    alias: action
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  docType:
+    alias: docType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  problemFlg:
+    alias: problemFlg
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  result:
+    alias: result
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  source:
+    alias: source
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  status:
+    alias: status
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

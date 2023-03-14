@@ -1,0 +1,25 @@
+alias:
+  name: Story_Last_Step_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При показе последнего шага истории
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  stepCount:
+    alias: stepCount
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  storyId:
+    alias: storyId
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

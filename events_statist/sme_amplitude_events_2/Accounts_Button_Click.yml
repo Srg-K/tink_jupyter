@@ -1,0 +1,25 @@
+alias:
+  name: Accounts_Button_Click
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При тапе по кнопкам в любом типе счета счете
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  accountType:
+    alias: accountType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  buttonType:
+    alias: buttonType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

@@ -1,0 +1,31 @@
+alias:
+  name: BK_MainPage_ShowCards
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  CardCount:
+    alias: CardCount
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  Currency:
+    alias: Currency
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  OpenFlg:
+    alias: OpenFlg
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

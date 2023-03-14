@@ -1,0 +1,20 @@
+alias:
+  name: Counterparty_Details_PhoneOrMail_Click
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Клик на телефон или почту контакта контрагента на экране с контактом
+    контрагента в карточке контрагента
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  field:
+    alias: field
+    meta:
+      description: "\tНа какое поле нажали:\nphone - телефон\nemail - почта"
+    nullable: false
+    type: String
+settings: {}

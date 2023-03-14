@@ -1,0 +1,25 @@
+alias:
+  name: Origination_File_Upload
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При успешной загрузке файла (успешно отработал метод бэка)
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  id:
+    alias: id
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  type:
+    alias: type
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

@@ -1,0 +1,20 @@
+alias:
+  name: More_Services_Item_Click
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При тапе на пункты Tinkoff Бухгалтерия, Пригласи друга, Спецпредложения
+    в Сервисах, Торговый Эквайринг, Обмен валют и т.п.
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  itemType:
+    alias: itemType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

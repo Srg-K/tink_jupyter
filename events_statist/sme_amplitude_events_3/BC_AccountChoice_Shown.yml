@@ -1,0 +1,31 @@
+alias:
+  name: BC_AccountChoice_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  CashboxFlg:
+    alias: CashboxFlg
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  Count:
+    alias: Count
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  CurFlg:
+    alias: CurFlg
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

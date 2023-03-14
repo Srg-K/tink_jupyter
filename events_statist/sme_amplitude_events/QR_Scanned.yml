@@ -1,0 +1,25 @@
+alias:
+  name: QR_Scanned
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При успешном скане QR-кода
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  QR_ID_Invoice:
+    alias: QR_ID_Invoice
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  paymentType:
+    alias: paymentType
+    meta:
+      description: тип платежа
+    nullable: false
+    type: String
+settings: {}

@@ -1,0 +1,163 @@
+alias:
+  name: Stories_Received
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  '0':
+    alias: '0'
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  '1':
+    alias: '1'
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  '10':
+    alias: '10'
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  '11':
+    alias: '11'
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  '12':
+    alias: '12'
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  '13':
+    alias: '13'
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  '14':
+    alias: '14'
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  '15':
+    alias: '15'
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  '16':
+    alias: '16'
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  '17':
+    alias: '17'
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  '18':
+    alias: '18'
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  '19':
+    alias: '19'
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  '2':
+    alias: '2'
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  '20':
+    alias: '20'
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  '21':
+    alias: '21'
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  '22':
+    alias: '22'
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  '23':
+    alias: '23'
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  '24':
+    alias: '24'
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  '3':
+    alias: '3'
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  '4':
+    alias: '4'
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  '5':
+    alias: '5'
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  '6':
+    alias: '6'
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  '7':
+    alias: '7'
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  '8':
+    alias: '8'
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  '9':
+    alias: '9'
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

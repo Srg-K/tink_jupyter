@@ -1,0 +1,13 @@
+alias:
+  name: Reputation_Go_Down
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При пролистывании странички вниз до конца
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters: {}
+settings: {}

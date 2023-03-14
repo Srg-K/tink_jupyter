@@ -1,0 +1,25 @@
+alias:
+  name: Payment_Create_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При открытии формы создания платежа. (При заходе на форму)
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  aim:
+    alias: aim
+    meta:
+      description: действие над платежом
+    nullable: false
+    type: String
+  provider:
+    alias: provider
+    meta:
+      description: провайдер платежа
+    nullable: false
+    type: String
+settings: {}

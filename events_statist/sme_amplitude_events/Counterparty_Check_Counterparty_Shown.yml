@@ -1,0 +1,22 @@
+alias:
+  name: Counterparty_Check_Counterparty_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Показ экрана с результатами проверки КА
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  view:
+    alias: view
+    meta:
+      description: full – полный вид (с кнопками "Создать платеж, Выставить счет",
+        открывается из проверки контрагентов), short – шторка без кнопок "Создать
+        платеж, Выставить счет", открывается из карточки контрагента, из платежной
+        формы
+    nullable: false
+    type: String
+settings: {}

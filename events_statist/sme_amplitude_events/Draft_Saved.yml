@@ -1,0 +1,30 @@
+alias:
+  name: Draft_Saved
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: 'сохранили черновик платежа
+
+
+    заблокировано в Amplitude с 9.07.2018. Автоматическое сохранение происходит 8
+    раз за платежку и сильно жрет лимит'
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  action:
+    alias: action
+    meta:
+      description: save (нажали кнопку сохранить), form (закрыли форму), auto (оно
+        само сохранилось)
+    nullable: false
+    type: String
+  payment_id:
+    alias: payment_id
+    meta:
+      description: id операции
+    nullable: false
+    type: String
+settings: {}

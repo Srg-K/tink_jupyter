@@ -1,0 +1,14 @@
+alias:
+  name: Notification_On
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При первом включении любого способа уведомления для искусственного
+    канала
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters: {}
+settings: {}

@@ -1,0 +1,19 @@
+alias:
+  name: Origination_Tax_System_Error_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При ошибке на экране системы налогообложения
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  errorReason:
+    alias: errorReason
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

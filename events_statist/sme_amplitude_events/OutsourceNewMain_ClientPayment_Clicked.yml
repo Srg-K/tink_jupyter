@@ -1,0 +1,25 @@
+alias:
+  name: OutsourceNewMain_ClientPayment_Clicked
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  clientPaymentTitle:
+    alias: clientPaymentTitle
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  clientPaymentType:
+    alias: clientPaymentType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

@@ -1,0 +1,19 @@
+alias:
+  name: New_Product_Application_Done
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При успешной подаче заявки на новый продукт
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  applProduct:
+    alias: applProduct
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

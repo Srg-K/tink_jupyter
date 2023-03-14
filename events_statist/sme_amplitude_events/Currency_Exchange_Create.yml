@@ -1,0 +1,31 @@
+alias:
+  name: Currency_Exchange_Create
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  RateOrder:
+    alias: RateOrder
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  TheSameCurrencies:
+    alias: TheSameCurrencies
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  ValidationError:
+    alias: ValidationError
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

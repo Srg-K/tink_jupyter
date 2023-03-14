@@ -1,0 +1,19 @@
+alias:
+  name: Payments_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: экран Платежи, генерируем на каждом табе
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  tab:
+    alias: tab
+    meta:
+      description: create (на андроид это экран нового плОтижа), drafts, toSign, queue
+    nullable: false
+    type: String
+settings: {}

@@ -1,0 +1,109 @@
+alias:
+  name: Story_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При показе истории
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  category:
+    alias: category
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  deeplink_source:
+    alias: deeplink_source
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  first:
+    alias: first
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  is_commentable:
+    alias: is_commentable
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  name:
+    alias: name
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  popup:
+    alias: popup
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  screen:
+    alias: screen
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  serial_number:
+    alias: serial_number
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  shownBy:
+    alias: shownBy
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  sound:
+    alias: sound
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  step:
+    alias: step
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  stepCount:
+    alias: stepCount
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  storyId:
+    alias: storyId
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  style:
+    alias: style
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  time:
+    alias: time
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  videoPreview:
+    alias: videoPreview
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

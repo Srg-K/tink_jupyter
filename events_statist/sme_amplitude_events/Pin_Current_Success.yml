@@ -1,0 +1,19 @@
+alias:
+  name: Pin_Current_Success
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При успешном вводе текущего пин-кода
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  authType:
+    alias: authType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

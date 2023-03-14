@@ -1,0 +1,26 @@
+alias:
+  name: Origination_Meeting_Gray_Zone_Сhoice
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При тапе на одну из кнопок выбрать на плашке "Не осуществляем доставку
+    по указанному адресу"
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  button:
+    alias: button
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  id:
+    alias: id
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

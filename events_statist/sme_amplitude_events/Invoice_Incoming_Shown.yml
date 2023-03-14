@@ -1,0 +1,19 @@
+alias:
+  name: Invoice_Incoming_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При каждом успешном показе экрана Входящие счета
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  activeTab:
+    alias: activeTab
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

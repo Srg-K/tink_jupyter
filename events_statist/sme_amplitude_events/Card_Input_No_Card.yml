@@ -1,0 +1,20 @@
+alias:
+  name: Card_Input_No_Card
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При показе попапа с номером телефона для звонка в КЦ, после нажатия
+    на "У меня нет карты"
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  screen:
+    alias: screen
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

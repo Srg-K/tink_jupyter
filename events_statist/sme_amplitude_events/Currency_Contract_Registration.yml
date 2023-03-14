@@ -1,0 +1,37 @@
+alias:
+  name: Currency_Contract_Registration
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  ContractCurrency:
+    alias: ContractCurrency
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  ContractStatus:
+    alias: ContractStatus
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  ContractType:
+    alias: ContractType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  IsTransfer:
+    alias: IsTransfer
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

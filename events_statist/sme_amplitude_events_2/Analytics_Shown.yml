@@ -1,0 +1,32 @@
+alias:
+  name: Analytics_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: показали аналитику по счету, при переключении сегмента или периода
+    еще раз генерим.
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  account_id:
+    alias: account_id
+    meta:
+      description: id счета
+    nullable: false
+    type: String
+  period:
+    alias: period
+    meta:
+      description: "\td7, d30, m3, custom"
+    nullable: false
+    type: String
+  segment:
+    alias: segment
+    meta:
+      description: "\tbalance, details"
+    nullable: false
+    type: String
+settings: {}

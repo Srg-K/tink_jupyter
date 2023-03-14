@@ -1,0 +1,20 @@
+alias:
+  name: Origination_Added_Employee_Error
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При выскакивании попапа "Выберете хотя бы один из способов доступа
+    к счету"
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  id:
+    alias: id
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

@@ -1,0 +1,19 @@
+alias:
+  name: Payments_Incoming_Transit_Docs_Upload_Click
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При выборе источника файла (камера, галерея, файловый менеджер)
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  upload_type:
+    alias: upload_type
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

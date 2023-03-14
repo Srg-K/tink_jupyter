@@ -1,0 +1,37 @@
+alias:
+  name: aml_popup_shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  blockType:
+    alias: blockType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  hasDate:
+    alias: hasDate
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  profileStatus:
+    alias: profileStatus
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  status:
+    alias: status
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

@@ -1,0 +1,20 @@
+alias:
+  name: Biometrics_Setup_Error
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При ошибке подключения входа по биометрии(допустим, не зашифровался
+    пин-код)
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  errorType:
+    alias: errorType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

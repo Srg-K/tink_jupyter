@@ -1,0 +1,289 @@
+alias:
+  name: chat.closed
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  .nan:
+    alias: .nan
+    meta:
+      description: !!python/object:pandas.core.series.Series
+        _flags:
+          allows_duplicate_labels: true
+        _metadata:
+        - name
+        _mgr: !!python/object/new:pandas.core.internals.managers.SingleBlockManager
+          state: !!python/tuple
+          - &id004
+            - !!python/object/apply:pandas.core.indexes.base._new_Index
+              - &id002 !!python/name:pandas.core.indexes.numeric.Int64Index ''
+              - data: !!python/object/apply:numpy.core.multiarray._reconstruct
+                  args:
+                  - &id001 !!python/name:numpy.ndarray ''
+                  - !!python/tuple
+                    - 0
+                  - !!binary |
+                    Yg==
+                  state: !!python/tuple
+                  - 1
+                  - !!python/tuple
+                    - 0
+                  - &id003 !!python/object/apply:numpy.dtype
+                    args:
+                    - i8
+                    - false
+                    - true
+                    state: !!python/tuple
+                    - 3
+                    - <
+                    - null
+                    - null
+                    - null
+                    - -1
+                    - -1
+                    - 0
+                  - false
+                  - !!binary ""
+                name: null
+          - - &id005 !!python/object/apply:numpy.core.multiarray._reconstruct
+              args:
+              - *id001
+              - !!python/tuple
+                - 0
+              - !!binary |
+                Yg==
+              state: !!python/tuple
+              - 1
+              - !!python/tuple
+                - 0
+              - !!python/object/apply:numpy.dtype
+                args:
+                - O8
+                - false
+                - true
+                state: !!python/tuple
+                - 3
+                - '|'
+                - null
+                - null
+                - null
+                - -1
+                - -1
+                - 63
+              - false
+              - []
+          - - !!python/object/apply:pandas.core.indexes.base._new_Index
+              - *id002
+              - data: !!python/object/apply:numpy.core.multiarray._reconstruct
+                  args:
+                  - *id001
+                  - !!python/tuple
+                    - 0
+                  - !!binary |
+                    Yg==
+                  state: !!python/tuple
+                  - 1
+                  - !!python/tuple
+                    - 0
+                  - *id003
+                  - false
+                  - !!binary ""
+                name: null
+          - 0.14.1:
+              axes: *id004
+              blocks:
+              - mgr_locs: !!python/object/apply:numpy.core.multiarray._reconstruct
+                  args:
+                  - *id001
+                  - !!python/tuple
+                    - 0
+                  - !!binary |
+                    Yg==
+                  state: !!python/tuple
+                  - 1
+                  - !!python/tuple
+                    - 0
+                  - *id003
+                  - false
+                  - !!binary ""
+                values: *id005
+        _typ: series
+        attrs: {}
+        name: param_disc
+    nullable: false
+    type: String
+  botFiles:
+    alias: botFiles
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  botText:
+    alias: botText
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  connectionType:
+    alias: connectionType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  olegBotResponseFirstTime:
+    alias: olegBotResponseFirstTime
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  olegBotResponseInterruptedTime:
+    alias: olegBotResponseInterruptedTime
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  olegBotResponseTime25ThPercentile:
+    alias: olegBotResponseTime25ThPercentile
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  olegBotResponseTime50ThPercentile:
+    alias: olegBotResponseTime50ThPercentile
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  olegBotResponseTime75ThPercentile:
+    alias: olegBotResponseTime75ThPercentile
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  olegBotResponseTime95ThPercentile:
+    alias: olegBotResponseTime95ThPercentile
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  P2PFiles:
+    alias: P2PFiles
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  P2PStickers:
+    alias: P2PStickers
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  P2PText:
+    alias: P2PText
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  personalSupportFiles:
+    alias: personalSupportFiles
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  personalSupportText:
+    alias: personalSupportText
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  supportBotResponseFirstTime:
+    alias: supportBotResponseFirstTime
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  supportBotResponseInterruptedTime:
+    alias: supportBotResponseInterruptedTime
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  supportBotResponseTime25ThPercentile:
+    alias: supportBotResponseTime25ThPercentile
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  supportBotResponseTime50ThPercentile:
+    alias: supportBotResponseTime50ThPercentile
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  supportBotResponseTime75ThPercentile:
+    alias: supportBotResponseTime75ThPercentile
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  supportBotResponseTime95ThPercentile:
+    alias: supportBotResponseTime95ThPercentile
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  supportFiles:
+    alias: supportFiles
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  supportNewDialog:
+    alias: supportNewDialog
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  supportText:
+    alias: supportText
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  threadAppealFiles:
+    alias: threadAppealFiles
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  threadAppealText:
+    alias: threadAppealText
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  threadDeliveryFiles:
+    alias: threadDeliveryFiles
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  threadDeliveryText:
+    alias: threadDeliveryText
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  time:
+    alias: time
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

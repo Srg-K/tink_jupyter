@@ -1,0 +1,25 @@
+alias:
+  name: mainPage.option.hint.pressed
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  option:
+    alias: option
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  tariffCode:
+    alias: tariffCode
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

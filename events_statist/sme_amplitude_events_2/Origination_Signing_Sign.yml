@@ -1,0 +1,19 @@
+alias:
+  name: Origination_Signing_Sign
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При тапе на кнопку Подписать (т.к. не можем отправить событие выше)
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  id:
+    alias: id
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

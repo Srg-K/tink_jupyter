@@ -1,0 +1,25 @@
+alias:
+  name: Cashbox_Open_Sent
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  accountsAll:
+    alias: accountsAll
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  percent:
+    alias: percent
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

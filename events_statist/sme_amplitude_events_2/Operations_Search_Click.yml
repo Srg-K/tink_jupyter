@@ -1,0 +1,25 @@
+alias:
+  name: Operations_Search_Click
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При тапе на поиск (в тулбаре или ленте операций)
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  accountType:
+    alias: accountType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  clickFrom:
+    alias: clickFrom
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

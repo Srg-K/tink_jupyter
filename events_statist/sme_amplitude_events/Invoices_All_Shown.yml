@@ -1,0 +1,31 @@
+alias:
+  name: Invoices_All_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  fines:
+    alias: fines
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  incomingInvoices:
+    alias: incomingInvoices
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  outgoingInvoices:
+    alias: outgoingInvoices
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

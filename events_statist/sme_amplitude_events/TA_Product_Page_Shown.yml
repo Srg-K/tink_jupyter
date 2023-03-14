@@ -1,0 +1,25 @@
+alias:
+  name: TA_Product_Page_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При показе продуктового экрана заявок на Торговый эквайринг
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  picture:
+    alias: picture
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  title:
+    alias: title
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

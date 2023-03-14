@@ -1,0 +1,13 @@
+alias:
+  name: Invoice_Done
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При успешном выставлении счета
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters: {}
+settings: {}

@@ -1,0 +1,25 @@
+alias:
+  name: FAQ_Tap
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: клик на стартовый экран
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  position:
+    alias: position
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  text:
+    alias: text
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

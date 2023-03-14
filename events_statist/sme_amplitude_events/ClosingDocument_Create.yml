@@ -1,0 +1,31 @@
+alias:
+  name: ClosingDocument_Create
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: После открытия формы создания ЗД
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  actionType:
+    alias: actionType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  from:
+    alias: from
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  type:
+    alias: type
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

@@ -1,0 +1,26 @@
+alias:
+  name: Counterparty_Check_ArbitrationCases_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Показ экрана с судебными делами в ПКА
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  inn:
+    alias: inn
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  source:
+    alias: source
+    meta:
+      description: tab - если перешли по синей кнопке, button - если перешли по кнопке
+        "Все/Посмотреть все"
+    nullable: false
+    type: String
+settings: {}

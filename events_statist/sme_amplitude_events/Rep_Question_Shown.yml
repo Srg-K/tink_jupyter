@@ -1,0 +1,37 @@
+alias:
+  name: Rep_Question_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При показе экрана с вопросом
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  prefillFlg:
+    alias: prefillFlg
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  questNumber:
+    alias: questNumber
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  questType:
+    alias: questType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  questWeight:
+    alias: questWeight
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

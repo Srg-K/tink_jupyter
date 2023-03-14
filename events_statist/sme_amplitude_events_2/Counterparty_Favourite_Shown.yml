@@ -1,0 +1,13 @@
+alias:
+  name: Counterparty_Favourite_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При показе экрана со списком своих избранных контрагентов
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters: {}
+settings: {}

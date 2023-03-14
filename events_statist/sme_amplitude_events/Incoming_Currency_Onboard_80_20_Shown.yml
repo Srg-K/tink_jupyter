@@ -1,0 +1,13 @@
+alias:
+  name: Incoming_Currency_Onboard_80_20_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters: {}
+settings: {}

@@ -1,0 +1,43 @@
+alias:
+  name: BK_Spending_Preference_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При показе экрана "Настроить траты"
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  cashLimit:
+    alias: cashLimit
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  cashLimitEnd:
+    alias: cashLimitEnd
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  categorySelectedFlg:
+    alias: categorySelectedFlg
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  spendingLimit:
+    alias: spendingLimit
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  spendingLimitEnd:
+    alias: spendingLimitEnd
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

@@ -1,0 +1,21 @@
+alias:
+  name: Counterparty_Details_Mark_Favourite
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Клик на звезду – добавление контрагента в избранные
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  action:
+    alias: action
+    meta:
+      description: 'add – добавил в избранные
+
+        delete – удалил из избранных'
+    nullable: false
+    type: String
+settings: {}

@@ -1,0 +1,13 @@
+alias:
+  name: IW_Conditions_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: показ экрана с условиями использования
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters: {}
+settings: {}

@@ -1,0 +1,13 @@
+alias:
+  name: Biometrics_Setup_Success
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При успешном подключении входа по биометрическим данным
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters: {}
+settings: {}

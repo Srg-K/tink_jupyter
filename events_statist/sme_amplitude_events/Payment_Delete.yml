@@ -1,0 +1,25 @@
+alias:
+  name: Payment_Delete
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При успешном удалении платежа с экрана Черновиков
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  cnt:
+    alias: cnt
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  provider:
+    alias: provider
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

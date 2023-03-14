@@ -1,0 +1,25 @@
+alias:
+  name: NewSMELoan_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  loan_step:
+    alias: loan_step
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  step:
+    alias: step
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

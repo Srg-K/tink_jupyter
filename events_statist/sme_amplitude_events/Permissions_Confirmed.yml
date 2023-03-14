@@ -1,0 +1,25 @@
+alias:
+  name: Permissions_Confirmed
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  client:
+    alias: client
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  permission_type:
+    alias: permission_type
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

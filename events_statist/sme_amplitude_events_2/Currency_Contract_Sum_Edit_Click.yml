@@ -1,0 +1,19 @@
+alias:
+  name: Currency_Contract_Sum_Edit_Click
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  ContractSum:
+    alias: ContractSum
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

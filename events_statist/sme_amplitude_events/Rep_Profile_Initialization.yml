@@ -1,0 +1,25 @@
+alias:
+  name: Rep_Profile_Initialization
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При тапе на плашку "анкета" на основном экране сервиса "Репутация"
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  percent:
+    alias: percent
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  status:
+    alias: status
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

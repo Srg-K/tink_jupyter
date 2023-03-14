@@ -1,0 +1,25 @@
+alias:
+  name: Origination_RegIP_Product_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  client_exist:
+    alias: client_exist
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  config:
+    alias: config
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

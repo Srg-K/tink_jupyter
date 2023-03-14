@@ -1,0 +1,19 @@
+alias:
+  name: Incoming_Transit_Sent
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При успешной отправке валютного платежа
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  Confirmationtype:
+    alias: Confirmationtype
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

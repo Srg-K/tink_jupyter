@@ -1,0 +1,25 @@
+alias:
+  name: mainPage.tariff.changed
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  newTariffCode:
+    alias: newTariffCode
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  previousTariffCode:
+    alias: previousTariffCode
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

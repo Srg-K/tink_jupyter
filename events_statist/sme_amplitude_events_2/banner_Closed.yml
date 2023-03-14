@@ -1,0 +1,157 @@
+alias:
+  name: banner_Closed
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  .nan:
+    alias: .nan
+    meta:
+      description: !!python/object:pandas.core.series.Series
+        _flags:
+          allows_duplicate_labels: true
+        _metadata:
+        - name
+        _mgr: !!python/object/new:pandas.core.internals.managers.SingleBlockManager
+          state: !!python/tuple
+          - &id004
+            - !!python/object/apply:pandas.core.indexes.base._new_Index
+              - &id002 !!python/name:pandas.core.indexes.numeric.Int64Index ''
+              - data: !!python/object/apply:numpy.core.multiarray._reconstruct
+                  args:
+                  - &id001 !!python/name:numpy.ndarray ''
+                  - !!python/tuple
+                    - 0
+                  - !!binary |
+                    Yg==
+                  state: !!python/tuple
+                  - 1
+                  - !!python/tuple
+                    - 0
+                  - &id003 !!python/object/apply:numpy.dtype
+                    args:
+                    - i8
+                    - false
+                    - true
+                    state: !!python/tuple
+                    - 3
+                    - <
+                    - null
+                    - null
+                    - null
+                    - -1
+                    - -1
+                    - 0
+                  - false
+                  - !!binary ""
+                name: null
+          - - &id005 !!python/object/apply:numpy.core.multiarray._reconstruct
+              args:
+              - *id001
+              - !!python/tuple
+                - 0
+              - !!binary |
+                Yg==
+              state: !!python/tuple
+              - 1
+              - !!python/tuple
+                - 0
+              - !!python/object/apply:numpy.dtype
+                args:
+                - O8
+                - false
+                - true
+                state: !!python/tuple
+                - 3
+                - '|'
+                - null
+                - null
+                - null
+                - -1
+                - -1
+                - 63
+              - false
+              - []
+          - - !!python/object/apply:pandas.core.indexes.base._new_Index
+              - *id002
+              - data: !!python/object/apply:numpy.core.multiarray._reconstruct
+                  args:
+                  - *id001
+                  - !!python/tuple
+                    - 0
+                  - !!binary |
+                    Yg==
+                  state: !!python/tuple
+                  - 1
+                  - !!python/tuple
+                    - 0
+                  - *id003
+                  - false
+                  - !!binary ""
+                name: null
+          - 0.14.1:
+              axes: *id004
+              blocks:
+              - mgr_locs: !!python/object/apply:numpy.core.multiarray._reconstruct
+                  args:
+                  - *id001
+                  - !!python/tuple
+                    - 0
+                  - !!binary |
+                    Yg==
+                  state: !!python/tuple
+                  - 1
+                  - !!python/tuple
+                    - 0
+                  - *id003
+                  - false
+                  - !!binary ""
+                values: *id005
+        _typ: series
+        attrs: {}
+        name: param_disc
+    nullable: false
+    type: String
+  close_Type:
+    alias: close_Type
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  location:
+    alias: location
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  name:
+    alias: name
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  offer_Id:
+    alias: offer_Id
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  offerId:
+    alias: offerId
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  template:
+    alias: template
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

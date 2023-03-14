@@ -1,0 +1,14 @@
+alias:
+  name: Events_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При тапе на раздел События, отправлять каждый раз при заходе на этот
+    раздел
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters: {}
+settings: {}

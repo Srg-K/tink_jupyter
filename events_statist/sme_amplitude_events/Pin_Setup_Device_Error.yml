@@ -1,0 +1,25 @@
+alias:
+  name: Pin_Setup_Device_Error
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При ошибке при всяких шифровках нового пин-кода
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  aim:
+    alias: aim
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  errorType:
+    alias: errorType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

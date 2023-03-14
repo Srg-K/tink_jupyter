@@ -1,0 +1,25 @@
+alias:
+  name: Tariffs_Option_Hint_Tap
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Тап на хинт у тарифа
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  lookTariff:
+    alias: lookTariff
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  option:
+    alias: option
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

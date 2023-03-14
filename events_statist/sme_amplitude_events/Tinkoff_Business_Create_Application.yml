@@ -1,0 +1,697 @@
+alias:
+  name: Tinkoff_Business_Create_Application
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  accountNumber:
+    alias: accountNumber
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  ad_event_id:
+    alias: ad_event_id
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  ad_id:
+    alias: ad_id
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  adgroup:
+    alias: adgroup
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  adgroup_id:
+    alias: adgroup_id
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  adset:
+    alias: adset
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  adset_id:
+    alias: adset_id
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  advertising_id:
+    alias: advertising_id
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  af_ad:
+    alias: af_ad
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  af_ad_id:
+    alias: af_ad_id
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  af_ad_type:
+    alias: af_ad_type
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  af_adset:
+    alias: af_adset
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  af_adset_id:
+    alias: af_adset_id
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  af_android_url:
+    alias: af_android_url
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  af_c_id:
+    alias: af_c_id
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  af_channel:
+    alias: af_channel
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  af_click_lookback:
+    alias: af_click_lookback
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  af_cost_currency:
+    alias: af_cost_currency
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  af_cost_model:
+    alias: af_cost_model
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  af_cost_value:
+    alias: af_cost_value
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  af_deeplink:
+    alias: af_deeplink
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  af_dp:
+    alias: af_dp
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  af_force_dp:
+    alias: af_force_dp
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  af_ios_url:
+    alias: af_ios_url
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  af_ip:
+    alias: af_ip
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  af_keywords:
+    alias: af_keywords
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  af_lang:
+    alias: af_lang
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  af_message:
+    alias: af_message
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  af_prt:
+    alias: af_prt
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  af_r:
+    alias: af_r
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  af_reengagement_window:
+    alias: af_reengagement_window
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  af_ref:
+    alias: af_ref
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  af_siteid:
+    alias: af_siteid
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  af_status:
+    alias: af_status
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  af_sub1:
+    alias: af_sub1
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  af_sub2:
+    alias: af_sub2
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  af_sub5:
+    alias: af_sub5
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  af_sub_siteid:
+    alias: af_sub_siteid
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  af_ua:
+    alias: af_ua
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  af_viewthrough_lookback:
+    alias: af_viewthrough_lookback
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  af_web_dp:
+    alias: af_web_dp
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  af_web_id:
+    alias: af_web_id
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  agency:
+    alias: agency
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  android_id:
+    alias: android_id
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  appType:
+    alias: appType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  application_id:
+    alias: application_id
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  callback:
+    alias: callback
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  callback_url:
+    alias: callback_url
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  campaign:
+    alias: campaign
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  campaign_id:
+    alias: campaign_id
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  click-timestamp:
+    alias: click-timestamp
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  click_time:
+    alias: click_time
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  clickid:
+    alias: clickid
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  companyId:
+    alias: companyId
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  cost_alt:
+    alias: cost_alt
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  cost_cents_USD:
+    alias: cost_cents_USD
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  dsp_click_id:
+    alias: dsp_click_id
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  external_account_id:
+    alias: external_account_id
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  from:
+    alias: from
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  goalid_1:
+    alias: goalid_1
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  google_aid:
+    alias: google_aid
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  host:
+    alias: host
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  httpMethod:
+    alias: httpMethod
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  http_referrer:
+    alias: http_referrer
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  id:
+    alias: id
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  idfa:
+    alias: idfa
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  impression_timestamp:
+    alias: impression_timestamp
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  inn:
+    alias: inn
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  install_time:
+    alias: install_time
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  internal_source:
+    alias: internal_source
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  is_fb:
+    alias: is_fb
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  is_first_launch:
+    alias: is_first_launch
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  is_incentivized:
+    alias: is_incentivized
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  is_mobile_data_terms_signed:
+    alias: is_mobile_data_terms_signed
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  is_paid:
+    alias: is_paid
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  is_retargeting:
+    alias: is_retargeting
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  is_s2s:
+    alias: is_s2s
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  iscache:
+    alias: iscache
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  lat:
+    alias: lat
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  link:
+    alias: link
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  match_type:
+    alias: match_type
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  md5_advertising_id:
+    alias: md5_advertising_id
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  md5_oaid:
+    alias: md5_oaid
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  media_source:
+    alias: media_source
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  network:
+    alias: network
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  network_account_id:
+    alias: network_account_id
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  oaid:
+    alias: oaid
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  orig_cost:
+    alias: orig_cost
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  orig_cost_alt:
+    alias: orig_cost_alt
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  os:
+    alias: os
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  path:
+    alias: path
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  productId:
+    alias: productId
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  publisher_id:
+    alias: publisher_id
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  redirect:
+    alias: redirect
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  referrer:
+    alias: referrer
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  referrer_gclid:
+    alias: referrer_gclid
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  retargeting_conversion_type:
+    alias: retargeting_conversion_type
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  sales_method:
+    alias: sales_method
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  scheme:
+    alias: scheme
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  sha1_android_id:
+    alias: sha1_android_id
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  short_link:
+    alias: short_link
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  shortlink:
+    alias: shortlink
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  sub2:
+    alias: sub2
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  sub3:
+    alias: sub3
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  sub_publisher_id:
+    alias: sub_publisher_id
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  text:
+    alias: text
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  transaction_id:
+    alias: transaction_id
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  ucid:
+    alias: ucid
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  utm_campaign:
+    alias: utm_campaign
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  utm_content:
+    alias: utm_content
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  utm_medium:
+    alias: utm_medium
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  utm_referrer:
+    alias: utm_referrer
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  utm_source:
+    alias: utm_source
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  yclid:
+    alias: yclid
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

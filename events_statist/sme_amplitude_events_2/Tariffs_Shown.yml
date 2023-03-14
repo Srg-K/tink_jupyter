@@ -1,0 +1,20 @@
+alias:
+  name: Tariffs_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Клиент с настроек зашел в раздел тарифов, генерим каждый раз при обновлении
+    экрана
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  tariffCode:
+    alias: tariffCode
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

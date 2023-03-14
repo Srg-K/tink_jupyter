@@ -1,0 +1,19 @@
+alias:
+  name: Origination_Prepare_Passport_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При показе заглушки "Приготовьте паспорт"
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  id:
+    alias: id
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

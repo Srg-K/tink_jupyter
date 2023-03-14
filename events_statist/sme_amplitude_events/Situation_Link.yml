@@ -1,0 +1,37 @@
+alias:
+  name: Situation_Link
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Репутация. При нажатии на ссылку внутри конкретной ситуации
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  agrType:
+    alias: agrType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  linkType:
+    alias: linkType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  problemFlg:
+    alias: problemFlg
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  sitType:
+    alias: sitType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

@@ -1,0 +1,25 @@
+alias:
+  name: Employee_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При заходе в конкретного сотрудника
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  bankType:
+    alias: bankType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  employeeStatus:
+    alias: employeeStatus
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

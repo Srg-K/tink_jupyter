@@ -1,0 +1,55 @@
+alias:
+  name: Story_Action
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При любом действии внутри истории (переход по диплинку или вебвью)
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  actionType:
+    alias: actionType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  action_kind:
+    alias: action_kind
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  blockGuid:
+    alias: blockGuid
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  block_guid:
+    alias: block_guid
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  step:
+    alias: step
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  storyId:
+    alias: storyId
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  text:
+    alias: text
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

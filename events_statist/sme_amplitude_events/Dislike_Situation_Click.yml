@@ -1,0 +1,25 @@
+alias:
+  name: Dislike_Situation_Click
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Репутация. При нажатии на Dislike в ситуации
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  agrType:
+    alias: agrType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  sitType:
+    alias: sitType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

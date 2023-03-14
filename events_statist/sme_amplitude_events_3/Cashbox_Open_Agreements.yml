@@ -1,0 +1,13 @@
+alias:
+  name: Cashbox_Open_Agreements
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Клиент зашел на экран выбора счета на открытии копилки
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters: {}
+settings: {}

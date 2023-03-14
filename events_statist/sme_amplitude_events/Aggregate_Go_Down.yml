@@ -1,0 +1,25 @@
+alias:
+  name: Aggregate_Go_Down
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Репутация. При пролистывании экрана конкретного агрегата до конца
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  agrType:
+    alias: agrType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  problemFlg:
+    alias: problemFlg
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

@@ -1,0 +1,19 @@
+alias:
+  name: Counterparty_Details_Account_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Показ экрана со счётом контрагента в карточке контрагента
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  main:
+    alias: main
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

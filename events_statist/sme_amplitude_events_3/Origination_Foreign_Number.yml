@@ -1,0 +1,13 @@
+alias:
+  name: Origination_Foreign_Number
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При показе экрана "Мы не знакомы"
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters: {}
+settings: {}

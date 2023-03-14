@@ -1,0 +1,25 @@
+alias:
+  name: Tariffs_Comparison_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  tariffCodeCompare:
+    alias: tariffCodeCompare
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  tariffCodeCurrent:
+    alias: tariffCodeCurrent
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

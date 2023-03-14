@@ -1,0 +1,49 @@
+alias:
+  name: banner_Closed
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  close_Type:
+    alias: close_Type
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  location:
+    alias: location
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  name:
+    alias: name
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  offerId:
+    alias: offerId
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  offer_Id:
+    alias: offer_Id
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  template:
+    alias: template
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

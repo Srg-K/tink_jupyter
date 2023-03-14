@@ -1,0 +1,25 @@
+alias:
+  name: Incoming_Currency_Contracts_Click
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  ContractType:
+    alias: ContractType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  СontractType:
+    alias: СontractType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

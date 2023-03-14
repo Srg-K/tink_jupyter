@@ -1,0 +1,13 @@
+alias:
+  name: Counterparty_Details_Account_Click
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Клик/тап на счёт в острове со счетами в карточке контрагента
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters: {}
+settings: {}

@@ -1,0 +1,25 @@
+alias:
+  name: Origination_Denied_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При показе любого из экранов отказа в открытии счета
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  deniedReason:
+    alias: deniedReason
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  id:
+    alias: id
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

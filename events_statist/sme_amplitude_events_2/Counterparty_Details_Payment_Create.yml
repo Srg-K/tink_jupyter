@@ -1,0 +1,20 @@
+alias:
+  name: Counterparty_Details_Payment_Create
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Клик на кнопку "Создать платеж" в карточке контрагента
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  source:
+    alias: source
+    meta:
+      description: "\tdetails_main – из карточки контрагента (из шапки)\naccount –\
+        \ с экрана счёта"
+    nullable: false
+    type: String
+settings: {}

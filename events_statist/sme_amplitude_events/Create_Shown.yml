@@ -1,0 +1,13 @@
+alias:
+  name: Create_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При показе экрана Создать. Слать при каждом появлении на дисплее телефона
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters: {}
+settings: {}

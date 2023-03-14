@@ -1,0 +1,19 @@
+alias:
+  name: Invoice_Good_And_Service_Edit_Error
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  notValidate:
+    alias: notValidate
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

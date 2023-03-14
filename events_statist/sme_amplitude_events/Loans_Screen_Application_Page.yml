@@ -1,0 +1,25 @@
+alias:
+  name: Loans_Screen_Application_Page
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  applicationId:
+    alias: applicationId
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  salesMethod:
+    alias: salesMethod
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

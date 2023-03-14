@@ -1,0 +1,37 @@
+alias:
+  name: BK_Issue_Card_Set
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Нажатие на кнопку "Заказать карту"
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  CardCount:
+    alias: CardCount
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  Currency:
+    alias: Currency
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  Screen:
+    alias: Screen
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  accountType:
+    alias: accountType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

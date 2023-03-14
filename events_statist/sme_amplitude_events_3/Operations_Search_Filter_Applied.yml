@@ -1,0 +1,31 @@
+alias:
+  name: Operations_Search_Filter_Applied
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При применении фильтра в поиске по ленте операций
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  accountType:
+    alias: accountType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  operationsTypes:
+    alias: operationsTypes
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  period:
+    alias: period
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

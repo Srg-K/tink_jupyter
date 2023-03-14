@@ -1,0 +1,13 @@
+alias:
+  name: ClosingDocument_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При открытии экрана Закрывающие документы
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters: {}
+settings: {}

@@ -1,0 +1,31 @@
+alias:
+  name: Search_MOVE_Action
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При переходе с экрана поиска в сервис
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  group:
+    alias: group
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  service:
+    alias: service
+    meta:
+      description: название сервиса на который перешли
+    nullable: false
+    type: String
+  source:
+    alias: source
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

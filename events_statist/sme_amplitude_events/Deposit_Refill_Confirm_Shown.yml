@@ -1,0 +1,13 @@
+alias:
+  name: Deposit_Refill_Confirm_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Клиент нажал пополнить и попал на экран ввода смс
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters: {}
+settings: {}

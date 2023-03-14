@@ -1,0 +1,26 @@
+alias:
+  name: Origination_Scan_Passport
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При тапе клиента на кнопку "Отсканировать паспорт" (т.к. не можем определять
+    отрылась сканировалка паспорта или нет)
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  id:
+    alias: id
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  who:
+    alias: who
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

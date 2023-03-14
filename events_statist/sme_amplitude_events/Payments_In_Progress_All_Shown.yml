@@ -1,0 +1,37 @@
+alias:
+  name: Payments_In_Progress_All_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  paymentDocumentsDeclined:
+    alias: paymentDocumentsDeclined
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  paymentDocumentsSubmitted:
+    alias: paymentDocumentsSubmitted
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  paymentDocumentsToSign:
+    alias: paymentDocumentsToSign
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  rateOrders:
+    alias: rateOrders
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

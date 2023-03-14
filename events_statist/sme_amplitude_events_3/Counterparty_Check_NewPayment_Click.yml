@@ -1,0 +1,13 @@
+alias:
+  name: Counterparty_Check_NewPayment_Click
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При клике на "Создать платеж" в проверке контрагента
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters: {}
+settings: {}

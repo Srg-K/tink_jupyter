@@ -1,0 +1,19 @@
+alias:
+  name: New_Product_Account_Done
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При успешной подаче заявки на открытие новых счетов
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  currency:
+    alias: currency
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

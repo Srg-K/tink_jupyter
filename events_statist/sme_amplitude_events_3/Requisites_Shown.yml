@@ -1,0 +1,44 @@
+alias:
+  name: Requisites_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При успешном показе экрана Реквизиты. Слать в том числе, после закрытия
+    шторки о способе шаринга реквизитов
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  accountType:
+    alias: accountType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  account_id:
+    alias: account_id
+    meta:
+      description: id счета
+    nullable: false
+    type: String
+  currencyCode:
+    alias: currencyCode
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  language:
+    alias: language
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  requisiteGroup:
+    alias: requisiteGroup
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

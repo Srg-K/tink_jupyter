@@ -1,0 +1,13 @@
+alias:
+  name: Search_MAIN_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При открытии стартового экрана поиска
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters: {}
+settings: {}

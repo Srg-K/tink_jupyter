@@ -1,0 +1,25 @@
+alias:
+  name: Cashbox_Auto_Refill_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  impossible_turn_on:
+    alias: impossible_turn_on
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  is_signer:
+    alias: is_signer
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

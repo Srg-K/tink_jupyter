@@ -1,0 +1,49 @@
+alias:
+  name: Accounts_Replenish_List
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  byCash:
+    alias: byCash
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  byRequisites:
+    alias: byRequisites
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  bySmeAccount:
+    alias: bySmeAccount
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  byTinkoffApp:
+    alias: byTinkoffApp
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  byTinkoffCard:
+    alias: byTinkoffCard
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  cnt:
+    alias: cnt
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

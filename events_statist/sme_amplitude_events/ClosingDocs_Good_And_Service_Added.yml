@@ -1,0 +1,19 @@
+alias:
+  name: ClosingDocs_Good_And_Service_Added
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  closingDocsType:
+    alias: closingDocsType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

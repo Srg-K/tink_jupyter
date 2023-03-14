@@ -1,0 +1,26 @@
+alias:
+  name: Counterparty_Check_Counterparty_Error
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При ошибке загрузки экрана с результатами проверки КА
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  inn:
+    alias: inn
+    meta:
+      description: ИНН проверяемого контрагента
+    nullable: false
+    type: String
+  reason:
+    alias: reason
+    meta:
+      description: 'источник ошибки: parsing - если ошибка парсинга, back - если ошибка
+        бэка ("erroneous": true)'
+    nullable: false
+    type: String
+settings: {}

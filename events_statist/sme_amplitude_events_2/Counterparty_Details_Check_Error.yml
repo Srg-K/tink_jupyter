@@ -1,0 +1,13 @@
+alias:
+  name: Counterparty_Details_Check_Error
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Ошибка загрузки проверки контрагента на экране "Карточка контрагента"
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters: {}
+settings: {}

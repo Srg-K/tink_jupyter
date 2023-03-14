@@ -1,0 +1,20 @@
+alias:
+  name: Invoice_Delete
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: 'При успешном удалении платежа (платежей, через мультивыбор). (Шлем
+    со всех экранов: Входящие, Исходящие, Черновики)'
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  cnt:
+    alias: cnt
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

@@ -1,0 +1,2123 @@
+Event,описание,Количество параметров,Параметр,Описание параметра,Уже есть в статисте?
+IW_Auth_Success,Успешная авторизация,2,bank,Название банка,
+IW_Auth_Success,Успешная авторизация,2,from,из какого продукта/сервиса перешли в IW,
+IW_Conditions_Shown,показ экрана с условиями использования,0,,,
+IW_Login_Shown,показ экрана с логином,3,bank,название банка,
+IW_Login_Shown,показ экрана с логином,3,from,из какого продукта/сервиса перешли в IW,
+IW_Login_Shown,показ экрана с логином,3,status,как попал на авторизацию,
+IW_SMS_Close_Click,нажатие на закрыть или крестик на экране с смс,0,,,
+Origination_Access_Account_Shown,"При показе экрана ""Доступ к счету""",1,id,,
+Origination_Added_Employee,При успешном добавлении сотрудника. Передаем вид доступа к счету для этого сотрудника,2,accessType,,
+Origination_Added_Employee,При успешном добавлении сотрудника. Передаем вид доступа к счету для этого сотрудника,2,id,,
+Origination_Added_Employee_Error,"При выскакивании попапа ""Выберете хотя бы один из способов доступа к счету""",1,id,,
+Origination_Already_User,"При показе экрана ""Проверьте номер""",0,,,
+Origination_Application_Main_Error,"При показе ошибки загрузки экрана статуса заявки ""Не смогли загрузить статус заявки""",2,applStatus,,
+Origination_Application_Main_Error,"При показе ошибки загрузки экрана статуса заявки ""Не смогли загрузить статус заявки""",2,id,,
+Origination_Application_Main_Shown,При успешной загрузке экрана статуса заявки,2,applStatus,,
+Origination_Application_Main_Shown,При успешной загрузке экрана статуса заявки,2,id,,
+Origination_Company_Info_Shown,"При показе экрана ""Сведения о вашей компании""",0,,,
+Origination_Data_Processing_Done,"При показе экрана ""Готово! Перейти к настройке доступа к счету..""",1,id,,
+Origination_Data_Processing_Shown,"При показе ""Отправляем заявки"" (первого экрана из карусели)",1,id,,
+Origination_Deleted_Employee,"При тапе на кнопку ""удалить сотрудника""",1,id,,
+Origination_Denied_Shown,При показе любого из экранов отказа в открытии счета,2,deniedReason,,
+Origination_Denied_Shown,При показе любого из экранов отказа в открытии счета,2,id,,
+Origination_Doc_Upload_Empty_Document_Error,"При показе ошибки ""Загрузите все документы перед отправкой..."" (при тапе на кнопку ""Отправить в банк"", когда загружены не все документы)",1,id,,
+Origination_Doc_Upload_List_Shown,При показе экрана списка файлов по конкретному документов,2,id,,
+Origination_Doc_Upload_List_Shown,При показе экрана списка файлов по конкретному документов,2,type,,
+Origination_Doc_Upload_Loading_Type,"При тапе на одну из кнопок типа загрузки ""Из файлового менеджера"" и ""Снять или выбрать фото""",2,id,,
+Origination_Doc_Upload_Loading_Type,"При тапе на одну из кнопок типа загрузки ""Из файлового менеджера"" и ""Снять или выбрать фото""",2,method,,
+Origination_Doc_Upload_Main_Shown,При показе основного экрана загрузки документов,1,id,,
+Origination_Doc_Upload_Sent,При успешной отправке документов (финальный экран),1,id,,
+Origination_Employee_Shown,При показе экрана Сотрудники (список добавленных сотрудников),1,id,,
+Origination_File_Delete,При успешном удалении файлов (успешно отработал метод),1,id,,
+Origination_File_Upload,При успешной загрузке файла (успешно отработал метод бэка),2,id,,
+Origination_File_Upload,При успешной загрузке файла (успешно отработал метод бэка),2,type,,
+Origination_File_Upload_Error,При показе ошибки метода загрузки файла,2,id,,
+Origination_File_Upload_Error,При показе ошибки метода загрузки файла,2,type,,
+Origination_Foreign_Number,"При показе экрана ""Мы не знакомы""",0,,,
+Origination_Meeting_Add_To_Calendar,"При тапе на кнопку ""Добавить в календарь""",1,id,,
+Origination_Meeting_Addresses_Shown,"При отображении экрана ""Выбор адреса""",1,id,,
+Origination_Meeting_Details_Shown,"При показе экрана ""Встреча. Детали встречи""",1,id,,
+Origination_Meeting_Done,При успешном назначении встречи (финальный оффер),1,id,,
+Origination_Meeting_Gray_Zone_Error,"При отображении плашки ""Не осуществляем доставку по указанному адресу""",1,id,,
+Origination_Meeting_Gray_Zone_Сhoice,"При тапе на одну из кнопок выбрать на плашке ""Не осуществляем доставку по указанному адресу""",2,button,,
+Origination_Meeting_Gray_Zone_Сhoice,"При тапе на одну из кнопок выбрать на плашке ""Не осуществляем доставку по указанному адресу""",2,id,,
+Origination_Meeting_Members_Shown,"При показе экрана ""Встреча. Участники встречи""",1,id,,
+Origination_Meeting_New_Address_Type,При изменении типа адреса (только у ООО). Передаем выбранный адрес,2,id,,
+Origination_Meeting_New_Address_Type,При изменении типа адреса (только у ООО). Передаем выбранный адрес,2,type,,
+Origination_Photo_Passport_Done,При успешном скане паспорта (успешным считаем автозаполнение хотя бы одно поля ПД),2,id,,
+Origination_Photo_Passport_Done,При успешном скане паспорта (успешным считаем автозаполнение хотя бы одно поля ПД),2,who,,
+Origination_Prepare_Passport_Shown,"При показе заглушки ""Приготовьте паспорт""",1,id,,
+Origination_Print_Passport_Info_Error,"При ошибке валидации при вводе данных паспорта вручную. Передаем поля, которые не прошли валидацию",2,fieldType,,
+Origination_Print_Passport_Info_Error,"При ошибке валидации при вводе данных паспорта вручную. Передаем поля, которые не прошли валидацию",2,id,,
+Origination_Print_Passport_Shown,При показе экрана Паспортных данных,2,id,,
+Origination_Print_Passport_Shown,При показе экрана Паспортных данных,2,who,,
+Origination_Scan_Passport,"При тапе клиента на кнопку ""Отсканировать паспорт"" (т.к. не можем определять отрылась сканировалка паспорта или нет)",2,id,,
+Origination_Scan_Passport,"При тапе клиента на кнопку ""Отсканировать паспорт"" (т.к. не можем определять отрылась сканировалка паспорта или нет)",2,who,,
+Origination_Signing_Document_Done,При успешном подписании документа,3,document,,
+Origination_Signing_Document_Done,При успешном подписании документа,3,id,,
+Origination_Signing_Document_Done,При успешном подписании документа,3,type,,
+Origination_Signing_Document_Shown,При показе pdf конкретного документа,3,document,,
+Origination_Signing_Document_Shown,При показе pdf конкретного документа,3,id,,
+Origination_Signing_Document_Shown,При показе pdf конкретного документа,3,type,,
+Origination_Signing_Offer_Shown,При показе оффера Подпишите документы / Подпиши конкретный документ,2,documents,,
+Origination_Signing_Offer_Shown,При показе оффера Подпишите документы / Подпиши конкретный документ,2,id,,
+Origination_Signing_Sign,При тапе на кнопку Подписать (т.к. не можем отправить событие выше),1,id,,
+Origination_Tax_System_Error_Shown,При ошибке на экране системы налогообложения,1,errorReason,,
+Origination_Tax_System_Shown,"При показе экрана ""Ваша система налогообложения""",0,,,
+Origination_Welcome_To_TB_Shown,"При показе экрана ""Добро пожаловать в Тинькофф Бизнес""",1,id,,
+Story_Action,При любом действии внутри истории (переход по диплинку или вебвью),7,action_kind,,
+Story_Action,При любом действии внутри истории (переход по диплинку или вебвью),7,actionType,,
+Story_Action,При любом действии внутри истории (переход по диплинку или вебвью),7,block_guid,,
+Story_Action,При любом действии внутри истории (переход по диплинку или вебвью),7,blockGuid,,
+Story_Action,При любом действии внутри истории (переход по диплинку или вебвью),7,step,,
+Story_Action,При любом действии внутри истории (переход по диплинку или вебвью),7,storyId,,
+Story_Action,При любом действии внутри истории (переход по диплинку или вебвью),7,text,,
+Story_Closed,При закрытии истории,4,name,,
+Story_Closed,При закрытии истории,4,step,,
+Story_Closed,При закрытии истории,4,storyId,,
+Story_Closed,При закрытии истории,4,type,,
+Story_Disliked,При дизлайке истории,2,name,,
+Story_Disliked,При дизлайке истории,2,storyId,,
+Story_Last_Step_Shown,При показе последнего шага истории,2,stepCount,,
+Story_Last_Step_Shown,При показе последнего шага истории,2,storyId,,
+Story_Liked,При лайке истории,2,name,,
+Story_Liked,При лайке истории,2,storyId,,
+Story_Saved,При сохранении истории,3,name,,
+Story_Saved,При сохранении истории,3,step,,
+Story_Saved,При сохранении истории,3,storyId,,
+Story_Shared,При шаринге истории,5,app_name,,
+Story_Shared,При шаринге истории,5,appName,"приложение, в которое пошарили",
+Story_Shared,При шаринге истории,5,name,,
+Story_Shared,При шаринге истории,5,step,,
+Story_Shared,При шаринге истории,5,storyId,,
+Story_Shown,При показе истории,14,category,,
+Story_Shown,При показе истории,14,deeplink_source,,
+Story_Shown,При показе истории,14,first,,
+Story_Shown,При показе истории,14,name,,
+Story_Shown,При показе истории,14,popup,,
+Story_Shown,При показе истории,14,screen,,
+Story_Shown,При показе истории,14,serial_number,,
+Story_Shown,При показе истории,14,shownBy,,
+Story_Shown,При показе истории,14,sound,,
+Story_Shown,При показе истории,14,step,,
+Story_Shown,При показе истории,14,stepCount,,
+Story_Shown,При показе истории,14,storyId,,
+Story_Shown,При показе истории,14,style,,
+Story_Shown,При показе истории,14,videoPreview,,
+Story_Sound_Action,При включении/выключении звука в истории,3,action,,
+Story_Sound_Action,При включении/выключении звука в истории,3,storyId,,
+Story_Sound_Action,При включении/выключении звука в истории,3,tap,,
+Story_Step_Shown,При показе шага истории (кроме первого и последнего),3,step,,
+Story_Step_Shown,При показе шага истории (кроме первого и последнего),3,storyId,,
+Story_Step_Shown,При показе шага истории (кроме первого и последнего),3,storyName,,
+Story_Unsaved,При удалении истории из сохраненных,3,name,,
+Story_Unsaved,При удалении истории из сохраненных,3,step,,
+Story_Unsaved,При удалении истории из сохраненных,3,storyId,,
+Biometrics_Setup_Error,"При ошибке подключения входа по биометрии(допустим, не зашифровался пин-код)",1,errorType,,
+Biometrics_Setup_Success,При успешном подключении входа по биометрическим данным,0,,,
+Biometrics_Shown,"При показе экрана ""Подключение Touch ID"" или экрана ""Подключение Face ID""",1,type,,
+Biometrics_Skipped,При нажатии на крестик на онбординге биометрии,0,,,
+Card_Input_Change,При изменении номера карты в поле ввода. Слать только после успешного сканирования карты,0,,,
+Card_Input_No_Card,"При показе попапа с номером телефона для звонка в КЦ, после нажатия на ""У меня нет карты""",1,screen,,
+Card_Input_Scan,При успешном сканировании карты,2,authorization,,
+Card_Input_Scan,При успешном сканировании карты,2,NFC,,
+Card_Input_Shown,"При показе экрана ""Введите номер карты""",0,,,
+Password_Create_Shown,"При показе экрана ""Задайте пароль""",0,,,
+Password_Created,Пароль установлен,0,,,
+Password_Input_Not_Me,"При выборе одного из вариантов на выпадающем списке при нажатии ""Я не ..."" на экране ""Здравствуйте, ...""",1,clickItem,,
+Password_Input_Shown,"При показе экрана ""Здравствуйте, ...""",0,,,
+Phone_Password_Conversion_Data,Событие отправляется после первого входа в приложение и после удаления/добавления пароля телефона. Необходимо только для IOS.,1,Password,"true - если пароль имеется на телефоне (пароль телефона, а не пароль в приложении), false - пароль не установлен на телефоне",
+Pin_Current_Backend_Error,При ошибке с бекенда при введении текущего пин-кода,3,aim,,
+Pin_Current_Backend_Error,При ошибке с бекенда при введении текущего пин-кода,3,authType,,
+Pin_Current_Backend_Error,При ошибке с бекенда при введении текущего пин-кода,3,errorType,,
+Pin_Current_Device_Error,При ошибке при всяких дешифровках текущего пин-кода,3,aim,,
+Pin_Current_Device_Error,При ошибке при всяких дешифровках текущего пин-кода,3,authType,,
+Pin_Current_Device_Error,При ошибке при всяких дешифровках текущего пин-кода,3,errorType,,
+Pin_Current_Shown,При показе экрана с вводом текущего пин-кода,3,aim,,
+Pin_Current_Shown,При показе экрана с вводом текущего пин-кода,3,app,,
+Pin_Current_Shown,При показе экрана с вводом текущего пин-кода,3,thisapp,,
+Pin_Current_Success,При успешном вводе текущего пин-кода,1,authType,,
+Pin_Setup_Device_Error,При ошибке при всяких шифровках нового пин-кода,2,aim,,
+Pin_Setup_Device_Error,При ошибке при всяких шифровках нового пин-кода,2,errorType,,
+Pin_Setup_Shown,"При показе экрана ""Установка PIN-кода"" (как при первой установке, так и при смене пина)",1,aim,,
+Pin_Setup_Success,"При успешном задании кода доступа на экране установки PIN-кода (как при первой установке, так и при смене пина)",1,aim,,
+Security_Question_Input_Forget,"При тапе на надпись ""Я забыл ответ"" на экране ввода ответа на контрольный вопрос",1,clickOption,,
+Security_Question_Input_Shown,При показе экрана ввода ответа на контрольный вопрос,0,,,
+SmsCode_Shown,"При показе экрана ""Код подтверждения"" для подтверждения номера телефона только в момент авторизации или регистрации. Не срабатывает при добавлении функций с подтверждением по смс.",0,,,
+Telephone_Input_Shown,"При показе экрана ""Введите номер телефона""",1,aim,,
+BC_All_List_Shown,,0,,,
+BC_CardPage_Scroll,,0,,,
+BC_CardPage_Search,,0,,,
+BC_CardRename_Btn,,1,Button,,
+BC_CardRename_Save,,1,FromScreen,,
+BC_Limits_Change_Shown,,1,limitsType,,
+BC_NewLimits_Cash,,1,Limit,,
+BC_NewLimits_Merch,,2,Limit,,
+BC_NewLimits_Merch,,2,LimitScreen,,
+BC_Offer_Currency_Card_Set,,0,,,
+BC_Offer_Currency_Card_Shown,,0,,,
+BK_Action_Set,БК. Общее. При нажатии на любое действие,3,ButtonType,,
+BK_Action_Set,БК. Общее. При нажатии на любое действие,3,pinFlg,,
+BK_Action_Set,БК. Общее. При нажатии на любое действие,3,VirtualFlg,,
+BK_Card_Actions_Shown,,1,pinFlg,,
+BK_Card_Shown,,8,actionsBtns,,
+BK_Card_Shown,,8,ownedByCurrentUser,,
+BK_Card_Shown,,8,pinFlg,,
+BK_Card_Shown,,8,status,,
+BK_Card_Shown,,8,tokenAllowedFlg,,
+BK_Card_Shown,,8,ucid,,
+BK_Card_Shown,,8,virtualFlg,,
+BK_Card_Shown,,8,walletUserFlg,,
+BK_Category_Set,"При показе экрана ""Категории""",1,category,,
+BK_Category_Shown,"При показе экрана ""Категории""",1,category,,
+BK_Fail_Pin_Shown,Переход на экран не успешной смены пина,1,pinFlg,,
+BK_Issue_Block_Shown,,1,cardType,,
+BK_Issue_Card_Set,"Нажатие на кнопку ""Заказать карту""",3,CardCount,,
+BK_Issue_Card_Set,"Нажатие на кнопку ""Заказать карту""",3,Currency,,
+BK_Issue_Card_Set,"Нажатие на кнопку ""Заказать карту""",3,Screen,,
+BK_Issue_Cardtype_set,,1,cardType,,
+BK_Issue_People_set,,1,personType,,
+BK_Issue_Success_Shown,,2,cardType,,
+BK_Issue_Success_Shown,,2,WalletAvailable,,
+BK_MainPage_Cards,,1,CardsScreen,,
+BK_MainPage_ShowCards,,3,CardCount,,
+BK_MainPage_ShowCards,,3,Currency,,
+BK_MainPage_ShowCards,,3,OpenFlg,,
+BK_offer_virtual_card,,2,ButtonType,,
+BK_offer_virtual_card,,2,WalletAvailable,,
+BK_Pin_Offer_Shown,При показе оффера установки ПИНа,1,CardCount,,
+BK_Spending_Preference_Shown,"При показе экрана ""Настроить траты""",5,cashLimit,,
+BK_Spending_Preference_Shown,"При показе экрана ""Настроить траты""",5,cashLimitEnd,,
+BK_Spending_Preference_Shown,"При показе экрана ""Настроить траты""",5,categorySelectedFlg,,
+BK_Spending_Preference_Shown,"При показе экрана ""Настроить траты""",5,spendingLimit,,
+BK_Spending_Preference_Shown,"При показе экрана ""Настроить траты""",5,spendingLimitEnd,,
+Currency_Rate_Orders_Shown,При каждом успешном показе экрана Заявки на обмен валюты,1,ordersTab,активный таб,
+Incoming_Transit_Confirm_Btn_Click,"При нажатии на кнопку ""Подтвердить"" в деталях платежа",0,,,
+Incoming_Transit_Confirmation_Additional_Info,"При успешном показе экрана второго шага ""Дополнительная информация"" при подтверждении валютного платежа (Слать при каждом открытии, в том числе, если переходим на этот шаг с шага ""Контракт"")",0,,,
+Incoming_Transit_Confirmation_Contract,"При успешном показе экрана шага ""Контракт"" при подтверждении валютного платежа (Слать при каждом открытии, в том числе, если переходим на этот шаг с шага ""Дополнительная информация"")",0,,,
+Incoming_Transit_Contract_Btn_Click,При выборе контракта на экране Контракты,1,contractType,,
+Incoming_Transit_Contract_Edit_Confirm_Shown,"При появлении pop-up ""Подтверждение о внесении изменений в контракт""",0,,,
+Incoming_Transit_Contracts_Shown,При успешном показе экрана Контракты после нажатия на кнопку Выбрать/Создать контракт,0,,,
+Incoming_Transit_Info_Shown,При показе экрана с деталями о валютном платеже,1,paymentStatus,,
+Incoming_Transit_Sent,При успешной отправке валютного платежа,1,Confirmationtype,,
+Incoming_Transit_Shown,При каждом успешном показе экрана На подтверждение.,0,,,
+Payments_Incoming_Transit_Docs_Upload_Click,"При выборе источника файла (камера, галерея, файловый менеджер)",1,upload_type,,
+Excerpt_Done,При успешном скачивании/просмотре/отправки выписки,4,extractGroup,выборка пользователя,
+Excerpt_Done,При успешном скачивании/просмотре/отправки выписки,4,extractType,тип действия с выпиской,
+Excerpt_Done,При успешном скачивании/просмотре/отправки выписки,4,operationsTypes,выбранные типы операций,
+Excerpt_Done,При успешном скачивании/просмотре/отправки выписки,4,period,выбранный период,
+Main_Shown,При показе Главной (в том числе после закрытия шторки с компаниями),0,,,
+Search_INFO_Action,Слать событие если после ввода последнего символа прошло 3 секунды бездействия,1,enteredPhrase,введенная строка,
+Search_MAIN_Shown,При открытии стартового экрана поиска,0,,,
+Search_MOVE_Action,При переходе с экрана поиска в сервис,3,group,,
+Search_MOVE_Action,При переходе с экрана поиска в сервис,3,service,название сервиса на который перешли,
+Search_MOVE_Action,При переходе с экрана поиска в сервис,3,source,,
+Deposit_Open_Shown,"Когда клиент зашел на страницу открытия депозита (где видит срок, ставку)",0,,,
+Deposit_Refill_Confirm_Shown,Клиент нажал пополнить и попал на экран ввода смс,0,,,
+Deposit_Refill_Sent,"Клиент успешно ввел смс при пополнении, от бэка получили ОК",0,,,
+Deposit_Refill_Shown,Клиент открыл экран пополнения депозита,0,,,
+Limits_Changed,При успешном изменении лимитов,2,category,категория лимитов,
+Limits_Changed,При успешном изменении лимитов,2,limitsType,тип лимитов,
+More_Info_Item_Click,"При тапе на Банкоматы, Точки пополнения, Помощь бизнесу, Связь с банком, О приложении в Инфо",1,itemType,,
+More_Services_Item_Click,"При тапе на пункты Tinkoff Бухгалтерия, Пригласи друга, Спецпредложения в Сервисах, Торговый Эквайринг, Обмен валют и т.п.",1,itemType,,
+More_Settings_Item_Click,"При тапе на Вход и авторизация, Лимиты, Тарифы, Уведомления в Настройках",1,itemType,,
+More_Shown,При каждом открытии экрана Еще (а также при выборе таба внутри экрана Еще) с параметром активного таба,1,activeTab,,
+ClosingDocument_Create,После открытия формы создания ЗД,3,actionType,,
+ClosingDocument_Create,После открытия формы создания ЗД,3,from,,
+ClosingDocument_Create,После открытия формы создания ЗД,3,type,,
+ClosingDocument_Shown,При открытии экрана Закрывающие документы,0,,,
+ClosingDocument_Shown_List,Клиент зашел на вкладку в список ЗД,1,type,,
+Emloyee_Create_Form,При открытии формы создания сотрудника (при редактировании не слать),1,creationType,,
+Emloyee_Create_Send_Button,При успешной отправке анкеты сотрудника из формы создания сотрудника,0,,,
+Employee_Button_Click,При тапе по кнопкам в любом виде сотрудника,2,buttonType,,
+Employee_Button_Click,При тапе по кнопкам в любом виде сотрудника,2,employeeStatus,,
+Employee_Shown,При заходе в конкретного сотрудника,2,bankType,,
+Employee_Shown,При заходе в конкретного сотрудника,2,employeeStatus,,
+Registry_Button_Click,При тапе по кнопкам в любом виде реестра,4,buttonType,,
+Registry_Button_Click,При тапе по кнопкам в любом виде реестра,4,recipientType,,
+Registry_Button_Click,При тапе по кнопкам в любом виде реестра,4,registerStatus,,
+Registry_Button_Click,При тапе по кнопкам в любом виде реестра,4,registerType,,
+Registry_Create_Form,При открытии формы создания реестра (при редактировании не слать),2,creationType,,
+Registry_Create_Form,При открытии формы создания реестра (при редактировании не слать),2,recipientType,,
+Registry_Create_Send_Button,При успешной отправке анкеты реестра из формы создания реестра,1,recipientType,,
+Registry_Shown,При заходе в конкретный реестр,3,recipientType,,
+Registry_Shown,При заходе в конкретный реестр,3,registerStatus,,
+Registry_Shown,При заходе в конкретный реестр,3,registerType,,
+Invoice_Delete,"При успешном удалении платежа (платежей, через мультивыбор). (Шлем со всех экранов: Входящие, Исходящие, Черновики)",1,cnt,,
+Invoice_Details_Shown,При каждом показе экрана с деталями по инвойсу,3,detailsActiveTab,,
+Invoice_Details_Shown,При каждом показе экрана с деталями по инвойсу,3,invoiceStatus,,
+Invoice_Details_Shown,При каждом показе экрана с деталями по инвойсу,3,paymentStatus,,
+Invoice_Done,При успешном выставлении счета,0,,,
+Invoice_Incoming_Shown,При каждом успешном показе экрана Входящие счета,1,activeTab,,
+Invoice_Outcoming_Marked_Payed,"При успешной отметке инвойса (или инвойсов, через мультивыбор) оплаченным",1,cnt,,
+Invoice_Outcoming_Shown,При каждом успешном показе экрана Исходящие счета,1,activeTab,,
+Invoice_Pay,При нажатии на Оплатить в деталях счета,0,,,
+Notification_On,При первом включении любого способа уведомления для искусственного канала,0,,,
+Synthetic_Channel_Shown,При показе экрана искусственного канала,0,,,
+Counterpartry_Account_Req,При показе экрана реквизитов счета после нажатия на счет на экране со сведениями о контрагенте,0,,,
+Counterparty_Action_Sheet_Shown,"При показе списка ""Платеж"" и ""Счет на оплату"" после нажатия на контрагента в топ-4",0,,,
+Counterparty_All_Shown,"При показе экрана Контрагенты ""Все""",0,,,
+Counterparty_Check_ArbitrationCases_Go_Down,Пролистывание экрана с судами до конца,1,scroll_available,Доступен ли скролл при открытии экрана,
+Counterparty_Check_ArbitrationCases_Shown,Показ экрана с судебными делами в ПКА,1,source,"tab - если перешли по синей кнопке, button - если перешли по кнопке ""Все/Посмотреть все""",
+Counterparty_Check_Contacts_Go_Down,Пролистывание экрана с контактами до конца в ПКА,1,scroll_available,Доступен ли скролл при открытии экрана,
+Counterparty_Check_Contacts_Shown,Показ экрана с контактами в ПКА,1,source,"tab - если перешли по синей кнопке, button - если перешли по кнопке ""Все/Посмотреть все""",
+Counterparty_Check_Counterparty_Error,При ошибке загрузки экрана с результатами проверки КА,2,inn,ИНН проверяемого контрагента,
+Counterparty_Check_Counterparty_Error,При ошибке загрузки экрана с результатами проверки КА,2,reason,"источник ошибки: parsing - если ошибка парсинга, back - если ошибка бэка (""erroneous"": true)",
+Counterparty_Check_Counterparty_Go_Down,Пролистывание экрана с результатами проверки КА до конца,1,scroll_available,Доступен ли скролл при открытии экрана,
+Counterparty_Check_Counterparty_Shown,Показ экрана с результатами проверки КА,1,view,"full – полный вид (с кнопками ""Создать платеж, Выставить счет"", открывается из проверки контрагентов), short – шторка без кнопок ""Создать платеж, Выставить счет"", открывается из карточки контрагента, из платежной формы",
+Counterparty_Check_Hint_Click,При клике на знак вопроса с подсказкой в ПКА,4,check_view,,
+Counterparty_Check_Hint_Click,При клике на знак вопроса с подсказкой в ПКА,4,hint_type,"question – подсказка в знаке вопроса, full_screen – подсказка в шторке",
+Counterparty_Check_Hint_Click,При клике на знак вопроса с подсказкой в ПКА,4,hintType,,
+Counterparty_Check_Hint_Click,При клике на знак вопроса с подсказкой в ПКА,4,section,напротив какого поля нажата подсказка,
+Counterparty_Check_Important_Go_Down,Пролистывание экрана с важной информацией до конца в ПКА,1,scroll_available,Доступен ли скролл при открытии экрана,
+Counterparty_Check_Important_Shown,Показ экрана с важной информацией,1,source,"tab - если перешли по синей кнопке, button - если перешли по кнопке ""Все/Посмотреть все""",
+Counterparty_Check_Main_Shown,Показ экрана Проверка контрагентов (с поиском),0,,,
+Counterparty_Check_NewInvoice_Click,"При клике на ""Выставить счёт"" в проверке контрагента",0,,,
+Counterparty_Check_NewPayment_Click,"При клике на ""Создать платеж"" в проверке контрагента",0,,,
+Counterparty_Check_NotFound_Shown,Когда контрагент не найден в ПКА,0,,,
+Counterparty_Check_OKVEDList_Go_Down,Пролистывание экрана с видами деятельности до конца в ПКА,1,scroll_available,Доступен ли скролл при открытии экрана,
+Counterparty_Check_OKVEDList_Shown,Показ экрана с видами деятельности,1,source,"tab - если перешли по синей кнопке, button - если перешли по кнопке ""Все/Посмотреть все""",
+Counterparty_Check_Requsites_Go_Down,Пролистывание экрана с реквизитами до конца в ПКА,1,scroll_available,Доступен ли скролл при открытии экрана,
+Counterparty_Check_Requsites_LeaderList_Go_Down,Пролистывание экрана с руководителями до концав ПКА,1,scroll_available,Доступен ли скролл при открытии экрана,
+Counterparty_Check_Requsites_LeaderList_Shown,Показ шторки с руководителями в ПКА,0,,,
+Counterparty_Check_Requsites_Shown,Показ экрана с реквизитами в ПКА,1,source,"source: tab - если перешли по синей кнопке, button - если перешли по кнопке ""Все/Посмотреть все""",
+Counterparty_Check_Search_Change,Поисковые запросы в ПКА,2,enteredPhrase,,
+Counterparty_Check_Search_Change,Поисковые запросы в ПКА,2,query,,
+Counterparty_Check_Search_Error,При ошибке загрузки экрана с результатами проверки КА,0,,,
+Counterparty_Details_Account_Click,Клик/тап на счёт в острове со счетами в карточке контрагента,0,,,
+Counterparty_Details_Account_Shown,Показ экрана со счётом контрагента в карточке контрагента,1,main,,
+Counterparty_Details_Check_Error,"Ошибка загрузки проверки контрагента на экране ""Карточка контрагента""",0,,,
+Counterparty_Details_Contact_Click,Клик на контакт в острове с контактами в карточке контрагента,0,,,
+Counterparty_Details_Contact_Shown,Показ экрана с контактом контрагента в карточке контрагента,0,,,
+Counterparty_Details_Go_Down,Скролл карточки контрагента вниз до конца,1,scroll_available,Доступен ли скролл при открытии экрана,
+Counterparty_Details_Invoice_Create,"Клик на кнопку ""Выставить счет"" в карточке контрагента",1,source,"где нажата кнопка: 
+details_main – из карточки контрагента (из шапки)
+account – с экрана счёта",
+Counterparty_Details_Island_Click,"Клик на ""Посмотреть все""/""Все"" на одном из островов в сводке на карточке контрагента",1,island,"operations – остров с операциями (только веб)
+express_check – остров Экспресс проверка 
+requisites – остров Реквизиты
+okveds – остров Виды деятельности
+contact_data – остров Контактные данные
+accounts – остров Счета
+contacts – остров Контакты",
+Counterparty_Details_Mark_Favourite,Клик на звезду – добавление контрагента в избранные,1,action,"add – добавил в избранные
+delete – удалил из избранных",
+Counterparty_Details_Payment_Create,"Клик на кнопку ""Создать платеж"" в карточке контрагента",1,source,"details_main – из карточки контрагента (из шапки)
+account – с экрана счёта",
+Counterparty_Details_PhoneOrMail_Click,Клик на телефон или почту контакта контрагента на экране с контактом контрагента в карточке контрагента,1,field,"На какое поле нажали:
+phone - телефон
+email - почта",
+Counterparty_Details_Shown,"Показ экрана ""Карточка контрагента""",0,,,
+Counterparty_Favourite_Shown,При показе экрана со списком своих избранных контрагентов,0,,,
+Counterparty_Info_Shown,"Старая карточка контрагента (При показе экрана со сведениями о контрагенте при выборе контрагента с экрана ""Контрагенты"" (как со вкладки ""избранные"", так и со вкладки ""все""))",0,,,
+Counterparty_Main_Error,При ошибке загрузки экрана с разделом Контрагенты,0,,,
+Counterparty_Main_Shown,При показе экрана с разделом Контрагенты,0,,,
+Counterparty_MyCounterparties_Shown,При показе экрана Мои контрагенты,0,,,
+Company_Change_Done,При успешной смене компании,0,,,
+Company_Change_Shown,,0,,,
+Main_Company_Change,При тапе на кнопку смены Компании,0,,,
+Sms_Resend_Tap,нажали «Отправить еще раз»,0,,,
+Tinkoff_Business_Background_Enter,Слать каждый раз при сворачивании приложения,0,,,
+Tinkoff_Business_Foreground_Enter,Слать каждый раз при разворачивании приложения,0,,,
+New_Product_Account_Done,При успешной подаче заявки на открытие новых счетов,1,currency,,
+New_Product_Application_Done,При успешной подаче заявки на новый продукт,1,applProduct,,
+New_Product_Shown,При показе экрана Новый продукт,1,from,,
+New_Product_Shown_Account_Currency,При показе экрана Валюта счета,0,,,
+Overnight_Offer_Out,При закрытии оффера Овернайтов,2,offerNo,,
+Overnight_Offer_Out,При закрытии оффера Овернайтов,2,offerVar,,
+Overnight_Offer_Shown,При показе оффера Овернайтов после выбора клиентом этого продукта,3,offerNo,,
+Overnight_Offer_Shown,При показе оффера Овернайтов после выбора клиентом этого продукта,3,offerVar,,
+Overnight_Offer_Shown,При показе оффера Овернайтов после выбора клиентом этого продукта,3,way,,
+Overnight_Replenishment_Success,При успешном пополнении овернайта,0,,,
+Draft_Saved,"сохранили черновик платежа
+
+заблокировано в Amplitude с 9.07.2018. Автоматическое сохранение происходит 8 раз за платежку и сильно жрет лимит",2,action,"save (нажали кнопку сохранить), form (закрыли форму), auto (оно само сохранилось)",
+Draft_Saved,"сохранили черновик платежа
+
+заблокировано в Amplitude с 9.07.2018. Автоматическое сохранение происходит 8 раз за платежку и сильно жрет лимит",2,payment_id,id операции,
+Payment_Change_After_QR_Scan,При изменении какого-либо поля на форме платежа после сканирования QR,3,aim,тип изменения,
+Payment_Change_After_QR_Scan,При изменении какого-либо поля на форме платежа после сканирования QR,3,fieldType,тип поля,
+Payment_Change_After_QR_Scan,При изменении какого-либо поля на форме платежа после сканирования QR,3,paymentType,тип платежа,
+Payment_Create_Shown,При открытии формы создания платежа. (При заходе на форму),2,aim,действие над платежом,
+Payment_Create_Shown,При открытии формы создания платежа. (При заходе на форму),2,provider,провайдер платежа,
+Payment_Details_Shown,При показе экрана с деталями по платежу.,3,from,,
+Payment_Details_Shown,При показе экрана с деталями по платежу.,3,paymentStatus,,
+Payment_Details_Shown,При показе экрана с деталями по платежу.,3,provider,провайдер платежа,
+Payment_Sent,"При успешной отправке платежа (кривое событие, баги ищи в справочнике)",2,cnt,,
+Payment_Sent,"При успешной отправке платежа (кривое событие, баги ищи в справочнике)",2,provider,,
+Payments_Shown,"экран Платежи, генерируем на каждом табе",1,tab,"create (на андроид это экран нового плОтижа), drafts, toSign, queue",
+QR_Scanned,При успешном скане QR-кода,2,paymentType,тип платежа,
+QR_Scanned,При успешном скане QR-кода,2,QR_ID_Invoice,,
+QR_Scanner_Error,При вылетании попапа об ошибке сканирования,0,,,
+QR_Scanner_Shown,При открытии экрана для скана QR-кода,1,from,,
+Payment_Photo_Change_After_Recognition,При изменении какого-либо поля на форме платежа.,2,paymentType,,
+Payment_Photo_Change_After_Recognition,При изменении какого-либо поля на форме платежа.,2,photoFieldType,,
+Payment_Photo_Error,При вылетании попапа об ошибке распознавания,1,paymentType,,
+Payment_Photo_Highlighted_Fields_After_Recognition,"После распознавания платежа по фото. Шлем как флаг для каждого поля, в котором сервис не уверен и подсвечивает его. Для каждого поля - отдельное событие!",2,paymentType,,
+Payment_Photo_Highlighted_Fields_After_Recognition,"После распознавания платежа по фото. Шлем как флаг для каждого поля, в котором сервис не уверен и подсвечивает его. Для каждого поля - отдельное событие!",2,photoFieldType,,
+Payment_Photo_Shown,"При открытии экрана с камерой после нажатия кнопки ""Платеж по фото""",1,paymentType,,
+Payment_Photo_Success,"При успешной обработке изображения, если делается платеж по фото.",1,paymentType,,
+Aggregate_Go_Down,Репутация. При пролистывании экрана конкретного агрегата до конца,2,agrType,,
+Aggregate_Go_Down,Репутация. При пролистывании экрана конкретного агрегата до конца,2,problemFlg,,
+Aggregate_Shown,Репутация. При открытии экрана конкретного агрегата,3,agrType,,
+Aggregate_Shown,Репутация. При открытии экрана конкретного агрегата,3,problemFlf,,
+Aggregate_Shown,Репутация. При открытии экрана конкретного агрегата,3,problemFlg,,
+Dislike_Situation_Click,Репутация. При нажатии на Dislike в ситуации,2,agrType,,
+Dislike_Situation_Click,Репутация. При нажатии на Dislike в ситуации,2,sitType,,
+Like_Situation_Click,Репутация. При нажатии на Like в ситуации,2,agrType,,
+Like_Situation_Click,Репутация. При нажатии на Like в ситуации,2,sitType,,
+Rep_Info,При нажатии на Инфо,0,,,
+Rep_Info_Go_Down,При пролистывании странички Инфо до конца,0,,,
+Rep_Profile_Initialization,"При тапе на плашку ""анкета"" на основном экране сервиса ""Репутация""",2,percent,,
+Rep_Profile_Initialization,"При тапе на плашку ""анкета"" на основном экране сервиса ""Репутация""",2,status,,
+Rep_Question_Answer,При уходе с экрана вопроса. Слать только если ответ заполнен,4,answerType,,
+Rep_Question_Answer,При уходе с экрана вопроса. Слать только если ответ заполнен,4,questNumber,,
+Rep_Question_Answer,При уходе с экрана вопроса. Слать только если ответ заполнен,4,questType,,
+Rep_Question_Answer,При уходе с экрана вопроса. Слать только если ответ заполнен,4,questWeight,,
+Rep_Question_Shown,При показе экрана с вопросом,4,prefillFlg,,
+Rep_Question_Shown,При показе экрана с вопросом,4,questNumber,,
+Rep_Question_Shown,При показе экрана с вопросом,4,questType,,
+Rep_Question_Shown,При показе экрана с вопросом,4,questWeight,,
+Reputation_Go_Down,При пролистывании странички вниз до конца,0,,,
+Reputation_Shown,При заходе на страницу Репутации,0,,,
+Situation_Link,Репутация. При нажатии на ссылку внутри конкретной ситуации,4,agrType,,
+Situation_Link,Репутация. При нажатии на ссылку внутри конкретной ситуации,4,linkType,,
+Situation_Link,Репутация. При нажатии на ссылку внутри конкретной ситуации,4,problemFlg,,
+Situation_Link,Репутация. При нажатии на ссылку внутри конкретной ситуации,4,sitType,,
+Situation_Shown,При разворачивании конкретной ситуации в агрегате,2,agrType,,
+Situation_Shown,При разворачивании конкретной ситуации в агрегате,2,sitType,,
+Documents_To_Sign_Shown,При каждом успешном показе экрана Документы на подпись,1,documents,,
+Drafts_Shown,При каждом успешном показе экрана Черновики,1,draftsActiveTab,,
+Events_Shown,"При тапе на раздел События, отправлять каждый раз при заходе на этот раздел",0,,,
+Payment_Delete,При успешном удалении платежа с экрана Черновиков,2,cnt,,
+Payment_Delete,При успешном удалении платежа с экрана Черновиков,2,provider,,
+Payment_Revoke,При успешном отзыве платежа,3,cnt,,
+Payment_Revoke,При успешном отзыве платежа,3,deletedFlg,,
+Payment_Revoke,При успешном отзыве платежа,3,provider,,
+Payments_Declined_Shown,При каждом успешном показе экрана Отклоненные,0,,,
+Payments_Search_Click,При тапе на поиск (в тулбаре или ленте платежей),1,fromScreen,,
+Payments_Submitted_Shown,При каждом успешном показе экрана Очередь оплаты.,0,,,
+Payments_To_Sign_Shown,При каждом успешном показе экрана На подпись,0,,,
+Create_Shown,При показе экрана Создать. Слать при каждом появлении на дисплее телефона,0,,,
+Enter_Pin_Shown,При показе экрана ввода PINa для входа,0,,,
+Login_Password_Shown,При показе экрана ввода логина и пароля,0,,,
+Application_Shown,показали форму заявки на открытие счета,0,,,
+Accounts_Button_Click,При тапе по кнопкам в любом типе счета счете,2,accountType,,
+Accounts_Button_Click,При тапе по кнопкам в любом типе счета счете,2,buttonType,,
+Accounts_Details_Item_Click,При тапе на кнопки в Деталях счета,3,accountType,,
+Accounts_Details_Item_Click,При тапе на кнопки в Деталях счета,3,buttonType,,
+Accounts_Details_Item_Click,При тапе на кнопки в Деталях счета,3,itemType,,
+Accounts_Shown,"При показе экрана счёта, а также при свайпе между счетами",3,accountActiveTab,,
+Accounts_Shown,"При показе экрана счёта, а также при свайпе между счетами",3,accountType,,
+Accounts_Shown,"При показе экрана счёта, а также при свайпе между счетами",3,redesigned,,
+Analytics_Shown,"показали аналитику по счету, при переключении сегмента или периода еще раз генерим.",3,account_id,id счета,
+Analytics_Shown,"показали аналитику по счету, при переключении сегмента или периода еще раз генерим.",3,period,"d7, d30, m3, custom",
+Analytics_Shown,"показали аналитику по счету, при переключении сегмента или периода еще раз генерим.",3,segment,"balance, details",
+Operations_Details_Shown,При показе экрана Детали операции,4,accountType,,
+Operations_Details_Shown,При показе экрана Детали операции,4,fromTab,,
+Operations_Details_Shown,При показе экрана Детали операции,4,operationCategory,,
+Operations_Details_Shown,При показе экрана Детали операции,4,operationType,,
+Operations_Search_Click,При тапе на поиск (в тулбаре или ленте операций),2,accountType,,
+Operations_Search_Click,При тапе на поиск (в тулбаре или ленте операций),2,clickFrom,,
+Operations_Search_Filter_Applied,При применении фильтра в поиске по ленте операций,3,accountType,,
+Operations_Search_Filter_Applied,При применении фильтра в поиске по ленте операций,3,operationsTypes,,
+Operations_Search_Filter_Applied,При применении фильтра в поиске по ленте операций,3,period,,
+Operations_Search_Filter_Click,При тапе на фильтр в поиске,1,accountType,,
+Requisites_Shown,"При успешном показе экрана Реквизиты. Слать в том числе, после закрытия шторки о способе шаринга реквизитов",5,account_id,id счета,
+Requisites_Shown,"При успешном показе экрана Реквизиты. Слать в том числе, после закрытия шторки о способе шаринга реквизитов",5,accountType,,
+Requisites_Shown,"При успешном показе экрана Реквизиты. Слать в том числе, после закрытия шторки о способе шаринга реквизитов",5,currencyCode,,
+Requisites_Shown,"При успешном показе экрана Реквизиты. Слать в том числе, после закрытия шторки о способе шаринга реквизитов",5,language,,
+Requisites_Shown,"При успешном показе экрана Реквизиты. Слать в том числе, после закрытия шторки о способе шаринга реквизитов",5,requisiteGroup,,
+Tariffs_Change,Нажали поменять тариф и подтвердили смской,1,oldTariff,,
+Tariffs_Option_Hint_Tap,Тап на хинт у тарифа,2,lookTariff,,
+Tariffs_Option_Hint_Tap,Тап на хинт у тарифа,2,option,,
+Tariffs_Option_Prepaid,Клиент подключил авансом опции,1,option,,
+Tariffs_Option_Switch,Нажали на действие с опцией и подтвердили смской,2,buttonType,,
+Tariffs_Option_Switch,Нажали на действие с опцией и подтвердили смской,2,option,,
+Tariffs_PDF_Shown,Тап на пдфку у тарифа,1,lookTariff,,
+Tariffs_Shown,"Клиент с настроек зашел в раздел тарифов, генерим каждый раз при обновлении экрана",1,tariffCode,,
+TA_Final_screen_Shown,При показе финального экрана (при успешной подаче заявки на Торговый эквайринг),0,,,
+TA_Product_Page_Shown,При показе продуктового экрана заявок на Торговый эквайринг,2,picture,,
+TA_Product_Page_Shown,При показе продуктового экрана заявок на Торговый эквайринг,2,title,,
+Chat_Shown,Зашли в чат,0,,,
+What_New_Shown,При открытии экрана Что нового,0,,,
+AboutCompany_Change_Open,,2,changeDatа,,
+AboutCompany_Change_Open,,2,otp,,
+AboutCompany_FinancialMonitoringDoc_Open,,0,,,
+AboutCompany_Shown,,0,,,
+AccChoose_Close,,0,,,
+AccChoose_ServiceType_Choosed,,1,serviceType,,
+AccChoose_Shown,,0,,,
+AccChoose_ToBack,,0,,,
+Accept_Paymentrequest_mb,,2,act,,
+Accept_Paymentrequest_mb,,2,date,,
+Access_Denied_Shown,,0,,,
+Accessibility,,2,size,,
+Accessibility,,2,status,,
+Accessibility_On,,1,enabled_features,,
+account.dashboard.actions.replenishButton.clicked,,1,flowType,,Возможно
+account.details.tariff.clicked,,0,,,Возможно
+account.rko.dashboard.actions.refillClick,,0,,,Возможно
+account.rko.dashboard.cards.addCardButtonClick,,0,,,Возможно
+account.rko.dashboard.cards.allCardButtonClick,,0,,,Возможно
+account.rko.dashboard.cards.oneCardButtonClick,,0,,,Возможно
+account.rko.dashboard.headerScrolled,,0,,,Возможно
+account.rko.dashboard.loaded,,4,accountType,,Возможно
+account.rko.dashboard.loaded,,4,currency,,Возможно
+account.rko.dashboard.loaded,,4,mainAccount,,Возможно
+account.rko.dashboard.loaded,,4,tariff,,Возможно
+account.rko.dashboard.overdraft.info.displayed,,1,state,,Возможно
+account.rko.dashboard.widgets.details.analyticsClick,,0,,,Возможно
+account.rko.dashboard.widgets.details.createReferenceClick,,0,,,Возможно
+account.rko.dashboard.widgets.details.integrationClick,,0,,,Возможно
+account.rko.dashboard.widgets.details.tariffClick,,0,,,Возможно
+account.rko.dashboard.widgets.excerpts.createExcerptClick,,0,,,Возможно
+account.rko.dashboard.widgets.operations.contentChanged,,1,state,,Возможно
+account.rko.dashboard.widgets.operations.item.clicked,,0,,,Возможно
+account.rko.dashboard.widgets.operations.openAll.clicked,,0,,,Возможно
+account.rko.dashboard.widgets.requisites.requisitesAllClick,,0,,,Возможно
+account.rko.dashboard.widgets.requisites.requisitesSendClick,,0,,,Возможно
+account.rko.operation.feed.contentChanged,,1,state,,Возможно
+Account_Details_Shown,,0,,,
+Accounts_Replenish_Cash_Shown,,0,,,
+Accounts_Replenish_FL_Sent,,0,,,
+Accounts_Replenish_FL_Shown,,0,,,
+Accounts_Replenish_List,,6,byCash,,
+Accounts_Replenish_List,,6,byRequisites,,
+Accounts_Replenish_List,,6,bySmeAccount,,
+Accounts_Replenish_List,,6,byTinkoffApp,,
+Accounts_Replenish_List,,6,byTinkoffCard,,
+Accounts_Replenish_List,,6,cnt,,
+accountScreen.offer.closed,,1,offerLocation,,Возможно
+accountScreen.offer.displayed,,1,offerLocation,,Возможно
+actions_clickWidget,,1,widgetName,,
+actions_openClickLabel,,0,,,
+actions_openSwipe,,0,,,
+actions_openSwipeLabel,,0,,,
+Add_document_click,,2,addType,,
+Add_document_click,,2,agrType,,
+Add_Favorite,,2,from,,
+Add_Favorite,,2,provider,,
+Aggregate_Explanation_Click,,2,agrType,,
+Aggregate_Explanation_Click,,2,problemFlg,,
+AllAccountantEvents_AccountantEvent_Clicked,,2,accountantEventStatusTitle,,
+AllAccountantEvents_AccountantEvent_Clicked,,2,accountantEventTitle,,
+AllAccountantEvents_Shown,,0,,,
+AllAccountantEvents_Year_Clicked,,0,,,
+AML_about,,1,type,,
+aml_csat_not_interested,,1,status,,
+aml_csat_open,,1,status,,
+AML_express_payment,,2,button,,
+AML_express_payment,,2,status,,
+aml_popup_redirect,,4,blockType,,
+aml_popup_redirect,,4,hasDate,,
+aml_popup_redirect,,4,profileStatus,,
+aml_popup_redirect,,4,status,,
+AML_Popup_Remind,,2,order,,
+AML_Popup_Remind,,2,source,,
+aml_popup_shown,,4,blockType,,
+aml_popup_shown,,4,hasDate,,
+aml_popup_shown,,4,profileStatus,,
+aml_popup_shown,,4,status,,
+AML_send,,0,,,
+Analytics_Tab_Switch,,1,tab,,
+Appearance_Theme_Choose,,1,theme,,
+Appearance_Toggle_Tap,,0,,,
+Arrest_Click_Call_MB,,1,type,,
+Arrest_Click_Requisites_MB,,1,type,,
+Arrest_Click_URL_MB,,1,type,,
+Arrest_Show_Detail_MB,,0,,,
+Arrest_Show_List_MB,,0,,,
+ASTariff_CalcTariff_Start,,0,,,
+ASTariff_Close,,0,,,
+ASTariff_EmployeesQuestion_Close,,0,,,
+ASTariff_EmployeesQuestion_Continue,,1,hasEmployee,,
+ASTariff_EmployeesQuestion_No,,0,,,
+ASTariff_EmployeesQuestion_Shown,,1,from,,
+ASTariff_EmployeesQuestion_ToBack,,0,,,
+ASTariff_EmployeesQuestion_Yes,,0,,,
+ASTariff_EnterEmployees_Close,,0,,,
+ASTariff_EnterEmployees_Continue,,1,employeeCount,,
+ASTariff_EnterEmployees_Shown,,1,from,,
+ASTariff_EnterEmployees_ToBack,,0,,,
+ASTariff_PriceScreen_Connect,,0,,,
+ASTariff_PriceScreen_Shown,,0,,,
+ASTariff_Shown,,3,from,,
+ASTariff_Shown,,3,privilegeClient,,
+ASTariff_Shown,,3,rkoTariff,,
+ASTariff_SuccessScreen_Continue,,0,,,
+ASTariff_SuccessScreen_Shown,,3,from,,
+ASTariff_SuccessScreen_Shown,,3,privilegeClient,,
+ASTariff_SuccessScreen_Shown,,3,rkoTariff,,
+ASTariff_TaxSys_Close,,0,,,
+ASTariff_TaxSys_Continue,,1,taxSystems,,
+ASTariff_TaxSys_SelectOne,,1,taxSystem,,
+ASTariff_TaxSys_Shown,,1,from,,
+ASTariff_TaxSys_UnselectOne,,1,taxSystem,,
+ASTariff_TaxSys_UnsupportedDialog_Notify_Clicked,,1,taxSystems,,
+ASTariff_TaxSys_UnsupportedDialog_Shown,,1,taxSystems,,
+ASTariff_UserAgreement_Clicked,,0,,,
+Auth_Priority_Account_Shown,,1,ssoid,,
+Bank_Call_Internet,,0,,,
+Bank_Call_Number,,1,number,,
+banner_Clicked,,4,location,,
+banner_Clicked,,4,name,,
+banner_Clicked,,4,offer_type,,
+banner_Clicked,,4,template,,
+banner_Closed,,3,location,,
+banner_Closed,,3,name,,
+banner_Closed,,3,template,,
+banner_Shown,,3,location,,
+banner_Shown,,3,name,,
+banner_Shown,,3,template,,
+BC_Account_Chosen,,1,Currency,,
+BC_AccountChoice_Shown,,2,Count,,
+BC_AccountChoice_Shown,,2,CurFlg,,
+BC_ActiveOldLoyalty_More,,0,,,
+BC_Card_Shown_Btns_Click,,1,Btn,,
+BC_CardDetails_Shown,,1,cardType,,
+BC_Issue_Conf_Done,,1,Count,,
+BC_Issue_Conf_Shown,,1,Count,,
+BC_More_Shown,,2,freePeriodsLeft,,
+BC_More_Shown,,2,status,,
+BC_MoreOldLoyalty_Click,,0,,,
+BC_Onboard_More,,0,,,
+BC_Onboard_More_Click,,0,,,
+BC_Onboard_Pin,,0,,,
+BC_Onboard_Pin_Click,,0,,,
+BC_Onboard_Ready,,0,,,
+BC_Onboard_Ready_Click,,0,,,
+BC_Onboard_Wallet,,0,,,
+BC_ReissueBlocked_Btn_Click,,1,VirtualFlg,,
+BC_ReissuePlastic_Popup_Shown,,1,Btn,,
+BC_ReissueVirtual_Error,,0,,,
+BC_ReissueVirtualAddToWallet_Btn_Click,,0,,,
+BC_ReissueVirtualBlocked_Popup_Shown,,1,Btn,,
+BC_ReissueVirtualNorm_Popup_Shown,,1,Btn,,
+BC_ReissueVirtualReady_Shown,,1,WalletFlg,,
+Bk_Card_Actions_Shown,,1,pinFlg,,
+Bk_Card_Shown,,8,pinFlg,,
+Bk_Card_Shown,,8,status,,
+C2CPayment.failureScreen.load.success,,0,,,Возможно
+C2CPayment.formScreen.close.success,,0,,,Возможно
+C2CPayment.formScreen.load.success,,0,,,Возможно
+C2CPayment.formScreen.send.error,,0,,,Возможно
+C2CPayment.formScreen.send.success,,0,,,Возможно
+C2CPayment.formScreen.sendToSign.error,,0,,,Возможно
+C2CPayment.formScreen.sendToSign.success,,0,,,Возможно
+C2CPayment.formScreen.submitted,,0,,,Возможно
+C2CPayment.noAccountsScreen.load.success,,0,,,Возможно
+C2CPayment.noAccounts‎Screen.load.success,,0,,,Возможно
+C2CPayment.noCardsScreen.cardIssueButton.pressed,,0,,,Возможно
+C2CPayment.noCardsScreen.load.success,,0,,,Возможно
+Calendar_Add,,1,eventName,,
+Card_Input_Failure,,1,failure_reason,,
+Card_Input_NFC_Shown,,1,settings,,
+Card_Input_No_Card_Button_Tap,,1,clickOption,,
+Card_Input_Not_Me,,1,clickOption,,
+Cashbox_AccountScreen_Shown,,0,,,
+Cashbox_Auto_Refill_Shown,,2,impossible_turn_on,,
+Cashbox_Auto_Refill_Shown,,2,is_signer,,
+Cashbox_Auto_Replenish_Settings,,3,count_accounts,,
+Cashbox_Auto_Replenish_Settings,,3,count_change,,
+Cashbox_Auto_Replenish_Settings,,3,percent,,
+Cashbox_Auto_Replenish_Switch,,1,autoreplenish,,
+Cashbox_Open_Sent,,2,accountsAll,,
+Cashbox_Open_Sent,,2,percent,,
+Cashbox_Open_Shown,,0,,,
+Cashbox_Pay_Click,,0,,,
+Cashbox_Replenish_Click,,0,,,
+Cashbox_Setting_Accounts,,1,add,,
+Cashbox_Setting_Percent,,1,percent,,
+Cashbox_Transfer_Click,,0,,,
+Change_Questionnaire_answers,,1,agrType,,
+Chat_Closed,,19,bot_files,,
+Chat_Closed,,19,bot_response_interrupted_time,,
+Chat_Closed,,19,bot_text,,
+Chat_Closed,,19,connection_type,,
+Chat_Closed,,19,p2p_files,,
+Chat_Closed,,19,p2p_stickers,,
+Chat_Closed,,19,p2p_text,,
+Chat_Closed,,19,personal_support_files,,
+Chat_Closed,,19,personal_support_text,,
+Chat_Closed,,19,support_bot_response_first_time,,
+Chat_Closed,,19,support_bot_response_interrupted_time,,
+Chat_Closed,,19,support_bot_response_time_25th_percentile,,
+Chat_Closed,,19,support_bot_response_time_50th_percentile,,
+Chat_Closed,,19,support_bot_response_time_75th_percentile,,
+Chat_Closed,,19,support_bot_response_time_95th_percentile,,
+Chat_Closed,,19,support_files,,
+Chat_Closed,,19,support_new_dialog,,
+Chat_Closed,,19,support_text,,
+Chat_Closed,,19,time,,
+Chat_Conversation_Closed,,0,,,
+Chat_Hint_Tap,,3,pos,,
+Chat_Hint_Tap,,3,text,,
+Chat_Hint_Tap,,3,type,,
+Chat_Hints_Shown,,0,,,
+Chat_Opened,,4,from,,
+Chat_Opened,,4,login,,
+Chat_Opened,,4,type,,
+Chat_Opened,,4,unread,,
+Chat_Rated,,2,rate,,
+Chat_Rated,,2,text,,
+ChatHelp_QuestionGroups_Shown,,1,titleType,,
+ChatHelp_QuestionPage_Shown,,1,titleType,,
+ChatHelp_QuestionPage_SuccessButton,,1,titleType,,
+ChatHelp_Shown,,0,,,
+ChatSearch_Result,,3,q,,
+ChatSearch_Result,,3,screen,,
+ChatSearch_Result,,3,type,,
+ClosingDocs_Change_Btn_Click,,1,closingDocsType,,
+ClosingDocs_Create_Btn_Click,,2,closingDocsType,,
+ClosingDocs_Create_Btn_Click,,2,from,,
+ClosingDocs_Create_Goods_And_Services_Shown,,1,closingDocsType,,
+ClosingDocs_Create_Seller_Buyer_Data_Shown,,1,closingDocsType,,
+ClosingDocs_Created,,1,closingDocsType,,
+ClosingDocs_Delete,,0,,,
+ClosingDocs_Details_Shown,,2,closingDocsStatus,,
+ClosingDocs_Details_Shown,,2,closingDocsType,,
+ClosingDocs_Good_And_Service_Added,,1,closingDocsType,,
+ClosingDocs_Good_And_Service_Edit_Error,,2,closingDocsType,,
+ClosingDocs_Good_And_Service_Edit_Error,,2,notValidate,,
+ClosingDocs_Good_And_Service_Edit_Shown,,2,closingDocsType,,
+ClosingDocs_Good_And_Service_Edit_Shown,,2,editAim,,
+ClosingDocs_Goods_And_Services_Shown,,1,closingDocsType,,
+ClosingDocs_Info_Shown,,1,closingDocsType,,
+ClosingDocs_Shown,,1,closingDocsActiveTab,,
+CompanyUser_ButtonDelete,,1,chooseDelete,,
+CompanyUser_PasswordSent,,2,chooseSent,,
+CompanyUser_PasswordSent,,2,roles,,
+CompanyUserAccess_OpenChat,,1,createChat,,
+CompanyUserAccess_Shown,,0,,,
+CompanyUsers_Add,,0,,,
+CompanyUsers_Delete,,1,chooseDelete,,
+CompanyUsers_Shown,,0,,,
+CompanyUserTicket_Shown,,0,,,
+Copying_Buffer_Closed,,1,type,,
+Copying_Buffer_Parsing,,1,fields,,
+Copying_Buffer_Shown,,0,,,
+Counterparty_Details_Account_Delete,,1,source,,
+Counterparty_Details_Account_Edit,,0,,,
+Counterparty_Details_Account_Mark_Main,,1,made_main,,
+Counterparty_Details_Account_Save,,0,,,
+Counterparty_Details_Add_Account_Click,,1,source,,
+Counterparty_Details_Add_Contact_Click,,1,source,,
+Counterparty_Details_AllAccounts_Account_Click,,0,,,
+Counterparty_Details_AllAccounts_Shown,,0,,,
+Counterparty_Details_AllContacts_Contact_Click,,0,,,
+Counterparty_Details_AllContacts_Shown,,0,,,
+Counterparty_Details_Comment_Edit,,0,,,
+Counterparty_Details_Comment_Save,,0,,,
+Counterparty_Details_Contact_Delete,,1,source,,
+Counterparty_Details_Contact_Edit,,0,,,
+Counterparty_Details_Contact_Save,,0,,,
+Counterparty_Details_Error,,0,,,
+create.consignmentBill.buyerStep.screen.shown,,0,,,Возможно
+create.consignmentBill.cropLogo.submitButton.tapped,,0,,,Возможно
+create.consignmentBill.firstStep.screen.shown,,0,,,Возможно
+create.consignmentBill.itemsStep.screen.shown,,0,,,Возможно
+create.consignmentBill.logoList.plusButton.tapped,,0,,,Возможно
+create.consignmentBill.pdfStep.screen.shown,,0,,,Возможно
+create.consignmentBill.previewStep.addLogoButton.tapped,,0,,,Возможно
+create.consignmentBill.previewStep.changeLogoButton.tapped,,0,,,Возможно
+create.consignmentBill.previewStep.deleteLogoButton.tapped,,0,,,Возможно
+create.consignmentBill.previewStep.documentIssuing.success,,5,goodsQuantity,,Возможно
+create.consignmentBill.previewStep.documentIssuing.success,,5,hasLogo,,Возможно
+create.consignmentBill.previewStep.documentIssuing.success,,5,signersAmount,,Возможно
+create.consignmentBill.previewStep.documentIssuing.success,,5,signsAmount,,Возможно
+create.consignmentBill.previewStep.documentIssuing.success,,5,stampsAmount,,Возможно
+create.consignmentBill.previewStep.screen.shown,,0,,,Возможно
+create.consignmentBill.previewStep.submitButton.tapped,,0,,,Возможно
+create.consignmentBill.sellerStep.screen.shown,,0,,,Возможно
+create.consignmentBill.shipperConsigneeStep.screen.shown,,0,,,Возможно
+create.consignmentBill.signerDetail.plusSignButton.tapped,,0,,,Возможно
+create.consignmentBill.signerDetail.plusStampButton.tapped,,0,,,Возможно
+create.consignmentBill.signerDetail.saveButton.tapped,,0,,,Возможно
+create.consignmentBill.signerDetail.signAdded,,1,source,,Возможно
+create.consignmentBill.signerList.createButton.tapped,,0,,,Возможно
+create.consignmentBill.signerOptions.toggleSign.tapped,,1,option,,Возможно
+create.consignmentBill.signerOptions.toggleStamp.tapped,,1,option,,Возможно
+create.detailedInvoice.buyerStep.screen.shown,,0,,,Возможно
+create.detailedInvoice.firstStep.screen.shown,,0,,,Возможно
+create.detailedInvoice.itemsStep.screen.shown,,0,,,Возможно
+create.detailedInvoice.pdfStep.screen.shown,,0,,,Возможно
+create.detailedInvoice.sellerStep.screen.shown,,0,,,Возможно
+create.detailedInvoice.shipmentDocumentsStep.addButton.tapped,,0,,,Возможно
+create.detailedInvoice.shipmentDocumentsStep.addButton.validationError,,0,,,Возможно
+create.detailedInvoice.shipmentDocumentsStep.documentIssuing.start,,0,,,Возможно
+create.detailedInvoice.shipmentDocumentsStep.documentIssuing.validationError,,1,errorType,,Возможно
+create.detailedInvoice.shipmentDocumentsStep.screen.shown,,0,,,Возможно
+create.detailedInvoice.shipmentDocumentsStep.shipmentDocument.addButton.tapped,,0,,,Возможно
+create.detailedInvoice.shipmentDocumentsStep.shipmentDocument.screen.shown,,1,mode,,Возможно
+create.detailedInvoice.shipmentDocumentsStep.submitButton.tapped,,0,,,Возможно
+create.detailedInvoice.shipperConsigneeStep.screen.shown,,0,,,Возможно
+create.invoice.cropLogo.submitButton.tapped,,0,,,Возможно
+create.invoice.logoList.plusButton.tapped,,0,,,Возможно
+create.invoice.previewStep.addLogoButton.tapped,,0,,,Возможно
+create.invoice.previewStep.changeLogoButton.tapped,,0,,,Возможно
+create.invoice.previewStep.deleteLogoButton.tapped,,0,,,Возможно
+create.invoice.previewStep.documentIssuing.success,,8,documentHasLogo,,Возможно
+create.invoice.previewStep.documentIssuing.success,,8,goodsQuantity,,Возможно
+create.invoice.previewStep.documentIssuing.success,,8,hasLogo,,Возможно
+create.invoice.previewStep.documentIssuing.success,,8,payer,,Возможно
+create.invoice.previewStep.documentIssuing.success,,8,payerType,,Возможно
+create.invoice.previewStep.documentIssuing.success,,8,signersAmount,,Возможно
+create.invoice.previewStep.documentIssuing.success,,8,signsAmount,,Возможно
+create.invoice.previewStep.documentIssuing.success,,8,stampsAmount,,Возможно
+create.invoice.previewStep.screen.shown,,0,,,Возможно
+create.invoice.previewStep.submitButton.tapped,,0,,,Возможно
+create.invoice.signerDetail.plusSignButton.tapped,,0,,,Возможно
+create.invoice.signerDetail.plusStampButton.tapped,,0,,,Возможно
+create.invoice.signerDetail.saveButton.tapped,,0,,,Возможно
+create.invoice.signerDetail.signAdded,,1,source,,Возможно
+create.invoice.signerList.createButton.tapped,,0,,,Возможно
+create.invoice.signerOptions.toggleSign.tapped,,1,option,,Возможно
+create.invoice.signerOptions.toggleStamp.tapped,,1,option,,Возможно
+create.providedServicesAct.buyerStep.screen.shown,,0,,,Возможно
+create.providedServicesAct.cropLogo.submitButton.tapped,,0,,,Возможно
+create.providedServicesAct.firstStep.screen.shown,,0,,,Возможно
+create.providedServicesAct.itemsStep.screen.shown,,0,,,Возможно
+create.providedServicesAct.logoList.plusButton.tapped,,0,,,Возможно
+create.providedServicesAct.pdfStep.screen.shown,,0,,,Возможно
+create.providedServicesAct.previewStep.addLogoButton.tapped,,0,,,Возможно
+create.providedServicesAct.previewStep.changeLogoButton.tapped,,0,,,Возможно
+create.providedServicesAct.previewStep.deleteLogoButton.tapped,,0,,,Возможно
+create.providedServicesAct.previewStep.documentIssuing.success,,5,goodsQuantity,,Возможно
+create.providedServicesAct.previewStep.documentIssuing.success,,5,hasLogo,,Возможно
+create.providedServicesAct.previewStep.documentIssuing.success,,5,signersAmount,,Возможно
+create.providedServicesAct.previewStep.documentIssuing.success,,5,signsAmount,,Возможно
+create.providedServicesAct.previewStep.documentIssuing.success,,5,stampsAmount,,Возможно
+create.providedServicesAct.previewStep.screen.shown,,0,,,Возможно
+create.providedServicesAct.previewStep.submitButton.tapped,,0,,,Возможно
+create.providedServicesAct.sellerStep.screen.shown,,0,,,Возможно
+create.providedServicesAct.signerDetail.plusSignButton.tapped,,0,,,Возможно
+create.providedServicesAct.signerDetail.plusStampButton.tapped,,0,,,Возможно
+create.providedServicesAct.signerDetail.saveButton.tapped,,0,,,Возможно
+create.providedServicesAct.signerDetail.signAdded,,1,source,,Возможно
+create.providedServicesAct.signerList.createButton.tapped,,0,,,Возможно
+create.providedServicesAct.signerOptions.toggleSign.tapped,,1,option,,Возможно
+create.providedServicesAct.signerOptions.toggleStamp.tapped,,1,option,,Возможно
+create.signsStampsOnboarding.screen.shown,,0,,,Возможно
+Currency_Contract_Check_Click,,1,Action,,
+Currency_Contract_Close_Shown,,0,,,
+Currency_Contract_Completion_Date_Shown,,0,,,
+Currency_Contract_Conclusion_Date_Shown,,0,,,
+Currency_Contract_Counterparty_Country,,1,ContractCountry,,
+Currency_Contract_Counterparty_Shown,,0,,,
+Currency_Contract_Currency_Next,,1,ContractCurrency,,
+Currency_Contract_Delete,,1,ContractStatus,,
+Currency_Contract_Details_Change_Btn_Click,,2,ContractStatus,,
+Currency_Contract_Details_Change_Btn_Click,,2,RegistrationType,,
+Currency_Contract_Details_Delete_Btn_Click,,2,ContractStatus,,
+Currency_Contract_Details_Delete_Btn_Click,,2,RegistrationType,,
+Currency_Contract_Details_Shown,,4,ContractStatus,,
+Currency_Contract_Details_Shown,,4,IsExportWithoutDocs,,
+Currency_Contract_Details_Shown,,4,RegistrationType,,
+Currency_Contract_Details_Shown,,4,RemoveBtn,,
+Currency_Contract_Docs_Next,,0,,,
+Currency_Contract_Docs_Onboard_Shown,,0,,,
+Currency_Contract_Edit_Btn_Click,,3,ContractStatus,,
+Currency_Contract_Edit_Btn_Click,,3,EditAction,,
+Currency_Contract_Edit_Btn_Click,,3,RegistrationType,,
+Currency_Contract_Edit_Click,,1,ContractStatus,,
+Currency_Contract_Edit_Shown,,2,ContractStatus,,
+Currency_Contract_Edit_Shown,,2,RegistrationType,,
+Currency_Contract_Final_Onboard_Shown,,0,,,
+Currency_Contract_Load_Documents_Btn_Click,,1,upload_type,,
+Currency_Contract_Load_Documents_Shown,,0,,,
+Currency_Contract_Need_UK_Shown,,0,,,
+Currency_Contract_Number_Availability_Next,,1,NumberAvailability,,
+Currency_Contract_Number_Edit_Click,,1,NumberAvailability,,
+Currency_Contract_Planned_Sum,,1,ContractSum,,
+Currency_Contract_Registration,,4,ContractCurrency,,
+Currency_Contract_Registration,,4,ContractStatus,,
+Currency_Contract_Registration,,4,ContractType,,
+Currency_Contract_Registration,,4,IsTransfer,,
+Currency_Contract_Save_Draft_Click,,1,CloseAction,,
+Currency_Contract_Show_VBK,,0,,,
+Currency_Contract_Sum_Availability,,1,SumAvailability,,
+Currency_Contract_Sum_Edit_Click,,1,ContractSum,,
+Currency_Contract_Sum_Enter_Next,,1,ContractSum,,
+Currency_Contract_Type_Next,,1,ContractType,,
+Currency_Create_Contract_Btn_Click,,1,type,,
+Currency_Create_Contract_Shown,,0,,,
+Currency_Exchange_Create,,3,RateOrder,,
+Currency_Exchange_Create,,3,TheSameCurrencies,,
+Currency_Exchange_Create,,3,ValidationError,,
+Currency_New_Contract_Additional_Info_Shown,,0,,,
+Currency_New_Contract_Common_Data_Shown,,0,,,
+Currency_New_Contract_Small,,3,ContractCurrency,,
+Currency_New_Contract_Small,,3,ContractStatus,,
+Currency_New_Contract_Small,,3,ContractType,,
+Currency_Other_Bank_Additional_Info_Shown,,0,,,
+Currency_Other_Bank_Common_Data_Shown,,0,,,
+Currency_Other_Bank_Contract_Number_Shown,,0,,,
+Currency_Other_Bank_Onboard_Shown,,0,,,
+Currency_Other_Bank_Previous_Bank_Number_Shown,,0,,,
+Currency_Other_Bank_Reason_Next,,1,TransferReason,,
+Currency_Other_Bank_СС_Deregistration_Date_Shown,,0,,,
+Currency_Other_Bank_СС_Registration_Date_Shown,,0,,,
+Currency_Section_Open,,0,,,
+Currency_Tab_Switch,,1,tab,,
+customStory.loadError,,0,,,Возможно
+customStory.showStory,,0,,,Возможно
+Delete_Favorite,,0,,,
+Delivery_Alert_Shown,,1,deliveryType,,
+Delivery_Confirmation,,2,deliveryType,,
+Delivery_Confirmation,,2,type,,
+Delivery_Creation,,1,step,,
+Delivery_Shown,,1,type,,
+Deposit_Chart_Shown,,0,,,
+Deposit_Close_Sent,,0,,,
+Deposit_New_Open_Sent,,2,applicationId,,
+Deposit_New_Open_Sent,,2,openButton,,
+Deposit_Open_Date_Shown,,0,,,
+Deposit_Open_Fast_Done,,1,opened,,
+Deposit_Open_Profit_Shown,,0,,,
+Deposit_Open_Replenish_Switch,,1,replenish,,
+Deposit_Open_Term_Button,,1,term,,
+Deposit_Open_Wait_Exit,,0,,,
+Deposit_Open_Withdraw_Switch,,1,withdraw,,
+Deposit_Prolongation_Switch,,1,type,,
+Deposit_Refill_Conditions_Shown,,0,,,
+Deposit_Withdraw_Sent,,1,type,,
+details.closed,,1,project,,Возможно
+details.opened,,2,project,,Возможно
+details.opened,,2,type,,Возможно
+details.refund.clicked,,0,,,Возможно
+Dislike_Aggregate_Click,,2,agrType,,
+Dislike_Aggregate_Click,,2,problemFlg,,
+Eacq_Chat,,1,from,,
+Eacq_Product_Invoice_Submit,,0,,,
+Eacq_Product_Shown,,1,from,,
+Eacq_Product_Submit,,1,from,,
+Eacq_Product_Submit_Done,,1,from,,
+Edit_Favorite_Name,,0,,,
+Emloyee_Create_Steps,,2,creationType,,
+Emloyee_Create_Steps,,2,stepNumber,,
+FAQ_Tap,,2,position,,
+FAQ_Tap,,2,text,,
+favorites.block.createPayment.clicked,,1,providerCode,,Возможно
+favorites.block.createPayment.error,,1,providerCode,,Возможно
+favorites.block.createPayment.success,,1,providerCode,,Возможно
+favorites.block.favouriteCounterPartyTapped,,0,,,Возможно
+favorites.block.load.error,,0,,,Возможно
+favorites.block.load.success,,0,,,Возможно
+favorites.block.openAllTapped,,0,,,Возможно
+favorites.block.paymentTapped,,0,,,Возможно
+favorites.block.selfPaymentTapped,,0,,,Возможно
+favorites.screen.createPayment.clicked,,1,providerCode,,Возможно
+favorites.screen.createPayment.error,,1,providerCode,,Возможно
+favorites.screen.createPayment.success,,1,providerCode,,Возможно
+favorites.screen.editName.clicked,,1,providerCode,,Возможно
+favorites.screen.editName.error,,1,providerCode,,Возможно
+favorites.screen.editName.success,,1,providerCode,,Возможно
+favorites.screen.remove.clicked,,1,providerCode,,Возможно
+favorites.screen.remove.error,,1,providerCode,,Возможно
+favorites.screen.remove.success,,1,providerCode,,Возможно
+favorites.screen.selfPaymentTapped,,0,,,Возможно
+Features_Choose_Done,,3,features,,
+Features_Choose_Done,,3,text,,
+Features_Choose_Done,,3,type,,
+Features_Choose_Shown,,1,type,,
+Fines_Fine_Mark_Click,,0,,,
+Fines_Fine_Pay_Click,,0,,,
+Fines_Fine_Shown,,0,,,
+Fines_Fine_Unmark_Click,,0,,,
+Fines_List_Pay_Click,,0,,,
+Fines_List_Shown,,0,,,
+Fines_Open_Shown,,0,,,
+Fines_Pay,,1,Result,,
+Fines_Sub_List_Shown,,0,,,
+Fines_Success_Click,,0,,,
+Fines_Success_More_Click,,0,,,
+FT_Features_Company,,17,companyId,,
+FT_Features_Company,,17,FTfeatures,,
+FT_Features_Company,,17,FTfeatures_1,,
+FT_Features_Company,,17,FTfeatures_10,,
+FT_Features_Company,,17,FTfeatures_11,,
+FT_Features_Company,,17,FTfeatures_12,,
+FT_Features_Company,,17,FTfeatures_13,,
+FT_Features_Company,,17,FTfeatures_14,,
+FT_Features_Company,,17,FTfeatures_15,,
+FT_Features_Company,,17,FTfeatures_2,,
+FT_Features_Company,,17,FTfeatures_3,,
+FT_Features_Company,,17,FTfeatures_4,,
+FT_Features_Company,,17,FTfeatures_5,,
+FT_Features_Company,,17,FTfeatures_6,,
+FT_Features_Company,,17,FTfeatures_7,,
+FT_Features_Company,,17,FTfeatures_8,,
+FT_Features_Company,,17,FTfeatures_9,,
+HowToGetPassword_Tap_Link,,0,,,
+Incoming_Currency_Amount_Exceeded_Shown,,0,,,
+Incoming_Currency_Confirmation_Method_Click,,1,ActionType,,
+Incoming_Currency_Contract_Expired_Click,,1,Action,,
+Incoming_Currency_Contracts_Click,,2,ContractType,,
+Incoming_Currency_Contracts_Click,,2,СontractType,,
+Incoming_Currency_Contracts_Search,,1,ActionType,,
+Incoming_Currency_Contracts_Shown,,0,,,
+Incoming_Currency_Create_Contract_Btn_Click,,1,Type,,
+Incoming_Currency_CVO_Click,,1,Action,,
+Incoming_Currency_Documents_Shown,,1,NeedContract,,
+Incoming_Currency_Final_Onboard_Help_Click,,0,,,
+Incoming_Currency_Final_Onboard_Shown,,0,,,
+Incoming_Currency_Onboard_80_20_Click,,1,action,,
+Incoming_Currency_Onboard_80_20_Shown,,0,,,
+input.amount.error,,2,amount,,Возможно
+input.amount.error,,2,project,,Возможно
+input.amount.focused,,1,project,,Возможно
+input.closed,,1,project,,Возможно
+input.create.clicked,,1,project,,Возможно
+input.displayed,,1,project,,Возможно
+input.error,,1,project,,Возможно
+input.error.button.clicked,,1,project,,Возможно
+input.opened,,1,project,,Возможно
+input.shop.clicked,,1,project,,Возможно
+InputStory_Action,,3,action,,
+InputStory_Action,,3,name,,
+InputStory_Action,,3,storyId,,
+inquiries.filter.clicked,,0,,,Возможно
+inquiries.inquiry.clicked,,0,,,Возможно
+inquiries.inquiry.pdf.clicked,,0,,,Возможно
+inquiries.new.clicked,,0,,,Возможно
+inquiries.started,,0,,,Возможно
+Invite_Friend_My_Invitations_Link,,0,,,
+Invite_Friend_My_Invitations_ShortLink,,0,,,
+Invite_Friend_My_Invitations_Shown,,0,,,
+Invite_Friend_Offer_Shown,,1,step,,
+Invite_friends_contact,,0,,,
+Invite_friends_referral,,0,,,
+Invoice_Card_Acquiring_Shown,,0,,,
+Invoice_Card_Create_Btn_Click,,0,,,
+Invoice_Card_Create_Data_Shown,,0,,,
+Invoice_Card_Create_Goods_And_Services_Shown,,0,,,
+Invoice_Card_Done_Shown,,0,,,
+Invoice_Card_Good_And_Service_Edit_Shown,,1,editAim,,
+Invoice_Card_Goods_And_Services_Shown,,0,,,
+Invoice_Card_Send_Btn_Click,,0,,,
+Invoice_Change_Btn_Click,,0,,,
+Invoice_Create_Account_Data_Shown,,0,,,
+Invoice_Create_Btn_Click,,1,from,,
+Invoice_Create_Goods_And_Services_Shown,,0,,,
+Invoice_Create_Sheet_Shown,,0,,,
+Invoice_Create_Shown,,1,from,,
+Invoice_Drafts_Shown,,0,,,
+Invoice_Good_And_Service_Added,,0,,,
+Invoice_Good_And_Service_Edit_Error,,1,notValidate,,
+Invoice_Good_And_Service_Edit_Shown,,1,editAim,,
+Invoice_Goods_And_Services_Shown,,0,,,
+Invoice_Info_Shown,,0,,,
+Invoice_Repeat_Btn_Click,,0,,,
+Invoices_All_Shown,,3,fines,,
+Invoices_All_Shown,,3,incomingInvoices,,
+Invoices_All_Shown,,3,outgoingInvoices,,
+Kontur_Elba_New_Shown,,0,,,
+Like_Aggregate_Click,,2,agrType,,
+Like_Aggregate_Click,,2,problemFlg,,
+Limits_By_Company_Shown,,0,,,
+Limits_By_Exact_User_Change_Shown,,1,limitsType,,
+Limits_By_Exact_User_Shown,,0,,,
+Limits_By_Users_Shown,,0,,,
+list.actions.addToFavorites.clicked,,2,paymentStatus,,Возможно
+list.actions.addToFavorites.clicked,,2,providerCode,,Возможно
+list.actions.addToFavorites.error,,2,paymentStatus,,Возможно
+list.actions.addToFavorites.error,,2,providerCode,,Возможно
+list.actions.addToFavorites.success,,2,paymentStatus,,Возможно
+list.actions.addToFavorites.success,,2,providerCode,,Возможно
+list.actions.cancel.onConfirmation.multiple.clicked,,0,,,Возможно
+list.actions.cancel.onConfirmation.multiple.error,,1,paymentsErrorCount,,Возможно
+list.actions.cancel.onConfirmation.multiple.success,,2,paymentsErrorCount,,Возможно
+list.actions.cancel.onConfirmation.multiple.success,,2,paymentsSuccessCount,,Возможно
+list.actions.cancel.onConfirmation.single.clicked,,1,providerCode,,Возможно
+list.actions.cancel.onConfirmation.single.error,,1,providerCode,,Возможно
+list.actions.cancel.onConfirmation.single.success,,1,providerCode,,Возможно
+list.actions.cancel.queuePayment.multiple.clicked,,0,,,Возможно
+list.actions.cancel.queuePayment.multiple.error,,1,paymentsErrorCount,,Возможно
+list.actions.cancel.queuePayment.multiple.success,,2,paymentsErrorCount,,Возможно
+list.actions.cancel.queuePayment.multiple.success,,2,paymentsSuccessCount,,Возможно
+list.actions.cancel.queuePayment.single.clicked,,1,providerCode,,Возможно
+list.actions.cancel.queuePayment.single.error,,1,providerCode,,Возможно
+list.actions.cancel.queuePayment.single.success,,1,providerCode,,Возможно
+list.actions.delete.multiple.clicked,,0,,,Возможно
+list.actions.delete.multiple.error,,1,paymentsErrorCount,,Возможно
+list.actions.delete.multiple.success,,2,paymentsErrorCount,,Возможно
+list.actions.delete.multiple.success,,2,paymentsSuccessCount,,Возможно
+list.actions.delete.single.clicked,,2,paymentStatus,,Возможно
+list.actions.delete.single.clicked,,2,providerCode,,Возможно
+list.actions.delete.single.error,,2,paymentStatus,,Возможно
+list.actions.delete.single.error,,2,providerCode,,Возможно
+list.actions.delete.single.success,,2,paymentStatus,,Возможно
+list.actions.delete.single.success,,2,providerCode,,Возможно
+list.actions.openDraft.clicked,,1,providerCode,,Возможно
+list.actions.repeat.clicked,,2,paymentStatus,,Возможно
+list.actions.repeat.clicked,,2,providerCode,,Возможно
+list.actions.repeat.error,,2,paymentStatus,,Возможно
+list.actions.repeat.error,,2,providerCode,,Возможно
+list.actions.repeat.success,,2,paymentStatus,,Возможно
+list.actions.repeat.success,,2,providerCode,,Возможно
+list.actions.send.multiple.clicked,,0,,,Возможно
+list.actions.send.multiple.error,,1,paymentsErrorCount,,Возможно
+list.actions.send.multiple.success,,2,paymentsErrorCount,,Возможно
+list.actions.send.multiple.success,,2,paymentsSuccessCount,,Возможно
+list.actions.send.single.clicked,,2,paymentStatus,,Возможно
+list.actions.send.single.clicked,,2,providerCode,,Возможно
+list.actions.send.single.error,,2,paymentStatus,,Возможно
+list.actions.send.single.error,,2,providerCode,,Возможно
+list.actions.send.single.success,,2,paymentStatus,,Возможно
+list.actions.send.single.success,,2,providerCode,,Возможно
+list.actions.sendToSign.multiple.clicked,,0,,,Возможно
+list.actions.sendToSign.multiple.error,,1,paymentsErrorCount,,Возможно
+list.actions.sendToSign.multiple.success,,2,paymentsErrorCount,,Возможно
+list.actions.sendToSign.multiple.success,,2,paymentsSuccessCount,,Возможно
+list.actions.sendToSign.single.clicked,,1,providerCode,,Возможно
+list.actions.sendToSign.single.error,,1,providerCode,,Возможно
+list.actions.sendToSign.single.success,,1,providerCode,,Возможно
+list.actions.sign.clicked,,1,providerCode,,Возможно
+list.actions.sign.error,,1,providerCode,,Возможно
+Loans_Activation_Account_Choice,,2,preApproved,,
+Loans_Activation_Account_Choice,,2,salesMethod,,
+Loans_Activation_Conditions_Shown,,2,preApproved,,
+Loans_Activation_Conditions_Shown,,2,salesMethod,,
+Loans_Activation_Form,,2,preApproved,,
+Loans_Activation_Form,,2,salesMethod,,
+Loans_Activation_Refuse,,2,preApproved,,
+Loans_Activation_Refuse,,2,salesMethod,,
+Loans_Activation_Refuse_Button,,2,preApproved,,
+Loans_Activation_Refuse_Button,,2,salesMethod,,
+Loans_Activation_Success,,2,preApproved,,
+Loans_Activation_Success,,2,salesMethod,,
+Loans_FinStatement_ClientReject,,6,applicationId,,
+Loans_FinStatement_ClientReject,,6,bankNames,,
+Loans_FinStatement_ClientReject,,6,bankStatuses,,
+Loans_FinStatement_ClientReject,,6,bankTypes,,
+Loans_FinStatement_ClientReject,,6,integrationId,,
+Loans_FinStatement_ClientReject,,6,salesMethod,,
+Loans_FinStatement_Continue,,6,applicationId,,
+Loans_FinStatement_Continue,,6,bankNames,,
+Loans_FinStatement_Continue,,6,bankStatuses,,
+Loans_FinStatement_Continue,,6,bankTypes,,
+Loans_FinStatement_Continue,,6,integrationId,,
+Loans_FinStatement_Continue,,6,salesMethod,,
+Loans_FinStatement_Done,,6,applicationId,,
+Loans_FinStatement_Done,,6,bankNames,,
+Loans_FinStatement_Done,,6,bankStatuses,,
+Loans_FinStatement_Done,,6,bankTypes,,
+Loans_FinStatement_Done,,6,integrationId,,
+Loans_FinStatement_Done,,6,salesMethod,,
+Loans_KLZ_PledgeVerification_Page,,0,,,
+Loans_KLZ_SecurityPledge_Page,,0,,,
+Loans_KLZ_TermsNegotiation_Page,,0,,,
+Loans_Payment_Overdraft_Warning,,0,,,
+Loans_Preapproved_Loan_Button,,1,salesMethod,,
+Loans_Product_Page,,3,abtest,,
+Loans_Product_Page,,3,from,,
+Loans_Product_Page,,3,salesMethod,,
+Loans_Product_Page_Onboarding,,0,,,
+Loans_Questionnaire_Amount,,1,salesMethod,,
+Loans_Questionnaire_Company_Profit,,1,salesMethod,,
+Loans_Questionnaire_Company_Revenue,,1,salesMethod,,
+Loans_Questionnaire_Finish,,1,salesMethod,,
+Loans_Questionnaire_Income,,1,salesMethod,,
+Loans_Questionnaire_Procurement_Info,,0,,,
+Loans_Questionnaire_Procurement_Number,,0,,,
+Loans_Questionnaire_Purpose,,1,salesMethod,,
+Loans_Questionnaire_Surety,,1,salesMethod,,
+Loans_Repayment_Done,,2,salesMethod,,
+Loans_Repayment_Done,,2,type,,
+Loans_Repayment_Parameters_Shown,,3,parameter,,
+Loans_Repayment_Parameters_Shown,,3,salesMethod,,
+Loans_Repayment_Parameters_Shown,,3,type,,
+Loans_Repayment_Shown,,2,salesMethod,,
+Loans_Repayment_Shown,,2,type,,
+Loans_Screen_Application_Button,,2,applicationId,,
+Loans_Screen_Application_Button,,2,salesMethod,,
+Loans_Screen_Application_Page,,2,applicationId,,
+Loans_Screen_Application_Page,,2,salesMethod,,
+Loans_Screen_Creation,,1,salesMethod,,
+Loans_Screen_FinStatement,,6,applicationId,,
+Loans_Screen_FinStatement,,6,bankNames,,
+Loans_Screen_FinStatement,,6,bankStatuses,,
+Loans_Screen_FinStatement,,6,bankTypes,,
+Loans_Screen_FinStatement,,6,integrationId,,
+Loans_Screen_FinStatement,,6,salesMethod,,
+Loans_Screen_FinStatement_NoInfo,,6,applicationId,,
+Loans_Screen_FinStatement_NoInfo,,6,bankNames,,
+Loans_Screen_FinStatement_NoInfo,,6,bankStatuses,,
+Loans_Screen_FinStatement_NoInfo,,6,bankTypes,,
+Loans_Screen_FinStatement_NoInfo,,6,integrationId,,
+Loans_Screen_FinStatement_NoInfo,,6,salesMethod,,
+Loans_Screen_Rejection,,1,salesMethod,,
+Loans_Screen_Scoring_Long,,1,salesMethod,,
+Loans_Screen_Scoring_Quick,,1,salesMethod,,
+Loans_Screen_Security_Signers,,1,salesMethod,,
+Loans_Screen_Security_SignNow,,4,salesMethod,,
+Loans_Screen_Security_SignNow,,4,screen,,
+Loans_Screen_Security_SignNow,,4,subscreenNames,,
+Loans_Screen_Security_SignNow,,4,subscreenStatuses,,
+Loans_Screen_ToWeb,,4,salesMethod,,
+Loans_Screen_ToWeb,,4,screen,,
+Loans_Screen_ToWeb,,4,subscreenNames,,
+Loans_Screen_ToWeb,,4,subscreenStatuses,,
+Loans_Screen_Verification,,1,salesMethod,,
+Loans_Start_Repayment,,2,salesMethod,,
+Loans_Start_Repayment,,2,type,,
+Loans_Surety_Agreement_Shown,,1,salesMethod,,
+Loans_Surety_Agreement_Signed,,1,salesMethod,,
+Loans_TermsNegotiation_Success_Page,,2,salesMethod,,
+Loans_TermsNegotiation_Success_Page,,2,template,,
+Loans_WaitingRko_Page,,2,integrationId,,
+Loans_WaitingRko_Page,,2,salesMethod,,
+logInputStoryAction,,3,action,,
+logInputStoryAction,,3,name,,
+logInputStoryAction,,3,storyId,,
+logStorySwipe,,3,direction,,
+logStorySwipe,,3,name,,
+logStorySwipe,,3,storyId,,
+Main_ASConnected_Shown,,0,,,
+Main_CallWaiting_Onboarding_Shown,,0,,,
+Main_CallWaiting_Shown,,0,,,
+Main_Connecting_Onboarding_Shown,,0,,,
+Main_Connecting_Shown,,0,,,
+Main_PaymentFailed_Onboarding_AccountingDisconnected,,0,,,
+Main_PaymentFailed_Onboarding_DisconnectAccounting_Clicked,,0,,,
+Main_PaymentFailed_Onboarding_Paid,,0,,,
+Main_PaymentFailed_Onboarding_Pay_Clicked,,0,,,
+Main_PaymentFailed_Onboarding_Shown,,1,canChangeServicetype,,
+Main_PaymentFailed_Shown,,0,,,
+mainPage.arrangeAnnualSubscription.pressed,,1,tariffCode,,Возможно
+mainPage.changeTariff.pressed,,2,currentTariffCode,,Возможно
+mainPage.changeTariff.pressed,,2,targetTariffCode,,Возможно
+mainPage.conditions.inHeader.pressed,,1,tariffCode,,Возможно
+mainPage.load.error,,0,,,Возможно
+mainPage.load.success,,0,,,Возможно
+mainPage.option.hint.pressed,,2,option,,Возможно
+mainPage.option.hint.pressed,,2,tariffCode,,Возможно
+mainPage.option.switched,,2,buttonType,,Возможно
+mainPage.option.switched,,2,option,,Возможно
+mainPage.packages.pressed,,1,tariffCode,,Возможно
+mainPage.tariff.changed,,2,newTariffCode,,Возможно
+mainPage.tariff.changed,,2,previousTariffCode,,Возможно
+mainPage.tariff.shown,,1,tariffCode,,Возможно
+mainProductsScreen.displayed,,0,,,Возможно
+mainProductsScreen.error.loading,,1,scope,,Возможно
+mainProductsScreen.getOffers.started,,0,,,Возможно
+mainProductsScreen.getOffers.success,,0,,,Возможно
+mainProductsScreen.getStories,,0,,,Возможно
+mainProductsScreen.getStoriesError,,0,,,Возможно
+mainProductsScreen.loadingFinished,,1,success,,Возможно
+mainProductsScreen.offer.action,,1,offerLocation,,Возможно
+mainProductsScreen.offer.closed,,1,offerLocation,,Возможно
+mainProductsScreen.offer.displayed,,1,offerLocation,,Возможно
+mainProductsScreen.showStory,,0,,,Возможно
+mainScreen.shown,,1,project,,Возможно
+More_Offers_Item_Click,,1,itemType,,
+More_Profile_Item_Click,,1,itemType,,
+Moye_Delo_New_Shown,,0,,,
+Moye_Delo_Shown,,0,,,
+NewProduct_Accounting_ChooseTariff_Click,,0,,,
+NewProduct_Accounting_Shown,,0,,,
+newProductsScreen.displayed,,0,,,Возможно
+newProductsScreen.internetAcquiring.loaded,,0,,,Возможно
+newProductsScreen.internetAcquiring.tapped,,0,,,Возможно
+newProductsScreen.load.error,,1,errorType,,Возможно
+newProductsScreen.load.started,,0,,,Возможно
+newProductsScreen.load.success,,0,,,Возможно
+NewSMELoan_Sent,,2,application_id,,
+NewSMELoan_Sent,,2,hid,,
+NewSMELoan_Shown,,2,loan_step,,
+NewSMELoan_Shown,,2,step,,
+NewSMELoan_WebView_Tap,,2,application_id,,
+NewSMELoan_WebView_Tap,,2,hid,,
+NotificationFeed_Clickon,,3,from,,
+NotificationFeed_Clickon,,3,importance,,
+NotificationFeed_Clickon,,3,title,,
+NotificationFeed_Shown,,1,from,,
+Notifications_Add_Sms_Success,,1,successFlg,,
+Notifications_Push_Changed,,2,notificationType,,
+Notifications_Push_Changed,,2,status,,
+Notifications_Push_Shown,,0,,,
+Notifications_Sms_Changed,,2,notificationType,,
+Notifications_Sms_Changed,,2,status,,
+Notifications_Sms_Shown,,0,,,
+notifyAboutPayment.formScreen.openedWithSelectedChannel,,1,channel,,Возможно
+notifyAboutPayment.menu.opened,,0,,,Возможно
+notifyAboutPayment.paymentReceipt.notifications,,3,action,,Возможно
+notifyAboutPayment.paymentReceipt.notifications,,3,emails,,Возможно
+notifyAboutPayment.paymentReceipt.notifications,,3,phones,,Возможно
+Onboarding_DeactivateRequest_Click,,1,status,,
+Onboarding_DeactivateRequest_Deactivated,,1,status,,
+Onboarding_DeactivateRequest_Dialog_No_Click,,1,status,,
+Onboarding_DeactivateRequest_Dialog_Yes_Click,,1,status,,
+Onboarding_Payment,,1,page,,
+Onboarding_Payment_Close,,0,,,
+onTinkoff.byNumber.formPage.close.success,,0,,,Возможно
+onTinkoff.byNumber.formPage.load.success,,1,formType,,Возможно
+onTinkoff.byNumber.formPage.send.error,,0,,,Возможно
+onTinkoff.byNumber.formPage.send.success,,0,,,Возможно
+onTinkoff.byNumber.formPage.submitted,,0,,,Возможно
+onTinkoff.byNumber.noSourceAccountsPage.load.success,,0,,,Возможно
+onTinkoff.selfPayment.failureScreen.load.success,,0,,,Возможно
+onTinkoff.selfPayment.formScreen.close.success,,0,,,Возможно
+onTinkoff.selfPayment.formScreen.load.success,,1,formType,,Возможно
+onTinkoff.selfPayment.formScreen.noCurrencyOffer.pressed,,1,currency,,Возможно
+onTinkoff.selfPayment.formScreen.send.error,,0,,,Возможно
+onTinkoff.selfPayment.formScreen.send.success,,0,,,Возможно
+onTinkoff.selfPayment.formScreen.submitted,,0,,,Возможно
+onTinkoff.selfPayment.noCurrencyScreen.addCurrencyButton.pressed,,0,,,Возможно
+onTinkoff.selfPayment.noSourceAccountsScreen.load.success,,0,,,Возможно
+onTinkoff.selfPayment.noSourceAccounts‎Screen.load.success,,0,,,Возможно
+onTinkoff.selfPayment.noTargetAccountsScreen.addTargetAccountButton.pressed,,0,,,Возможно
+onTinkoff.selfPayment.noTargetAccountsScreen.load.success,,0,,,Возможно
+operationDetailsScreen.offer.action,,1,offerLocation,,Возможно
+operationDetailsScreen.offer.closed,,1,offerLocation,,Возможно
+operationDetailsScreen.offer.displayed,,1,offerLocation,,Возможно
+operationFeed.actions.repeat.onTinkoff.selfPayment.clicked,,0,,,Возможно
+operationFeed.firstTimeScrolled,,0,,,Возможно
+operationFeed.listLoaded,,1,time,,Возможно
+operationFeed.pullToRefresh,,0,,,Возможно
+operationFeedV2.closeButton.clicked,,0,,,Возможно
+operationFeedV2.contentChanged,,2,stateTwo,,Возможно
+operationFeedV2.contentChanged,,2,tab,,Возможно
+operationFeedV2.item.clicked,,0,,,Возможно
+operationFeedV2.loadMoreData,,0,,,Возможно
+operationFeedV2.pullToRefresh,,0,,,Возможно
+operationFeedV2.retryButton.clicked,,0,,,Возможно
+operationFeedV2.search.cancelButton.clicked,,0,,,Возможно
+operationFeedV2.search.cleanButton.clicked,,0,,,Возможно
+operationFeedV2.search.contentChanged,,1,state,,Возможно
+operationFeedV2.search.filtersButton.clicked,,0,,,Возможно
+operationFeedV2.search.item.clicked,,0,,,Возможно
+operationFeedV2.search.tag.clicked,,0,,,Возможно
+operationFeedV2.searchButton.clicked,,0,,,Возможно
+operationFeedV2.tab.changed,,1,targetTab,,Возможно
+operations.actions.addToFavorites.clicked,,2,project,,Возможно
+operations.actions.addToFavorites.clicked,,2,providerCode,,Возможно
+operations.actions.addToFavorites.error,,1,providerCode,,Возможно
+operations.actions.addToFavorites.success,,1,providerCode,,Возможно
+operations.actions.changeRequisites.clicked,,2,project,,Возможно
+operations.actions.changeRequisites.clicked,,2,providerCode,,Возможно
+operations.actions.changeRequisites.error,,1,providerCode,,Возможно
+operations.actions.changeRequisites.success,,1,providerCode,,Возможно
+operations.actions.createPaymentByRequisites.clicked,,2,project,,Возможно
+operations.actions.createPaymentByRequisites.clicked,,2,providerCode,,Возможно
+operations.actions.createPaymentByRequisites.error,,2,project,,Возможно
+operations.actions.createPaymentByRequisites.error,,2,providerCode,,Возможно
+operations.actions.createPaymentByRequisites.success,,2,project,,Возможно
+operations.actions.createPaymentByRequisites.success,,2,providerCode,,Возможно
+operations.actions.repeat.clicked,,2,project,,Возможно
+operations.actions.repeat.clicked,,2,providerCode,,Возможно
+operations.actions.repeat.error,,2,project,,Возможно
+operations.actions.repeat.error,,2,providerCode,,Возможно
+operations.actions.repeat.success,,2,project,,Возможно
+operations.actions.repeat.success,,2,providerCode,,Возможно
+operations.closed,,1,project,,Возможно
+operations.date.clear,,0,,,Возможно
+operations.date.clicked,,0,,,Возможно
+operations.item.clicked,,1,type,,Возможно
+operations.items.displayed,,2,page,,Возможно
+operations.items.displayed,,2,project,,Возможно
+operations.items.error,,0,,,Возможно
+operations.items.retry.clicked,,0,,,Возможно
+operations.opened,,1,project,,Возможно
+operations.pulldownRefresh.displayed,,1,project,,Возможно
+operations.shop.clicked,,0,,,Возможно
+operations.shop.displayed,,0,,,Возможно
+Orientation_Status,,1,orientation,,
+orig_sbp_add_shop,,0,,,
+orig_sbp_add_shop_sent,,1,id,,
+orig_sbp_mcc_error,,1,error_num,,
+orig_sbp_mcc_shown,,0,,,
+orig_sbp_offer_onboard_page2,,1,id,,
+orig_sbp_product_page_shown,,0,,,
+orig_sbp_sent,,1,id,,
+Origination_Application_Sent,,1,id,,
+Origination_Choose_Company_Shown,,0,,,
+Origination_File_Upload_Invalid_Format_Error,,2,id,,
+Origination_File_Upload_Invalid_Format_Error,,2,type,,
+origination_meteor_add_calendar,,0,,,
+origination_meteor_address,,1,id,,
+origination_meteor_contact,,1,id,,
+origination_meteor_details,,0,,,
+origination_meteor_done,,1,id,,
+origination_meteor_done_error,,0,,,
+origination_meteor_greyzone,,1,pickpoint,,
+origination_meteor_noSlots,,0,,,
+origination_meteor_start,,1,id,,
+origination_meteor_time_error,,0,,,
+Origination_Print_Passport_Done,,2,id,,
+Origination_Print_Passport_Done,,2,who,,
+Origination_RegIP_Address_Shown,,0,,,
+Origination_RegIP_Document_Tap,,0,,,
+Origination_RegIP_Document_Upload,,0,,,
+Origination_RegIP_Document_Upload_Error,,1,error,,
+Origination_RegIP_Documents_Shown,,2,deeplink,,
+Origination_RegIP_Documents_Shown,,2,request,,
+Origination_RegIP_Email_Shown,,0,,,
+Origination_RegIP_ExtraOKVED_Shown,,0,,,
+Origination_RegIP_MainOKVED_Shown,,0,,,
+Origination_RegIP_Name_Error,,0,,,
+Origination_RegIP_Name_Shown,,0,,,
+Origination_RegIP_NewOKVED_Shown,,0,,,
+Origination_RegIP_Position_Shown,,0,,,
+Origination_RegIP_Product_Shown,,2,client_exist,,
+Origination_RegIP_Product_Shown,,2,config,,
+Origination_RegIP_Sent,,1,id,,
+Origination_RegIP_Shorts_Created,,1,id,,
+Origination_RegIP_SNILS_Shown,,0,,,
+Origination_RegIP_Status_Info_Tap,,1,status,,
+Origination_RegIP_Status_Shown,,1,status,,
+Origination_RegIP_Status_Upload_Docs_Tap,,0,,,
+Origination_RegIP_Status_Upload_INN_Tap,,0,,,
+Origination_RegIP_Taxation_Choosen,,1,taxationSystem,,
+Origination_RegIP_Taxation_Shown,,1,taxationStatus,,
+Origination_RegIP_Upload_Docs_Success_Shown,,0,,,
+Origination_RegIP_WebView_Open,,0,,,
+Origination_Rko_Status_Meeting_Details,,0,,,
+Origination_Rko_Status_Shown,,3,id,,
+Origination_Rko_Status_Shown,,3,status_name,,
+Origination_Rko_Status_Shown,,3,status_type,,
+Origination_Signing_Code_Shown,,1,id,,
+Origination_Signing_Document_Error,,2,id,,
+Origination_Signing_Document_Error,,2,type,,
+Origination_Start_Shown,,2,client_exist,,
+Origination_Start_Shown,,2,loans,,
+Origination_test_fill,,2,correct,,
+Origination_test_fill,,2,filled,,
+Origination_Test_RegIP,,2,client_exist,,
+Origination_Test_RegIP,,2,show,,
+OutsourceMain_Chat,,0,,,
+OutsourceMain_Close,,0,,,
+OutsourceMain_FAQ_Chat,,0,,,
+OutsourceMain_FAQ_Close,,0,,,
+OutsourceMain_FAQ_Question_Clicked,,1,question,,
+OutsourceMain_FAQ_Question_MoreDetails_Clicked,,1,question,,
+OutsourceMain_NeedHelp,,0,,,
+OutsourceMain_SearchingForAccountant_Chat,,0,,,
+OutsourceMain_SearchingForAccountant_Close,,0,,,
+OutsourceMain_SearchingForAccountant_Done,,0,,,
+OutsourceMain_SearchingForAccountant_Shown,,0,,,
+OutsourceMain_Shown,,0,,,
+OutsourceNewMain_AccountantEvent_Clicked,,2,accountantEventStatusTitle,,
+OutsourceNewMain_AccountantEvent_Clicked,,2,accountantEventTitle,,
+OutsourceNewMain_AllPayments_Clicked,,0,,,
+OutsourceNewMain_AskQuestion_Clicked,,0,,,
+OutsourceNewMain_ClientPayment_Clicked,,2,clientPaymentTitle,,
+OutsourceNewMain_ClientPayment_Clicked,,2,clientPaymentType,,
+OutsourceNewMain_Close,,0,,,
+OutsourceNewMain_Shown,,0,,,
+OutsourceNewMain_СlientEvent_Clicked,,2,clientEventTitle,,
+OutsourceNewMain_СlientEvent_Clicked,,2,clientEventType,,
+Overnight_Close_Sent,,0,,,
+Overnight_Open_Sent,,1,id,,
+Password_Create_Failure,,1,failure_reason,,
+Password_Input_Failure,,1,failure_reason,,
+Password_Input_Forget,,0,,,
+Password_Input_Hide,,0,,,
+Password_Input_Not_Client,,1,clickOption,,
+Password_Input_Not_Client_Button_Tap,,0,,,
+Password_Input_Not_Me_Button_Tap,,0,,,
+Password_Input_Show,,0,,,
+Password_Onb_Shown,,0,,,
+Password_Onb_Skip,,0,,,
+payment.list.actions.openDraft.onTinkoff.selfPayment.clicked,,0,,,Возможно
+payment.list.actions.repeat.onTinkoff.selfPayment.clicked,,0,,,Возможно
+Payment_Change_Field,,4,field,,
+Payment_Change_Field,,4,paymentType,,
+Payment_Change_Field,,4,prefilledFlg,,
+Payment_Change_Field,,4,selectFieldFlg,,
+Payment_Close_Form,,2,lastFieldFocus,,
+Payment_Close_Form,,2,paymentType,,
+Payment_Create_Sheet_Shown,,0,,,
+Payment_Focus_Field,,2,field,,
+Payment_Focus_Field,,2,paymentType,,
+Payment_Open_Hint,,3,field,,
+Payment_Open_Hint,,3,paymentType,,
+Payment_Open_Hint,,3,step,,
+Payment_Open_Step,,2,paymentType,,
+Payment_Open_Step,,2,step,,
+Payment_Orders_Period_Shown,,0,,,
+Payment_Orders_Recipients_Shown,,0,,,
+Payment_Orders_Send,,0,,,
+Payment_Select_Checkbox,,3,field,,
+Payment_Select_Checkbox,,3,newState,,
+Payment_Select_Checkbox,,3,paymentType,,
+Payment_Unfocus_Field,,2,field,,
+Payment_Unfocus_Field,,2,paymentType,,
+paymentRequest.detail.actionButton.clicked,,1,action,,Возможно
+paymentRequest.detail.pdfButton.clicked,,0,,,Возможно
+paymentRequest.detail.shown,,0,,,Возможно
+paymentRequest.started,,1,from,,Возможно
+Payments_In_Progress_All_Shown,,4,paymentDocumentsDeclined,,
+Payments_In_Progress_All_Shown,,4,paymentDocumentsSubmitted,,
+Payments_In_Progress_All_Shown,,4,paymentDocumentsToSign,,
+Payments_In_Progress_All_Shown,,4,rateOrders,,
+paymentsAndInvoices.account.forClosing.moneyWithdraw.bottomSheet.displayed,,0,,,Возможно
+paymentsAndInvoices.account.forClosing.moneyWithdraw.bottomSheet.item.clicked,,1,option,,Возможно
+paymentsAndInvoices.account.forClosing.moneyWithdraw.clicked,,0,,,Возможно
+paymentsAndInvoices.createInvoice.bottomSheet.displayed,,0,,,Возможно
+paymentsAndInvoices.createInvoice.bottomSheet.item.clicked,,1,option,,Возможно
+paymentsAndInvoices.createInvoice.clicked,,0,,,Возможно
+paymentsAndInvoices.createPayment.bottomSheet.displayed,,0,,,Возможно
+paymentsAndInvoices.createPayment.bottomSheet.item.clicked,,1,option,,Возможно
+paymentsAndInvoices.createPayment.clicked,,0,,,Возможно
+paymentsAndInvoices.displayed,,0,,,Возможно
+paymentsAndInvoices.drafts.clicked,,0,,,Возможно
+paymentsAndInvoices.favouritePayments.counterparty.clicked,,0,,,Возможно
+paymentsAndInvoices.favouritePayments.openAll.clicked,,0,,,Возможно
+paymentsAndInvoices.favouritePayments.payment.clicked,,0,,,Возможно
+paymentsAndInvoices.invoicesForPayment.allInvoices.displayed,,0,,,Возможно
+paymentsAndInvoices.invoicesForPayment.allInvoices.item.clicked,,1,option,,Возможно
+paymentsAndInvoices.invoicesForPayment.allInvoices.pullToRefresh,,0,,,Возможно
+paymentsAndInvoices.invoicesForPayment.item.clicked,,1,option,,Возможно
+paymentsAndInvoices.invoicesForPayment.openAll.clicked,,0,,,Возможно
+paymentsAndInvoices.paymentsInWork.allPayments.displayed,,0,,,Возможно
+paymentsAndInvoices.paymentsInWork.allPayments.item.clicked,,1,option,,Возможно
+paymentsAndInvoices.paymentsInWork.allPayments.pullToRefresh,,0,,,Возможно
+paymentsAndInvoices.paymentsInWork.item.clicked,,1,option,,Возможно
+paymentsAndInvoices.paymentsInWork.openAll.clicked,,0,,,Возможно
+paymentsAndInvoices.pullToRefresh,,0,,,Возможно
+Performance_Fresh_Accounts_Shown_Time,,2,from_icon_tap_sec,,
+Performance_Fresh_Accounts_Shown_Time,,2,from_valid_password_sec,,
+Permissions_Confirmed,,2,client,,
+Permissions_Confirmed,,2,permission_type,,
+Permissions_Denied,,2,client,,
+Permissions_Denied,,2,permission_type,,
+Permissions_Shown,,2,client,,
+Permissions_Shown,,2,permission_type,,
+Pin_Setup_Failure,,3,aim,,
+Pin_Setup_Failure,,3,client,,
+Pin_Setup_Failure,,3,failure_reason,,
+Pin_Setup_Input,,2,aim,,
+Pin_Setup_Input,,2,client,,
+Qr_Atm_Shown,,0,,,
+qrCode.closed,,0,,,Возможно
+qrCode.displayed,,1,project,,Возможно
+qrCode.error,,2,errorType,,Возможно
+qrCode.error,,2,project,,Возможно
+qrCode.error.button.clicked,,0,,,Возможно
+qrCode.expired,,0,,,Возможно
+qrCode.opened,,1,project,,Возможно
+qrCode.payment.error,,2,errorType,,Возможно
+qrCode.payment.error,,2,project,,Возможно
+qrCode.payment.error.button.clicked,,0,,,Возможно
+qrCode.payment.screenshot.detected,,0,,,Возможно
+qrCode.payment.success,,1,project,,Возможно
+qrCode.retry.clicked,,1,project,,Возможно
+Questionnaire_answers,,3,agrType,,
+Questionnaire_answers,,3,answers,,
+Questionnaire_answers,,3,question,,
+RateBanner_Shown,,1,from,,
+RateMe_Actions,,1,answer,,
+RateMeTwo_Shown,,0,,,
+Recipient_Button_Click,,3,buttonType,,
+Recipient_Button_Click,,3,employeeStatus,,
+Recipient_Button_Click,,3,recipientType,,
+Recipient_Shown,,3,bankType,,
+Recipient_Shown,,3,employeeStatus,,
+Recipient_Shown,,3,recipientType,,
+recipients.details.buttonClick,,4,buttonType,,Возможно
+recipients.details.buttonClick,,4,employeeStatus,,Возможно
+recipients.details.buttonClick,,4,project,,Возможно
+recipients.details.buttonClick,,4,recipientType,,Возможно
+recipients.details.shown,,4,bankType,,Возможно
+recipients.details.shown,,4,employeeStatus,,Возможно
+recipients.details.shown,,4,project,,Возможно
+recipients.details.shown,,4,recipientType,,Возможно
+recipients.employees.create.formShown,,2,creationType,,Возможно
+recipients.employees.create.formShown,,2,project,,Возможно
+recipients.employees.create.stepShown,,3,creationType,,Возможно
+recipients.employees.create.stepShown,,3,project,,Возможно
+recipients.employees.create.stepShown,,3,stepNumber,,Возможно
+recipients.employees.delivery.create.stepShown,,2,project,,Возможно
+recipients.employees.delivery.create.stepShown,,2,step,,Возможно
+recipients.employees.delivery.create.successCreateShown,,2,project,,Возможно
+recipients.employees.delivery.create.successCreateShown,,2,type,,Возможно
+recipients.employees.draft.list.shown,,1,project,,Возможно
+recipients.employees.list.deliveryInfoShown,,2,deliveryType,,Возможно
+recipients.employees.list.deliveryInfoShown,,2,project,,Возможно
+recipients.employees.list.shown,,1,project,,Возможно
+recipients.selfEmployed.list.shown,,1,project,,Возможно
+recognition.image.error,,0,,,Возможно
+recognition.image.submitted,,1,sourceType,,Возможно
+recognition.image.success,,0,,,Возможно
+recognition.txt.error,,0,,,Возможно
+recognition.txt.submitted,,1,sourceType,,Возможно
+recognition.txt.success,,2,countError,,Возможно
+recognition.txt.success,,2,countSuccess,,Возможно
+refund.buttonRefund.clicked,,0,,,Возможно
+refund.closed,,0,,,Возможно
+refund.opened,,0,,,Возможно
+refund.refund.clicked,,0,,,Возможно
+refund.refund.error,,1,errorType,,Возможно
+refund.refund.success,,0,,,Возможно
+registry.create.payroll.shown,,3,project,,Возможно
+registry.create.payroll.shown,,3,recipientType,,Возможно
+registry.create.payroll.shown,,3,registerType,,Возможно
+registry.create.recipientList.shown,,3,project,,Возможно
+registry.create.recipientList.shown,,3,recipientType,,Возможно
+registry.create.recipientList.shown,,3,registerType,,Возможно
+registry.create.recipientTypeSelection.shown,,1,project,,Возможно
+registry.create.successCreate,,2,project,,Возможно
+registry.create.successCreate,,2,recipientType,,Возможно
+registry.details.buttonClick,,5,buttonType,,Возможно
+registry.details.buttonClick,,5,project,,Возможно
+registry.details.buttonClick,,5,recipientType,,Возможно
+registry.details.buttonClick,,5,registerStatus,,Возможно
+registry.details.buttonClick,,5,registerType,,Возможно
+registry.details.shown,,4,project,,Возможно
+registry.details.shown,,4,recipientType,,Возможно
+registry.details.shown,,4,registerStatus,,Возможно
+registry.details.shown,,4,registerType,,Возможно
+registry.list.shown,,2,project,,Возможно
+registry.list.shown,,2,screenType,,Возможно
+registry.pay.confirmation.shown,,3,confirmationType,,Возможно
+registry.pay.confirmation.shown,,3,project,,Возможно
+registry.pay.confirmation.shown,,3,recipientType,,Возможно
+registry.pay.shown,,2,project,,Возможно
+registry.pay.shown,,2,recipientType,,Возможно
+Registry_Add_Employee,,0,,,
+Registry_Add_Recipient,,2,accountType,,
+Registry_Add_Recipient,,2,recipientType,,
+Registry_List_Shown,,1,screenType,,
+Registry_Payment,,1,recipientType,,
+Registry_Payment_Confirmation,,2,confirmationType,,
+Registry_Payment_Confirmation,,2,recipientType,,
+rep_counterparty_mob_change_inn,,1,answer,,
+REP_documents,,6,action,,
+REP_documents,,6,docType,,
+REP_documents,,6,problemFlg,,
+REP_documents,,6,result,,
+REP_documents,,6,source,,
+REP_documents,,6,status,,
+REP_onboarding_closed,,0,,,
+replenish.byTinkoff.formScreen.displayed,,1,state,,Возможно
+replenish.byTinkoff.formScreen.sendButton.clicked,,1,state,,Возможно
+replenish.byTinkoffApp.onboardScreen.closeButton.clicked,,0,,,Возможно
+replenish.byTinkoffApp.onboardScreen.displayed,,0,,,Возможно
+replenish.byTinkoffApp.onboardScreen.sendButton.clicked,,0,,,Возможно
+replenish.replenishSelection.formScreen.displayed,,4,byCash,,Возможно
+replenish.replenishSelection.formScreen.displayed,,4,bySmeAccount,,Возможно
+replenish.replenishSelection.formScreen.displayed,,4,byTinkoffApp,,Возможно
+replenish.replenishSelection.formScreen.displayed,,4,byTinkoffCard,,Возможно
+replenish.replenishSelection.formScreen.replenishItems.clicked,,1,choice,,Возможно
+requisites.item.copied,,1,option,,Возможно
+Requisites_Share_Btn_Click,,5,accountType,,
+Requisites_Share_Btn_Click,,5,currencyCode,,
+Requisites_Share_Btn_Click,,5,language,,
+Requisites_Share_Btn_Click,,5,openedFrom,,
+Requisites_Share_Btn_Click,,5,type,,
+Ruble_Payment_Non-resident_Contracts,,1,contract,,
+Ruble_Payment_Non-resident_Contracts_Click,,1,contractType,,
+Ruble_Payment_Non-resident_Docs_Click,,1,action,,
+Ruble_Payment_Non-resident_Docs_Shown,,0,,,
+Ruble_Payment_Non-resident_Main_Next,,0,,,
+Ruble_Payment_Non-resident_Pay_Click,,1,isLight,,
+Ruble_Payment_Non-resident_Purpose,,0,,,
+Ruble_Payment_Non-resident_Send_To_Shown,,1,sentType,,
+Ruble_Payment_Non-resident_Send_To_Sign,,0,,,
+Ruble_Payment_Non-resident_Sent_To_Sign_Shown,,1,paymentType,,
+Ruble_Payment_Non-resident_Sent_To_VK_Shown,,1,paymentType,,
+Ruble_Payment_Non-resident_Shown,,0,,,
+Ruble_Payment_Non-resident_Sum,,0,,,
+Ruble_Payment_Non-resident_VO_Click,,0,,,
+Ruble_Payment_Non-resident_VO_Help,,0,,,
+Ruble_Payment_Non-resident_VO_Help_Start,,0,,,
+Ruble_Payment_Non-resident_VO_Shown,,0,,,
+rublePayment.formScreen.appendPaymentToFavorite.error,,1,providerCode,,Возможно
+rublePayment.formScreen.appendPaymentToFavorite.success,,1,providerCode,,Возможно
+rublePayment.formScreen.close.success,,0,,,Возможно
+rublePayment.formScreen.codeVO.addContract.clicked,,0,,,Возможно
+rublePayment.formScreen.comparePaymentWithFavorite.error,,1,providerCode,,Возможно
+rublePayment.formScreen.comparePaymentWithFavorite.success,,1,providerCode,,Возможно
+rublePayment.formScreen.field.changed,,1,fieldName,,Возможно
+rublePayment.formScreen.field.focused,,1,fieldName,,Возможно
+rublePayment.formScreen.field.unfocused,,1,fieldName,,Возможно
+rublePayment.formScreen.load.success,,1,formType,,Возможно
+rublePayment.formScreen.QRCode.scan.pressed,,0,,,Возможно
+rublePayment.formScreen.recognize.item.pressed,,1,option,,Возможно
+rublePayment.formScreen.recognize.pressed,,0,,,Возможно
+rublePayment.formScreen.recognizeDocument.pressed,,0,,,Возможно
+rublePayment.formScreen.send.error,,1,providerCode,,Возможно
+rublePayment.formScreen.send.success,,1,providerCode,,Возможно
+rublePayment.formScreen.sendToSign.error,,1,providerCode,,Возможно
+rublePayment.formScreen.sendToSign.success,,1,providerCode,,Возможно
+rublePayment.formScreen.submitted,,1,providerCode,,Возможно
+rublePayment.formScreen.updateFavoriteDialog.clicked,,1,buttonType,,Возможно
+rublePayment.formScreen.updateFavoriteDialog.success,,1,providerCode,,Возможно
+Salary_Emploee_List_Shown,,2,recipientType,,
+Salary_Emploee_List_Shown,,2,screenType,,
+Salary_Entrance,,0,,,
+Salary_Pay,,0,,,
+Salary_Selfemployed_List_Shown,,0,,,
+savedStories.getSavedStories,,0,,,Возможно
+SavedStories_Shown,,0,,,
+Search_CLICK_Frequently_Titles,,3,service,,
+Search_CLICK_Frequently_Titles,,3,servise,,
+Search_CLICK_Frequently_Titles,,3,url,,
+Search_theRESULTS_Shown,,5,counterpartiesCount,,
+Search_theRESULTS_Shown,,5,group,,
+Search_theRESULTS_Shown,,5,searchText,,
+Search_theRESULTS_Shown,,5,sections,,
+Search_theRESULTS_Shown,,5,title,,
+searchRequest.response.empty,,0,,,Возможно
+searchRequest.response.error,,0,,,Возможно
+searchRequest.response.success,,0,,,Возможно
+searchRequest.sent,,0,,,Возможно
+Security_Question_Input_Closed,,0,,,
+Security_Question_Input_Failure,,1,failure_reason,,
+Services_more,,1,type,,
+Services_Product_Click,,1,productType,,
+Services_Shown,,0,,,
+servicesScreen.offer.action,,1,offerLocation,,Возможно
+servicesScreen.offer.closed,,1,offerLocation,,Возможно
+servicesScreen.offer.displayed,,1,offerLocation,,Возможно
+shopPicker.closed,,1,project,,Возможно
+shopPicker.opened,,1,project,,Возможно
+shopPicker.search.cleared,,0,,,Возможно
+shopPicker.search.focused,,0,,,Возможно
+shopPicker.select.clicked,,1,project,,Возможно
+shopPicker.selectAll.clicked,,0,,,Возможно
+shopPicker.shop.pick,,1,project,,Возможно
+shopPicker.shop.select,,0,,,Возможно
+shopPicker.shop.unselect,,0,,,Возможно
+Shortcuts_Click,,1,shortcutsType,,
+sme.invoicing.mobile.common.events.create.consignmentBill.buyerStep.screen.shown,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.consignmentBill.cropLogo.submitButton.tapped,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.consignmentBill.firstStep.screen.shown,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.consignmentBill.itemsStep.screen.shown,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.consignmentBill.logoList.plusButton.tapped,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.consignmentBill.pdfStep.screen.shown,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.consignmentBill.previewStep.addLogoButton.tapped,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.consignmentBill.previewStep.changeLogoButton.tapped,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.consignmentBill.previewStep.deleteLogoButton.tapped,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.consignmentBill.previewStep.documentIssuing.success,,5,goodsQuantity,,Возможно
+sme.invoicing.mobile.common.events.create.consignmentBill.previewStep.documentIssuing.success,,5,hasLogo,,Возможно
+sme.invoicing.mobile.common.events.create.consignmentBill.previewStep.documentIssuing.success,,5,signersAmount,,Возможно
+sme.invoicing.mobile.common.events.create.consignmentBill.previewStep.documentIssuing.success,,5,signsAmount,,Возможно
+sme.invoicing.mobile.common.events.create.consignmentBill.previewStep.documentIssuing.success,,5,stampsAmount,,Возможно
+sme.invoicing.mobile.common.events.create.consignmentBill.previewStep.screen.shown,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.consignmentBill.previewStep.submitButton.tapped,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.consignmentBill.sellerStep.screen.shown,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.consignmentBill.shipperConsigneeStep.screen.shown,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.consignmentBill.signerDetail.plusSignButton.tapped,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.consignmentBill.signerDetail.plusStampButton.tapped,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.consignmentBill.signerDetail.saveButton.tapped,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.consignmentBill.signerDetail.signAdded,,1,source,,Возможно
+sme.invoicing.mobile.common.events.create.consignmentBill.signerList.createButton.tapped,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.consignmentBill.signerOptions.toggleSign.tapped,,1,option,,Возможно
+sme.invoicing.mobile.common.events.create.consignmentBill.signerOptions.toggleStamp.tapped,,1,option,,Возможно
+sme.invoicing.mobile.common.events.create.detailedInvoice.buyerStep.screen.shown,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.detailedInvoice.firstStep.screen.shown,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.detailedInvoice.itemsStep.screen.shown,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.detailedInvoice.pdfStep.screen.shown,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.detailedInvoice.productDetail.trackingItemDetail.screen.shown,,1,mode,,Возможно
+sme.invoicing.mobile.common.events.create.detailedInvoice.sellerStep.screen.shown,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.detailedInvoice.shipmentDocumentsStep.addButton.tapped,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.detailedInvoice.shipmentDocumentsStep.addButton.validationError,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.detailedInvoice.shipmentDocumentsStep.documentIssuing.start,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.detailedInvoice.shipmentDocumentsStep.documentIssuing.validationError,,1,errorType,,Возможно
+sme.invoicing.mobile.common.events.create.detailedInvoice.shipmentDocumentsStep.screen.shown,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.detailedInvoice.shipmentDocumentsStep.shipmentDocument.addButton.tapped,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.detailedInvoice.shipmentDocumentsStep.shipmentDocument.screen.shown,,1,mode,,Возможно
+sme.invoicing.mobile.common.events.create.detailedInvoice.shipmentDocumentsStep.submitButton.tapped,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.detailedInvoice.shipperConsigneeStep.screen.shown,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.invoice.cropLogo.submitButton.tapped,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.invoice.firstStep.screen.shown,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.invoice.itemsStep.screen.shown,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.invoice.logoList.plusButton.tapped,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.invoice.previewStep.addLogoButton.tapped,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.invoice.previewStep.changeLogoButton.tapped,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.invoice.previewStep.deleteLogoButton.tapped,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.invoice.previewStep.documentIssuing.success,,7,documentHasLogo,,Возможно
+sme.invoicing.mobile.common.events.create.invoice.previewStep.documentIssuing.success,,7,goodsQuantity,,Возможно
+sme.invoicing.mobile.common.events.create.invoice.previewStep.documentIssuing.success,,7,hasLogo,,Возможно
+sme.invoicing.mobile.common.events.create.invoice.previewStep.documentIssuing.success,,7,payer,,Возможно
+sme.invoicing.mobile.common.events.create.invoice.previewStep.documentIssuing.success,,7,signersAmount,,Возможно
+sme.invoicing.mobile.common.events.create.invoice.previewStep.documentIssuing.success,,7,signsAmount,,Возможно
+sme.invoicing.mobile.common.events.create.invoice.previewStep.documentIssuing.success,,7,stampsAmount,,Возможно
+sme.invoicing.mobile.common.events.create.invoice.previewStep.screen.shown,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.invoice.previewStep.submitButton.tapped,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.invoice.signerDetail.plusSignButton.tapped,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.invoice.signerDetail.plusStampButton.tapped,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.invoice.signerDetail.saveButton.tapped,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.invoice.signerDetail.signAdded,,1,source,,Возможно
+sme.invoicing.mobile.common.events.create.invoice.signerList.createButton.tapped,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.invoice.signerOptions.toggleSign.tapped,,1,option,,Возможно
+sme.invoicing.mobile.common.events.create.invoice.signerOptions.toggleStamp.tapped,,1,option,,Возможно
+sme.invoicing.mobile.common.events.create.providedServicesAct.buyerStep.screen.shown,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.providedServicesAct.cropLogo.submitButton.tapped,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.providedServicesAct.firstStep.screen.shown,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.providedServicesAct.itemsStep.screen.shown,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.providedServicesAct.logoList.plusButton.tapped,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.providedServicesAct.pdfStep.screen.shown,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.providedServicesAct.previewStep.addLogoButton.tapped,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.providedServicesAct.previewStep.changeLogoButton.tapped,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.providedServicesAct.previewStep.deleteLogoButton.tapped,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.providedServicesAct.previewStep.documentIssuing.success,,5,goodsQuantity,,Возможно
+sme.invoicing.mobile.common.events.create.providedServicesAct.previewStep.documentIssuing.success,,5,hasLogo,,Возможно
+sme.invoicing.mobile.common.events.create.providedServicesAct.previewStep.documentIssuing.success,,5,signersAmount,,Возможно
+sme.invoicing.mobile.common.events.create.providedServicesAct.previewStep.documentIssuing.success,,5,signsAmount,,Возможно
+sme.invoicing.mobile.common.events.create.providedServicesAct.previewStep.documentIssuing.success,,5,stampsAmount,,Возможно
+sme.invoicing.mobile.common.events.create.providedServicesAct.previewStep.screen.shown,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.providedServicesAct.previewStep.submitButton.tapped,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.providedServicesAct.sellerStep.screen.shown,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.providedServicesAct.signerDetail.plusSignButton.tapped,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.providedServicesAct.signerDetail.plusStampButton.tapped,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.providedServicesAct.signerDetail.saveButton.tapped,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.providedServicesAct.signerDetail.signAdded,,1,source,,Возможно
+sme.invoicing.mobile.common.events.create.providedServicesAct.signerList.createButton.tapped,,0,,,Возможно
+sme.invoicing.mobile.common.events.create.providedServicesAct.signerOptions.toggleSign.tapped,,1,option,,Возможно
+sme.invoicing.mobile.common.events.create.providedServicesAct.signerOptions.toggleStamp.tapped,,1,option,,Возможно
+sme.invoicing.mobile.common.events.create.signsStampsOnboarding.screen.shown,,0,,,Возможно
+sme.platform.mobile.newProducts.android,,0,,,Возможно
+SMEINV.createDocument.productDetailShown,,2,documentType,,Возможно
+SMEINV.createDocument.productDetailShown,,2,from,,Возможно
+SMEINV.createDocument.productsList.productsApplied,,3,count,,Возможно
+SMEINV.createDocument.productsList.productsApplied,,3,documentType,,Возможно
+SMEINV.createDocument.productsList.productsApplied,,3,from,,Возможно
+SMEINV.createDocument.productsStep.itemAmountChanged,,2,amount,,Возможно
+SMEINV.createDocument.productsStep.itemAmountChanged,,2,documentType,,Возможно
+SMEINV.trackingItemDetail.dataApplied,,8,amount,,Возможно
+SMEINV.trackingItemDetail.dataApplied,,8,hasNumber,,Возможно
+SMEINV.trackingItemDetail.dataApplied,,8,hasUnitDiff,,Возможно
+SMEINV.trackingItemDetail.dataApplied,,8,mode,,Возможно
+SMEINV.trackingItemDetail.dataApplied,,8,parentUnit,,Возможно
+SMEINV.trackingItemDetail.dataApplied,,8,parentUnitCode,,Возможно
+SMEINV.trackingItemDetail.dataApplied,,8,unit,,Возможно
+SMEINV.trackingItemDetail.dataApplied,,8,unitCode,,Возможно
+SmsCode_Entered,,1,fill_param,,
+SmsCode_Failure,,1,failure_reason,,
+Sound_Status,,1,status,,
+soundStoryAction,,5,action,,
+soundStoryAction,,5,method,,
+soundStoryAction,,5,name,,
+soundStoryAction,,5,step,,
+soundStoryAction,,5,storyId,,
+Spotlight_Search_Enter,,0,,,
+SSTariff_Close,,0,,,
+SSTariff_Shown,,3,from,,
+SSTariff_Shown,,3,privilegeClient,,
+SSTariff_Shown,,3,rkoTariff,,
+SSTariff_SuccessScreen_Shown,,3,from,,
+SSTariff_SuccessScreen_Shown,,3,privilegeClient,,
+SSTariff_SuccessScreen_Shown,,3,rkoTariff,,
+SSTariff_TurnOn,,0,,,
+SSTariff_UserAgreement_Clicked,,0,,,
+Statement_Down_mb,,8,accountingFormats,,
+Statement_Down_mb,,8,accountType,,
+Statement_Down_mb,,8,date_from,,
+Statement_Down_mb,,8,date_to,,
+Statement_Down_mb,,8,excerptType,,
+Statement_Down_mb,,8,paymentOrdersFormats,,
+Statement_Down_mb,,8,paymentSubmittedFormats,,
+Statement_Down_mb,,8,period,,
+Statement_Error_mb,,8,accountingFormats,,
+Statement_Error_mb,,8,accountType,,
+Statement_Error_mb,,8,date_from,,
+Statement_Error_mb,,8,date_to,,
+Statement_Error_mb,,8,excerptType,,
+Statement_Error_mb,,8,paymentOrdersFormats,,
+Statement_Error_mb,,8,paymentSubmittedFormats,,
+Statement_Error_mb,,8,period,,
+Statement_Shown_mb,,1,excerptType,,
+Stories_Received,,19,0,,
+Stories_Received,,19,1,,
+Stories_Received,,19,10,,
+Stories_Received,,19,11,,
+Stories_Received,,19,12,,
+Stories_Received,,19,13,,
+Stories_Received,,19,14,,
+Stories_Received,,19,15,,
+Stories_Received,,19,16,,
+Stories_Received,,19,17,,
+Stories_Received,,19,18,,
+Stories_Received,,19,2,,
+Stories_Received,,19,3,,
+Stories_Received,,19,4,,
+Stories_Received,,19,5,,
+Stories_Received,,19,6,,
+Stories_Received,,19,7,,
+Stories_Received,,19,8,,
+Stories_Received,,19,9,,
+Story_LastStep_Shown,,3,name,,
+Story_LastStep_Shown,,3,stepCount,,
+Story_LastStep_Shown,,3,storyId,,
+Story_Share_Tap,,4,app_name,,
+Story_Share_Tap,,4,name,,
+Story_Share_Tap,,4,step,,
+Story_Share_Tap,,4,storyId,,
+Story_Step_Show,,2,step,,
+Story_Step_Show,,2,storyId,,
+Story_Swipe,,3,direction,,
+Story_Swipe,,3,name,,
+Story_Swipe,,3,storyId,,
+successPage.actions.addToFavorite.clicked,,1,providerCode,,Возможно
+successPage.actions.addToFavorite.error,,1,providerCode,,Возможно
+successPage.actions.addToFavorite.success,,1,providerCode,,Возможно
+Suggest_Shown,,2,size,,
+Suggest_Shown,,2,typing_text,,
+Suggest_Tap,,3,position,,
+Suggest_Tap,,3,suggest_text,,
+Suggest_Tap,,3,text,,
+Tariffs.mainPage.arrangeAnnualSubscription.pressed,,1,tariffCode,,Возможно
+Tariffs.mainPage.changeTariff.pressed,,2,currentTariffCode,,Возможно
+Tariffs.mainPage.changeTariff.pressed,,2,targetTariffCode,,Возможно
+Tariffs.mainPage.load.error,,0,,,Возможно
+Tariffs.mainPage.load.success,,0,,,Возможно
+Tariffs.mainPage.packages.pressed,,1,tariffCode,,Возможно
+Tariffs_Change_Down_Shown,,0,,,
+Tariffs_Change_Up_Shown,,0,,,
+Tariffs_Comparison_Shown,,2,tariffCodeCompare,,
+Tariffs_Comparison_Shown,,2,tariffCodeCurrent,,
+Telephone_Input_Changed,,0,,,
+Telephone_Input_Clear,,0,,,
+Telephone_Input_Failure,,1,failure_reason,,
+TextToChat,,2,send,,
+TextToChat,,2,text,,
+Tinkoff_Business_Create_Application,,114,accountNumber,,
+Tinkoff_Business_Create_Application,,114,ad_event_id,,
+Tinkoff_Business_Create_Application,,114,ad_id,,
+Tinkoff_Business_Create_Application,,114,adgroup,,
+Tinkoff_Business_Create_Application,,114,adgroup_id,,
+Tinkoff_Business_Create_Application,,114,adset,,
+Tinkoff_Business_Create_Application,,114,adset_id,,
+Tinkoff_Business_Create_Application,,114,advertising_id,,
+Tinkoff_Business_Create_Application,,114,af_ad,,
+Tinkoff_Business_Create_Application,,114,af_ad_id,,
+Tinkoff_Business_Create_Application,,114,af_ad_type,,
+Tinkoff_Business_Create_Application,,114,af_adset,,
+Tinkoff_Business_Create_Application,,114,af_adset_id,,
+Tinkoff_Business_Create_Application,,114,af_android_url,,
+Tinkoff_Business_Create_Application,,114,af_c_id,,
+Tinkoff_Business_Create_Application,,114,af_channel,,
+Tinkoff_Business_Create_Application,,114,af_click_lookback,,
+Tinkoff_Business_Create_Application,,114,af_cost_currency,,
+Tinkoff_Business_Create_Application,,114,af_cost_model,,
+Tinkoff_Business_Create_Application,,114,af_cost_value,,
+Tinkoff_Business_Create_Application,,114,af_deeplink,,
+Tinkoff_Business_Create_Application,,114,af_dp,,
+Tinkoff_Business_Create_Application,,114,af_force_dp,,
+Tinkoff_Business_Create_Application,,114,af_ios_url,,
+Tinkoff_Business_Create_Application,,114,af_ip,,
+Tinkoff_Business_Create_Application,,114,af_keywords,,
+Tinkoff_Business_Create_Application,,114,af_lang,,
+Tinkoff_Business_Create_Application,,114,af_message,,
+Tinkoff_Business_Create_Application,,114,af_prt,,
+Tinkoff_Business_Create_Application,,114,af_r,,
+Tinkoff_Business_Create_Application,,114,af_reengagement_window,,
+Tinkoff_Business_Create_Application,,114,af_ref,,
+Tinkoff_Business_Create_Application,,114,af_siteid,,
+Tinkoff_Business_Create_Application,,114,af_status,,
+Tinkoff_Business_Create_Application,,114,af_sub1,,
+Tinkoff_Business_Create_Application,,114,af_sub2,,
+Tinkoff_Business_Create_Application,,114,af_sub5,,
+Tinkoff_Business_Create_Application,,114,af_sub_siteid,,
+Tinkoff_Business_Create_Application,,114,af_ua,,
+Tinkoff_Business_Create_Application,,114,af_viewthrough_lookback,,
+Tinkoff_Business_Create_Application,,114,af_web_dp,,
+Tinkoff_Business_Create_Application,,114,af_web_id,,
+Tinkoff_Business_Create_Application,,114,agency,,
+Tinkoff_Business_Create_Application,,114,android_id,,
+Tinkoff_Business_Create_Application,,114,application_id,,
+Tinkoff_Business_Create_Application,,114,appType,,
+Tinkoff_Business_Create_Application,,114,callback,,
+Tinkoff_Business_Create_Application,,114,callback_url,,
+Tinkoff_Business_Create_Application,,114,campaign,,
+Tinkoff_Business_Create_Application,,114,campaign_id,,
+Tinkoff_Business_Create_Application,,114,click-timestamp,,
+Tinkoff_Business_Create_Application,,114,click_time,,
+Tinkoff_Business_Create_Application,,114,clickid,,
+Tinkoff_Business_Create_Application,,114,companyId,,
+Tinkoff_Business_Create_Application,,114,cost_alt,,
+Tinkoff_Business_Create_Application,,114,cost_cents_USD,,
+Tinkoff_Business_Create_Application,,114,dsp_click_id,,
+Tinkoff_Business_Create_Application,,114,external_account_id,,
+Tinkoff_Business_Create_Application,,114,from,,
+Tinkoff_Business_Create_Application,,114,goalid_1,,
+Tinkoff_Business_Create_Application,,114,google_aid,,
+Tinkoff_Business_Create_Application,,114,host,,
+Tinkoff_Business_Create_Application,,114,http_referrer,,
+Tinkoff_Business_Create_Application,,114,httpMethod,,
+Tinkoff_Business_Create_Application,,114,id,,
+Tinkoff_Business_Create_Application,,114,idfa,,
+Tinkoff_Business_Create_Application,,114,impression_timestamp,,
+Tinkoff_Business_Create_Application,,114,inn,,
+Tinkoff_Business_Create_Application,,114,install_time,,
+Tinkoff_Business_Create_Application,,114,internal_source,,
+Tinkoff_Business_Create_Application,,114,is_fb,,
+Tinkoff_Business_Create_Application,,114,is_first_launch,,
+Tinkoff_Business_Create_Application,,114,is_incentivized,,
+Tinkoff_Business_Create_Application,,114,is_mobile_data_terms_signed,,
+Tinkoff_Business_Create_Application,,114,is_paid,,
+Tinkoff_Business_Create_Application,,114,is_retargeting,,
+Tinkoff_Business_Create_Application,,114,is_s2s,,
+Tinkoff_Business_Create_Application,,114,iscache,,
+Tinkoff_Business_Create_Application,,114,lat,,
+Tinkoff_Business_Create_Application,,114,link,,
+Tinkoff_Business_Create_Application,,114,match_type,,
+Tinkoff_Business_Create_Application,,114,md5_advertising_id,,
+Tinkoff_Business_Create_Application,,114,md5_oaid,,
+Tinkoff_Business_Create_Application,,114,media_source,,
+Tinkoff_Business_Create_Application,,114,network,,
+Tinkoff_Business_Create_Application,,114,network_account_id,,
+Tinkoff_Business_Create_Application,,114,oaid,,
+Tinkoff_Business_Create_Application,,114,orig_cost,,
+Tinkoff_Business_Create_Application,,114,orig_cost_alt,,
+Tinkoff_Business_Create_Application,,114,os,,
+Tinkoff_Business_Create_Application,,114,path,,
+Tinkoff_Business_Create_Application,,114,productId,,
+Tinkoff_Business_Create_Application,,114,publisher_id,,
+Tinkoff_Business_Create_Application,,114,redirect,,
+Tinkoff_Business_Create_Application,,114,referrer,,
+Tinkoff_Business_Create_Application,,114,referrer_gclid,,
+Tinkoff_Business_Create_Application,,114,retargeting_conversion_type,,
+Tinkoff_Business_Create_Application,,114,sales_method,,
+Tinkoff_Business_Create_Application,,114,scheme,,
+Tinkoff_Business_Create_Application,,114,sha1_android_id,,
+Tinkoff_Business_Create_Application,,114,short_link,,
+Tinkoff_Business_Create_Application,,114,shortlink,,
+Tinkoff_Business_Create_Application,,114,sub2,,
+Tinkoff_Business_Create_Application,,114,sub3,,
+Tinkoff_Business_Create_Application,,114,sub_publisher_id,,
+Tinkoff_Business_Create_Application,,114,text,,
+Tinkoff_Business_Create_Application,,114,transaction_id,,
+Tinkoff_Business_Create_Application,,114,ucid,,
+Tinkoff_Business_Create_Application,,114,utm_campaign,,
+Tinkoff_Business_Create_Application,,114,utm_content,,
+Tinkoff_Business_Create_Application,,114,utm_medium,,
+Tinkoff_Business_Create_Application,,114,utm_referrer,,
+Tinkoff_Business_Create_Application,,114,utm_source,,
+Tinkoff_Business_Create_Application,,114,yclid,,
+Tinkoff_Business_Double_Tab,,0,,,
+Tinkoff_Business_Install,,115,_,,
+Tinkoff_Business_Install,,115,ad_event_id,,
+Tinkoff_Business_Install,,115,ad_id,,
+Tinkoff_Business_Install,,115,adgroup,,
+Tinkoff_Business_Install,,115,adgroup_id,,
+Tinkoff_Business_Install,,115,adset,,
+Tinkoff_Business_Install,,115,adset_id,,
+Tinkoff_Business_Install,,115,adv,,
+Tinkoff_Business_Install,,115,advertising_id,,
+Tinkoff_Business_Install,,115,af_ad,,
+Tinkoff_Business_Install,,115,af_ad_id,,
+Tinkoff_Business_Install,,115,af_ad_type,,
+Tinkoff_Business_Install,,115,af_adset,,
+Tinkoff_Business_Install,,115,af_adset_id,,
+Tinkoff_Business_Install,,115,af_android_url,,
+Tinkoff_Business_Install,,115,af_c_id,,
+Tinkoff_Business_Install,,115,af_channel,,
+Tinkoff_Business_Install,,115,af_click_lookback,,
+Tinkoff_Business_Install,,115,af_cost_currency,,
+Tinkoff_Business_Install,,115,af_cost_model,,
+Tinkoff_Business_Install,,115,af_cost_value,,
+Tinkoff_Business_Install,,115,af_dp,,
+Tinkoff_Business_Install,,115,af_force_dp,,
+Tinkoff_Business_Install,,115,af_ios_url,,
+Tinkoff_Business_Install,,115,af_ip,,
+Tinkoff_Business_Install,,115,af_keywords,,
+Tinkoff_Business_Install,,115,af_lang,,
+Tinkoff_Business_Install,,115,af_message,,
+Tinkoff_Business_Install,,115,af_mp,,
+Tinkoff_Business_Install,,115,af_prt,,
+Tinkoff_Business_Install,,115,af_r,,
+Tinkoff_Business_Install,,115,af_reengagement_window,,
+Tinkoff_Business_Install,,115,af_ref,,
+Tinkoff_Business_Install,,115,af_siteid,,
+Tinkoff_Business_Install,,115,af_status,,
+Tinkoff_Business_Install,,115,af_sub1,,
+Tinkoff_Business_Install,,115,af_sub2,,
+Tinkoff_Business_Install,,115,af_sub5,,
+Tinkoff_Business_Install,,115,af_sub_siteid,,
+Tinkoff_Business_Install,,115,af_ua,,
+Tinkoff_Business_Install,,115,af_viewthrough_lookback,,
+Tinkoff_Business_Install,,115,af_web_dp,,
+Tinkoff_Business_Install,,115,agency,,
+Tinkoff_Business_Install,,115,android_id,,
+Tinkoff_Business_Install,,115,baobab_event_id,,
+Tinkoff_Business_Install,,115,callback,,
+Tinkoff_Business_Install,,115,callback_url,,
+Tinkoff_Business_Install,,115,campaign,,
+Tinkoff_Business_Install,,115,campaign_id,,
+Tinkoff_Business_Install,,115,click-timestamp,,
+Tinkoff_Business_Install,,115,click_time,,
+Tinkoff_Business_Install,,115,clickid,,
+Tinkoff_Business_Install,,115,clid,,
+Tinkoff_Business_Install,,115,cost_alt,,
+Tinkoff_Business_Install,,115,cost_cents_USD,,
+Tinkoff_Business_Install,,115,deep_link_value,,
+Tinkoff_Business_Install,,115,dlysa,,
+Tinkoff_Business_Install,,115,dsp_click_id,,
+Tinkoff_Business_Install,,115,etext,,
+Tinkoff_Business_Install,,115,external_account_id,,
+Tinkoff_Business_Install,,115,fbclid,,
+Tinkoff_Business_Install,,115,from,,
+Tinkoff_Business_Install,,115,goalid_1,,
+Tinkoff_Business_Install,,115,google_aid,,
+Tinkoff_Business_Install,,115,http_referrer,,
+Tinkoff_Business_Install,,115,httpMethod,,
+Tinkoff_Business_Install,,115,idfa,,
+Tinkoff_Business_Install,,115,impression_timestamp,,
+Tinkoff_Business_Install,,115,install_time,,
+Tinkoff_Business_Install,,115,internal_source,,
+Tinkoff_Business_Install,,115,ip,,
+Tinkoff_Business_Install,,115,is_fb,,
+Tinkoff_Business_Install,,115,is_first_launch,,
+Tinkoff_Business_Install,,115,is_incentivized,,
+Tinkoff_Business_Install,,115,is_mobile_data_terms_signed,,
+Tinkoff_Business_Install,,115,is_paid,,
+Tinkoff_Business_Install,,115,is_retargeting,,
+Tinkoff_Business_Install,,115,is_s2s,,
+Tinkoff_Business_Install,,115,iscache,,
+Tinkoff_Business_Install,,115,keyword_id,,
+Tinkoff_Business_Install,,115,lat,,
+Tinkoff_Business_Install,,115,match_type,,
+Tinkoff_Business_Install,,115,md5_advertising_id,,
+Tinkoff_Business_Install,,115,md5_oaid,,
+Tinkoff_Business_Install,,115,media_source,,
+Tinkoff_Business_Install,,115,network,,
+Tinkoff_Business_Install,,115,network_account_id,,
+Tinkoff_Business_Install,,115,oaid,,
+Tinkoff_Business_Install,,115,orig_cost,,
+Tinkoff_Business_Install,,115,orig_cost_alt,,
+Tinkoff_Business_Install,,115,os,,
+Tinkoff_Business_Install,,115,publisher_id,,
+Tinkoff_Business_Install,,115,reason,,
+Tinkoff_Business_Install,,115,redirect,,
+Tinkoff_Business_Install,,115,referrer,,
+Tinkoff_Business_Install,,115,referrer_gclid,,
+Tinkoff_Business_Install,,115,retargeting_conversion_type,,
+Tinkoff_Business_Install,,115,sha1_android_id,,
+Tinkoff_Business_Install,,115,sha1_idfa,,
+Tinkoff_Business_Install,,115,short_link,,
+Tinkoff_Business_Install,,115,shortlink,,
+Tinkoff_Business_Install,,115,string_response,,
+Tinkoff_Business_Install,,115,sub1,,
+Tinkoff_Business_Install,,115,sub2,,
+Tinkoff_Business_Install,,115,sub3,,
+Tinkoff_Business_Install,,115,sub_publisher_id,,
+Tinkoff_Business_Install,,115,transaction_id,,
+Tinkoff_Business_Install,,115,utm_campaign,,
+Tinkoff_Business_Install,,115,utm_content,,
+Tinkoff_Business_Install,,115,utm_medium,,
+Tinkoff_Business_Install,,115,utm_referrer,,
+Tinkoff_Business_Install,,115,utm_source,,
+Tinkoff_Business_Install,,115,wprid,,
+Tinkoff_Business_Install,,115,yclid,,
+Tinkoff_Business_Install,,115,yhid,,
+TinkoffAccounting_InstallOnbording_Close,,0,,,
+TinkoffAccounting_InstallOnbording_Install_Clicked,,0,,,
+TinkoffAccounting_InstallOnbording_Shown,,0,,,
+Update_Favorite,,1,accept,,
+Upload_Click,,2,agrType,,
+Upload_Click,,2,problemFlg,,
+userAuthorized.pinCodeScreen.confirmationSubmitError,,2,project,,Возможно
+userAuthorized.pinCodeScreen.confirmationSubmitError,,2,source,,Возможно
+userAuthorized.pinCodeScreen.confirmationSubmitSuccess,,1,project,,Возможно
+userNotAuthorized.pinCodeScreen.setupSubmitSuccess,,1,project,,Возможно
+WelcomeOnboarding_ButtonClick,,1,option,,
+WelcomeOnboarding_Completed,,1,step,,
+WelcomeOnboarding_Shown,,1,group,,
+WelcomeOnboarding_ShownRefill,,1,chooseRefill,,
+WelcomeOnboarding_TariffClick,,0,,,

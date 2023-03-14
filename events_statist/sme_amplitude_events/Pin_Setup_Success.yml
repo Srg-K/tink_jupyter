@@ -1,0 +1,20 @@
+alias:
+  name: Pin_Setup_Success
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При успешном задании кода доступа на экране установки PIN-кода (как
+    при первой установке, так и при смене пина)
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  aim:
+    alias: aim
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

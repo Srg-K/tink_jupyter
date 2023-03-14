@@ -1,0 +1,19 @@
+alias:
+  name: Counterparty_Check_Important_Go_Down
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Пролистывание экрана с важной информацией до конца в ПКА
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  scroll_available:
+    alias: scroll_available
+    meta:
+      description: Доступен ли скролл при открытии экрана
+    nullable: false
+    type: String
+settings: {}

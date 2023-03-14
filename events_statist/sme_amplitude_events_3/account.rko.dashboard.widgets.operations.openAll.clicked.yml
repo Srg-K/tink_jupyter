@@ -1,0 +1,13 @@
+alias:
+  name: account.rko.dashboard.widgets.operations.openAll.clicked
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters: {}
+settings: {}

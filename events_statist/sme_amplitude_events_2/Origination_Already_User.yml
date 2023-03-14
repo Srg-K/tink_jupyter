@@ -1,0 +1,13 @@
+alias:
+  name: Origination_Already_User
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При показе экрана "Проверьте номер"
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters: {}
+settings: {}

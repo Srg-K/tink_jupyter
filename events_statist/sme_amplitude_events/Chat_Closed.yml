@@ -1,0 +1,127 @@
+alias:
+  name: Chat_Closed
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  bot_files:
+    alias: bot_files
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  bot_response_interrupted_time:
+    alias: bot_response_interrupted_time
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  bot_text:
+    alias: bot_text
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  connection_type:
+    alias: connection_type
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  p2p_files:
+    alias: p2p_files
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  p2p_stickers:
+    alias: p2p_stickers
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  p2p_text:
+    alias: p2p_text
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  personal_support_files:
+    alias: personal_support_files
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  personal_support_text:
+    alias: personal_support_text
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  support_bot_response_first_time:
+    alias: support_bot_response_first_time
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  support_bot_response_interrupted_time:
+    alias: support_bot_response_interrupted_time
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  support_bot_response_time_25th_percentile:
+    alias: support_bot_response_time_25th_percentile
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  support_bot_response_time_50th_percentile:
+    alias: support_bot_response_time_50th_percentile
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  support_bot_response_time_75th_percentile:
+    alias: support_bot_response_time_75th_percentile
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  support_bot_response_time_95th_percentile:
+    alias: support_bot_response_time_95th_percentile
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  support_files:
+    alias: support_files
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  support_new_dialog:
+    alias: support_new_dialog
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  support_text:
+    alias: support_text
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  time:
+    alias: time
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

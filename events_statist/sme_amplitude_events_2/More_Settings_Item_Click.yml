@@ -1,0 +1,19 @@
+alias:
+  name: More_Settings_Item_Click
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При тапе на Вход и авторизация, Лимиты, Тарифы, Уведомления в Настройках
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  itemType:
+    alias: itemType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

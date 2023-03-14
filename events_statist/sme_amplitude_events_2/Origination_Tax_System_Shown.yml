@@ -1,0 +1,13 @@
+alias:
+  name: Origination_Tax_System_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При показе экрана "Ваша система налогообложения"
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters: {}
+settings: {}

@@ -1,0 +1,19 @@
+alias:
+  name: Tariffs_Option_Prepaid
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Клиент подключил авансом опции
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  option:
+    alias: option
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

@@ -1,0 +1,25 @@
+alias:
+  name: hard_Code_Banner_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: одновременный показ rtb-оффера и хардкодного баннера на Главной в МП
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  banner_Down:
+    alias: banner_Down
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  banner_Up:
+    alias: banner_Up
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

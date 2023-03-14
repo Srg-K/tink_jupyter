@@ -1,0 +1,25 @@
+alias:
+  name: Limits_Changed
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При успешном изменении лимитов
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  category:
+    alias: category
+    meta:
+      description: категория лимитов
+    nullable: false
+    type: String
+  limitsType:
+    alias: limitsType
+    meta:
+      description: тип лимитов
+    nullable: false
+    type: String
+settings: {}

@@ -1,0 +1,49 @@
+alias:
+  name: Loans_Screen_FinStatement_NoInfo
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  applicationId:
+    alias: applicationId
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  bankNames:
+    alias: bankNames
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  bankStatuses:
+    alias: bankStatuses
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  bankTypes:
+    alias: bankTypes
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  integrationId:
+    alias: integrationId
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  salesMethod:
+    alias: salesMethod
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

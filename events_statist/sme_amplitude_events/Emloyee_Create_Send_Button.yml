@@ -1,0 +1,13 @@
+alias:
+  name: Emloyee_Create_Send_Button
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При успешной отправке анкеты сотрудника из формы создания сотрудника
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters: {}
+settings: {}

@@ -1,0 +1,61 @@
+alias:
+  name: Statement_Down_mb
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  accountType:
+    alias: accountType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  accountingFormats:
+    alias: accountingFormats
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  date_from:
+    alias: date_from
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  date_to:
+    alias: date_to
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  excerptType:
+    alias: excerptType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  paymentOrdersFormats:
+    alias: paymentOrdersFormats
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  paymentSubmittedFormats:
+    alias: paymentSubmittedFormats
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  period:
+    alias: period
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

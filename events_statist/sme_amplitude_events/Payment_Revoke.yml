@@ -1,0 +1,31 @@
+alias:
+  name: Payment_Revoke
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При успешном отзыве платежа
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  cnt:
+    alias: cnt
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  deletedFlg:
+    alias: deletedFlg
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  provider:
+    alias: provider
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

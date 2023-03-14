@@ -1,0 +1,20 @@
+alias:
+  name: Counterparty_Details_Invoice_Create
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Клик на кнопку "Выставить счет" в карточке контрагента
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  source:
+    alias: source
+    meta:
+      description: "\tгде нажата кнопка: \ndetails_main – из карточки контрагента\
+        \ (из шапки)\naccount – с экрана счёта"
+    nullable: false
+    type: String
+settings: {}

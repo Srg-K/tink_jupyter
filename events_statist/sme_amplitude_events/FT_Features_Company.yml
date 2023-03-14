@@ -1,0 +1,115 @@
+alias:
+  name: FT_Features_Company
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: Необходимо добавить описание события
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  FTfeatures:
+    alias: FTfeatures
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  FTfeatures_1:
+    alias: FTfeatures_1
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  FTfeatures_10:
+    alias: FTfeatures_10
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  FTfeatures_11:
+    alias: FTfeatures_11
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  FTfeatures_12:
+    alias: FTfeatures_12
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  FTfeatures_13:
+    alias: FTfeatures_13
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  FTfeatures_14:
+    alias: FTfeatures_14
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  FTfeatures_15:
+    alias: FTfeatures_15
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  FTfeatures_2:
+    alias: FTfeatures_2
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  FTfeatures_3:
+    alias: FTfeatures_3
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  FTfeatures_4:
+    alias: FTfeatures_4
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  FTfeatures_5:
+    alias: FTfeatures_5
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  FTfeatures_6:
+    alias: FTfeatures_6
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  FTfeatures_7:
+    alias: FTfeatures_7
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  FTfeatures_8:
+    alias: FTfeatures_8
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  FTfeatures_9:
+    alias: FTfeatures_9
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+  companyId:
+    alias: companyId
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

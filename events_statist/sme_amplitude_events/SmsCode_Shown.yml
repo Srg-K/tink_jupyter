@@ -1,0 +1,15 @@
+alias:
+  name: SmsCode_Shown
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При показе экрана "Код подтверждения" для подтверждения номера телефона
+    только в момент авторизации или регистрации. Не срабатывает при добавлении функций
+    с подтверждением по смс.
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters: {}
+settings: {}

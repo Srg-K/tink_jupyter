@@ -1,0 +1,19 @@
+alias:
+  name: Emloyee_Create_Form
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При открытии формы создания сотрудника (при редактировании не слать)
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  creationType:
+    alias: creationType
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

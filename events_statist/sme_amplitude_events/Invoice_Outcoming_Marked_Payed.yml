@@ -1,0 +1,19 @@
+alias:
+  name: Invoice_Outcoming_Marked_Payed
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При успешной отметке инвойса (или инвойсов, через мультивыбор) оплаченным
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters:
+  cnt:
+    alias: cnt
+    meta:
+      description: Необходимо добавить описание параметра
+    nullable: false
+    type: String
+settings: {}

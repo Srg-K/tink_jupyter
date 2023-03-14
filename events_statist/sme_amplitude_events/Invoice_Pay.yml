@@ -1,0 +1,13 @@
+alias:
+  name: Invoice_Pay
+  system: amplitude
+clickhouse:
+  enabled: true
+meta:
+  description: При нажатии на Оплатить в деталях счета
+  labels:
+  - sme_transfer_script
+  maintainers: []
+  tasks: []
+parameters: {}
+settings: {}
